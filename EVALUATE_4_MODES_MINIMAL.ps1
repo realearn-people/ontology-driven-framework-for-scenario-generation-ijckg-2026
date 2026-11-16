@@ -12,8 +12,8 @@ $OntologyRoot = Join-Path $PackageRoot "ontology"
 $OntologyPath = Join-Path $OntologyRoot "ontology\personashield-psq-sco-v9.1.owl"
 $QueriesDir = Join-Path $OntologyRoot "queries\v9_1"
 $HermitReport = Join-Path $OntologyRoot "outputs\v9_1\hermit-reasoner-report.json"
-$GenerationRoot = Join-Path $EngineRoot "output\minimal_four_modes"
-$EvaluationRoot = Join-Path $EngineRoot "output\minimal_four_modes_evaluation"
+$GenerationRoot = Join-Path $PackageRoot ".psq_runs\minimal_four_modes"
+$EvaluationRoot = Join-Path $PackageRoot ".psq_runs\minimal_four_modes_evaluation"
 
 if ([string]::IsNullOrWhiteSpace($ScenarioFile)) {
     $latestGeneration = Get-ChildItem -LiteralPath $GenerationRoot -Directory -ErrorAction SilentlyContinue |

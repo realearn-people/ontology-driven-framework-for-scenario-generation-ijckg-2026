@@ -1,6 +1,6 @@
 ﻿{
     "model":  "mistral_7b",
-    "scenario_file":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\mistral_7b\\scenarios_ontology_text_rag.jsonl",
+    "scenario_file":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/mistral_7b/scenarios_ontology_text_rag.jsonl",
     "scenario_file_sha256":  "8D1857C40ED6B1A63604E5EF79ED6A6E9C9FADFDD7DA48D92145E2F3C5F941AA",
     "expected_rows":  120,
     "observed_rows":  120,

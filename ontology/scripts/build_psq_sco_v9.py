@@ -112,7 +112,7 @@ def add_governance(g: Graph, subject: URIRef, method: str = "reviewer_aligned_ma
         g,
         subject,
         PSQ.sourceDocument,
-        "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+        "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
     )
 
 
@@ -911,7 +911,7 @@ Run:
 
 5. ENGINE
 
-  PSQ_KB_DIR=C:/Users/user/PersonaShieldQuest-Ontology/data/ontology_runtime_v9
+  PSQ_KB_DIR=ontology/data/ontology_runtime_v9
   PSQ_RAG_PROFILE=full
 
 No PersonaShieldQuest-GenAI-Engine file is changed.
@@ -940,7 +940,7 @@ Date: 2026-06-30
 
 ## Source
 
-- Input reviewer-aligned document: `C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx`
+- Input reviewer-aligned document: `external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx`
 - Prior ontology: `ontology/personashield-odcgct-v8.2-reviewed.owl`
 - New ontology: `ontology/personashield-psq-sco-v9.owl`
 

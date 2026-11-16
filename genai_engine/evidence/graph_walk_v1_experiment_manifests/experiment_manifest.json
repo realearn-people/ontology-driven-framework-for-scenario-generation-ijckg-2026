@@ -2,7 +2,7 @@
     "experiment_name":  "paper120_mode4_graph_walk_v1",
     "condition_label":  "C4-Walk: ontology-to-text RAG with deterministic greedy relation walk",
     "run_id":  "20260723_030518",
-    "run_root":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518",
+    "run_root":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518",
     "status":  "complete",
     "started_at":  "2026-07-23T04:28:08.1147034+09:00",
     "completed_at":  "2026-07-23T07:01:20.8344218+09:00",
@@ -26,13 +26,13 @@
                    "randomness_in_walk":  "none"
                },
     "frozen_inputs":  {
-                          "case_config_path":  "D:\\PersonaShieldQuest-GenAI-Engine\\configs\\psq_sco_paper_120_cases.json",
+                          "case_config_path":  "genai_engine/configs/psq_sco_paper_120_cases.json",
                           "case_config_sha256":  "3B98232D87E37BEFF9B6585ADEF95D9BA1F1BD9D221C01CF2DD0C71FBDEF3F5A",
-                          "ontology_path":  "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+                          "ontology_path":  "ontology/ontology/personashield-psq-sco-v9.1.owl",
                           "ontology_sha256":  "EEF7E0E554042EB90008D753B9AD94C42DE99C7E5F5CABD569209C2BCDD0582F",
-                          "ontology_text_code_path":  "D:\\PersonaShieldQuest-GenAI-Engine\\psq_sco_generation\\ontology_text.py",
+                          "ontology_text_code_path":  "genai_engine/psq_sco_generation/ontology_text.py",
                           "ontology_text_code_sha256":  "218427DDEE34EA23CE19C9440351A7052ECE675D0AF6D0762E8912508B547188",
-                          "engine_code_path":  "D:\\PersonaShieldQuest-GenAI-Engine\\psq_sco_generation\\engine.py",
+                          "engine_code_path":  "genai_engine/psq_sco_generation/engine.py",
                           "engine_code_sha256":  "B14EFF75A95EC85A773D048199A10F87E69E28FE1D68B14F385820325C764B30"
                       },
     "generation_settings":  {
@@ -53,17 +53,17 @@
                                 "dry_run":  false,
                                 "skip_rag":  false,
                                 "case_limit":  0,
-                                "python_executable":  "D:\\PersonaShieldQuest-GenAI-Engine\\.venv\\Scripts\\python.exe",
+                                "python_executable":  "python",
                                 "python_path_entries":  [
-                                                            "D:\\PersonaShieldQuest-GenAI-Engine\\venv\\Lib\\site-packages",
-                                                            "D:\\PersonaShieldQuest-GenAI-Engine\\.venv\\Lib\\site-packages",
-                                                            "D:\\PersonaShieldQuest-GenAI-Engine\\.codex_pydeps"
+                                                            "genai_engine/venv/Lib/site-packages",
+                                                            "genai_engine/.venv/Lib/site-packages",
+                                                            "genai_engine/.codex_pydeps"
                                                         ]
                             },
     "model_runs":  [
                        {
                            "model":  "qwen2_5_7b",
-                           "scenario_file":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen2_5_7b\\scenarios_ontology_text_rag.jsonl",
+                           "scenario_file":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen2_5_7b/scenarios_ontology_text_rag.jsonl",
                            "scenario_file_sha256":  "1D95982B5D870374B706A52A1CE00338D5047DA1F132E70DE79E83DA48BF8F6B",
                            "expected_rows":  120,
                            "observed_rows":  120,
@@ -142,7 +142,7 @@
                        },
                        {
                            "model":  "qwen3_8b",
-                           "scenario_file":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen3_8b\\scenarios_ontology_text_rag.jsonl",
+                           "scenario_file":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen3_8b/scenarios_ontology_text_rag.jsonl",
                            "scenario_file_sha256":  "A9F5AC9BE1B8462D164CBC7494CF8F57D86CA91CA122060D4CFBC93CC4DB7CC4",
                            "expected_rows":  120,
                            "observed_rows":  120,
@@ -222,7 +222,7 @@
                        },
                        {
                            "model":  "mistral_7b",
-                           "scenario_file":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\mistral_7b\\scenarios_ontology_text_rag.jsonl",
+                           "scenario_file":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/mistral_7b/scenarios_ontology_text_rag.jsonl",
                            "scenario_file_sha256":  "8D1857C40ED6B1A63604E5EF79ED6A6E9C9FADFDD7DA48D92145E2F3C5F941AA",
                            "expected_rows":  120,
                            "observed_rows":  120,
@@ -303,7 +303,7 @@
                                                                ]
                        }
                    ],
-    "combined_scenario_file":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\scenarios_mode4_graph_walk_all_models.jsonl",
+    "combined_scenario_file":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/scenarios_mode4_graph_walk_all_models.jsonl",
     "combined_scenario_file_sha256":  "56FDE5BE36729B91AEBAEA5C8820F3FEF10C3F0C3205080AB963E679D52F754F",
     "total_rows":  360,
     "total_graph_walk_rows":  360,

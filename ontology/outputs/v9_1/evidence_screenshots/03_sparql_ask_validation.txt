@@ -1,4 +1,4 @@
-PS C:\Users\user\PersonaShieldQuest-Ontology> & ".\.venv-sparql-v8.2\Scripts\python.exe" scripts\run_sparql_cq_v9_1.py --validate-
+PS ontology> & ".\.venv-sparql-v8.2\Scripts\python.exe" scripts\run_sparql_cq_v9_1.py --validate-
 >> cases --format json --output outputs\v9_1\sparql-cq-validation-report.json
 
 # SPARQL ASK competency-question validation

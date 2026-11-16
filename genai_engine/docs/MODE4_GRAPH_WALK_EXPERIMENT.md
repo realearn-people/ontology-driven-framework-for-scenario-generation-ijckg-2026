@@ -19,11 +19,11 @@ The historical paper run used a four-document limit, so the fifth graph-walk doc
 From PowerShell:
 
 ```powershell
-Set-Location D:\PersonaShieldQuest-GenAI-Engine
+Set-Location genai_engine
 powershell -ExecutionPolicy Bypass -File .\scripts\run_mode4_graph_walk_paper120.ps1
 ```
 
-The runner checks the repository virtual environments first and then the bundled Codex Python runtime available on this workstation. Because the repository virtual-environment launchers currently point to an unavailable base interpreter, the runner can reuse their Python 3.12 `site-packages` through `PYTHONPATH`. It performs an import preflight for `pydantic`, `requests`, and, unless `-SkipRag` is selected, `chromadb`. A specific interpreter can be supplied with `-Python C:\path\to\python.exe` when needed.
+The runner checks the repository virtual environments first and then the bundled Codex Python runtime available on this workstation. Because the repository virtual-environment launchers currently point to an unavailable base interpreter, the runner can reuse their Python 3.12 `site-packages` through `PYTHONPATH`. It performs an import preflight for `pydantic`, `requests`, and, unless `-SkipRag` is selected, `chromadb`. A specific interpreter can be supplied with `-Python python` when needed.
 
 Default design:
 
@@ -56,7 +56,7 @@ Pass the existing timestamped experiment directory:
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\run_mode4_graph_walk_paper120.ps1 `
-  -RunRoot D:\PersonaShieldQuest-GenAI-Engine\output\experiments\paper120_mode4_graph_walk_v1\YYYYMMDD_HHMMSS
+  -RunRoot genai_engine/output/experiments/paper120_mode4_graph_walk_v1/YYYYMMDD_HHMMSS
 ```
 
 The generation CLI will skip completed live rows in each model directory.

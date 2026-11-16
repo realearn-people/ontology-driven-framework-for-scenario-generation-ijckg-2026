@@ -27,14 +27,14 @@ The defensible conclusion is:
 The new evaluation was written to:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\
+genai_engine/output
 three_layer_eval_graph_walk_v1_comparison\20260723_134114
 ```
 
 The earlier authoritative evaluation remains unchanged at:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\
+genai_engine/output
 three_layer_eval_live_recovered_methodology_v5_final\20260718_065435
 ```
 
@@ -134,12 +134,12 @@ The external retrieval component uses a ChromaDB `PersistentClient` and a cosine
 
 | Dataset property | Evaluated value |
 |---|---|
-| Knowledge-base root | `D:\PersonaShieldQuest-GenAI-Engine\output` |
+| Knowledge-base root | `genai_engine/output` |
 | Selected source files | 23 |
 | Raw JSONL records before caps | 87,661 |
 | Records after deduplication and profile caps | 29,731 |
 | Vector database | ChromaDB PersistentClient |
-| Vector index | `D:\PersonaShieldQuest-GenAI-Engine\chroma_db_quality` |
+| Vector index | `genai_engine/chroma_db_quality` |
 | Vector space | cosine HNSW |
 | Chunking unit | one JSONL record converted to one retrieval document |
 | Retrieval query | role, job hint, channel, variant, knowledge type, interaction pattern, development focus, and age group |
@@ -728,9 +728,9 @@ A stronger follow-up should:
 ## Reproduction Command
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
+cd genai_engine
 
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+$PY = "python"
 $env:PYTHONPATH = "$PWD\.codex_pydeps"
 $env:HF_HUB_OFFLINE = "1"
 $env:TRANSFORMERS_OFFLINE = "1"

@@ -15,7 +15,7 @@ $PackageRoot = $PSScriptRoot
 $EngineRoot = Join-Path $PackageRoot "genai_engine"
 $OntologyPath = Join-Path $PackageRoot "ontology\ontology\personashield-psq-sco-v9.1.owl"
 $MinimalKb = Join-Path $EngineRoot "minimal_kb"
-$OutputRoot = Join-Path $EngineRoot "output\minimal_four_modes"
+$OutputRoot = Join-Path $PackageRoot ".psq_runs\minimal_four_modes"
 
 if (-not (Test-Path -LiteralPath $OntologyPath -PathType Leaf)) {
     throw "Ontology file not found: $OntologyPath"

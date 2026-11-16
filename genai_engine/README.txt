@@ -19,10 +19,10 @@ Main improvements:
 6. Audit script reports zero_rag_grounding
 
 How to install:
-Copy all files into D:\PersonaShieldQuest-GenAI-Engine and replace existing files.
+Copy all files into archived-inputs/PersonaShieldQuest-GenAI-Engine and replace existing files.
 
 How to run:
-cd "D:\PersonaShieldQuest-GenAI-Engine"
+cd "genai_engine"
 .\venv\Scripts\activate
 python prepare_rag_data.py
 python generate_scenarios.py --retrieval-mode ENGLISH_GLOBAL --llm gpt_nano --force

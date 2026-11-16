@@ -1,6 +1,6 @@
 {
-  "ontology_path": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
-  "query_dir": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\queries\\v9_1",
+  "ontology_path": "ontology/ontology/personashield-psq-sco-v9.1.owl",
+  "query_dir": "ontology/queries/v9_1",
   "reasoner_consistency": true,
   "reasoner_status": "completed_from_existing_hermit_report",
   "unsatisfiable_class_count": 0,
@@ -14,7 +14,7 @@
   "object_property_count": 49,
   "datatype_property_count": 39,
   "notes": [
-    "Formal HermiT result imported from C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\hermit-reasoner-report.json for the same ontology path: status=PASS, consistent=True, unsatisfiable_count=0, duration_seconds=3.636.",
+    "Formal HermiT result imported from ontology/outputs/v9_1/hermit-reasoner-report.json for the same ontology path: status=PASS, consistent=True, unsatisfiable_count=0, duration_seconds=3.636.",
     "SPARQL CQ execution completed with rdflib 7.6.0."
   ],
   "cq_pass_rate": 1.0,

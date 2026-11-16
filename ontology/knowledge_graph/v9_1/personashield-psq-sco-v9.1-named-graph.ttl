@@ -15,7 +15,7 @@
     psq:frameworkName "Ontology-Driven Emotion-Aware Adaptive Cybersecurity Training Framework (ODEACT)" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:scopeBoundary "scenario_control_only_no_learning_design_module_not_general_cybersecurity_not_engine_modification" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     dcterms:created "2026-06-15"^^xsd:date ;
     dcterms:creator "PersonaShield Quest ontology project" ;
     dcterms:hasVersion "9.1.0" ;
@@ -66,7 +66,6 @@ psq:DS_AFNC a psq:Dataset,
     psq:creationMethod "inherited_from_v8_1" ;
     psq:evidenceCategory "official_local_reference_dataset" ;
     psq:licenseStatus "official_open_data_terms_require_release_review" ;
-    psq:localDataPath "data/scenarios/New folder/AFNC_Opendata_export_20260225205450.csv" ;
     psq:retrievalDate "2026-06-22"^^xsd:date ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:verificationStatus "metadata_and_role_verified" ;
@@ -81,7 +80,6 @@ psq:DS_CAPEC_XML a psq:Dataset,
     psq:creationMethod "inherited_from_v8_1" ;
     psq:evidenceCategory "authoritative_pattern_snapshot" ;
     psq:licenseStatus "public_snapshot_check_terms_before_redistribution" ;
-    psq:localDataPath "data/capec/capec_latest.xml" ;
     psq:retrievalDate "2026-06-22"^^xsd:date ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:verificationStatus "metadata_and_role_verified" ;
@@ -96,7 +94,6 @@ psq:DS_MITRE_STIX_18_1 a psq:Dataset,
     psq:creationMethod "inherited_from_v8_1" ;
     psq:evidenceCategory "authoritative_taxonomy_snapshot" ;
     psq:licenseStatus "local_snapshot_with_repository_license" ;
-    psq:localDataPath "data/mitre-attack/attack-stix-data/enterprise-attack/enterprise-attack-18.1.json" ;
     psq:retrievalDate "2026-06-22"^^xsd:date ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:verificationStatus "metadata_and_role_verified" ;
@@ -111,7 +108,6 @@ psq:DS_ThaiFraudSMS a psq:Dataset,
     psq:creationMethod "inherited_from_v8_1" ;
     psq:evidenceCategory "local_empirical_dataset" ;
     psq:licenseStatus "redistribution_review_required" ;
-    psq:localDataPath "data/knowledge_base/raw_data/smsfraud.xlsx" ;
     psq:retrievalDate "2026-06-22"^^xsd:date ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:verificationStatus "identity_checked_license_and_redistribution_pending" ;
@@ -133,7 +129,7 @@ psq:Decision_Accept a psq:ValidationDecision,
         psq:Rule_RequiredAttackStructure,
         psq:Rule_TemplateEligibility ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Decision indicating that a generated scenario satisfies required scenario-control constraints."@en ;
     skos:definition "Decision indicating that a generated scenario satisfies required scenario-control constraints."@en .
 
@@ -150,7 +146,7 @@ psq:Decision_Reject a psq:ValidationDecision,
         psq:Rule_RequiredAttackStructure,
         psq:Rule_TemplateEligibility ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Decision indicating that a generated scenario violates a blocking quality or safety constraint."@en ;
     skos:definition "Decision indicating that a generated scenario violates a blocking quality or safety constraint."@en .
 
@@ -164,7 +160,7 @@ psq:Generated_SMS_BankLink_Candidate_v9 a psq:GeneratedScenario,
     psq:hasValidationDecision psq:Decision_Review ;
     psq:hasVariant psq:FakeVariant ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     psq:supportedByEvidence psq:Evidence_SMS_BankLink_Introductory ;
     psq:targetsLearnerProfile psq:Learner_HR_Beginner ;
     psq:usesChannel psq:SMSChat ;
@@ -199,7 +195,7 @@ psq:ScenarioStep a owl:Class ;
     rdfs:label "Scenario step"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "A step or decision unit inside a scenario candidate or template."@en ;
     rdfs:subClassOf psq:ScenarioKnowledgeEntity ;
     skos:definition "A step or decision unit inside a scenario candidate or template."@en .
@@ -218,7 +214,7 @@ psq:SemanticPacket_SMS_BankLink_v9 a psq:SemanticPacket,
         psq:Rule_RequiredAttackStructure,
         psq:Rule_TemplateEligibility ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     psq:supportedByEvidence psq:Evidence_SMS_BankLink_Introductory ;
     psq:targetsLearnerProfile psq:Learner_HR_Beginner ;
     rdfs:comment "Selected subgraph for ontology-guided RAG and LLM generation."@en ;
@@ -594,7 +590,7 @@ psq:Violation_ChannelMismatch a psq:ConstraintViolation,
     psq:explanationText "Candidate channel does not match template channel."@en ;
     psq:hasErrorType psq:Error_ChannelMismatch ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     psq:violationCode "ChannelMismatch" ;
     rdfs:comment "Generated scenario uses a different channel than the selected template requires."@en ;
     skos:definition "Generated scenario uses a different channel than the selected template requires."@en .
@@ -605,7 +601,7 @@ psq:acceptanceThreshold a owl:DatatypeProperty ;
     psq:intendedDomain "ContentQualityRule" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#decimal" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Threshold associated with a content-quality rule."@en ;
     skos:definition "Threshold associated with a content-quality rule."@en .
 
@@ -628,7 +624,7 @@ psq:basedOnTemplate a owl:FunctionalProperty,
     psq:intendedDomain "GeneratedScenario" ;
     psq:intendedRange "ScenarioTemplate" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a generated scenario to the scenario template that controls it."@en ;
     skos:definition "Links a generated scenario to the scenario template that controls it."@en .
 
@@ -652,7 +648,7 @@ psq:competencyQuestionRole a owl:AnnotationProperty ;
     rdfs:label "competency question role"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Explains how an entity supports a competency question."@en ;
     skos:definition "Explains how an entity supports a competency question."@en .
 
@@ -662,7 +658,7 @@ psq:confidenceScore a owl:DatatypeProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#decimal" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Decimal confidence score for a validation decision or quality score."@en ;
     skos:definition "Decimal confidence score for a validation decision or quality score."@en .
 
@@ -672,7 +668,7 @@ psq:containsStep a owl:ObjectProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "ScenarioStep" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a scenario template or generated scenario to a scenario step."@en ;
     skos:definition "Links a scenario template or generated scenario to a scenario step."@en .
 
@@ -710,7 +706,7 @@ psq:difficultyValue a owl:DatatypeProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Numerical or controlled difficulty value used for scenario-control scoring."@en ;
     skos:definition "Numerical or controlled difficulty value used for scenario-control scoring."@en .
 
@@ -745,7 +741,7 @@ psq:errorType a owl:DatatypeProperty ;
     psq:intendedDomain "ConstraintViolation" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Literal form of an error category for export and logs."@en ;
     skos:definition "Literal form of an error category for export and logs."@en .
 
@@ -755,7 +751,7 @@ psq:evaluatesRule a owl:ObjectProperty ;
     psq:intendedDomain "ValidationDecision" ;
     psq:intendedRange "ContentQualityRule" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a validation decision to the quality rule it evaluates."@en ;
     skos:definition "Links a validation decision to the quality rule it evaluates."@en .
 
@@ -790,7 +786,7 @@ psq:explanationText a owl:DatatypeProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Human-readable explanation for a rule, score, violation, or decision."@en ;
     skos:definition "Human-readable explanation for a rule, score, violation, or decision."@en .
 
@@ -805,7 +801,7 @@ psq:frameworkName a owl:AnnotationProperty ;
     rdfs:label "framework name"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Names the wider research framework that uses this ontology."@en ;
     skos:definition "Names the wider research framework that uses this ontology."@en .
 
@@ -862,7 +858,7 @@ psq:hasErrorType a owl:ObjectProperty ;
     psq:intendedDomain "ConstraintViolation" ;
     psq:intendedRange "ErrorType" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a constraint violation to its controlled error category."@en ;
     skos:definition "Links a constraint violation to its controlled error category."@en .
 
@@ -872,7 +868,7 @@ psq:hasLegalConsequence a owl:ObjectProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "LegalConsequence" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a scenario template or response to a legal or organizational consequence."@en ;
     skos:definition "Links a scenario template or response to a legal or organizational consequence."@en .
 
@@ -903,7 +899,7 @@ psq:hasMoodContext a owl:FunctionalProperty,
     psq:intendedDomain "LearnerProfile" ;
     psq:intendedRange "MoodContext" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a learner profile to an optional mood-context placeholder."@en ;
     skos:definition "Links a learner profile to an optional mood-context placeholder."@en .
 
@@ -914,7 +910,7 @@ psq:hasPerformanceState a owl:FunctionalProperty,
     psq:intendedDomain "LearnerProfile" ;
     psq:intendedRange "PerformanceState" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a learner profile to its runtime performance state."@en ;
     skos:definition "Links a learner profile to its runtime performance state."@en .
 
@@ -937,7 +933,7 @@ psq:hasQualityRule a owl:ObjectProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "ContentQualityRule" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a template, candidate, or semantic packet to an applicable content-quality rule."@en ;
     skos:definition "Links a template, candidate, or semantic packet to an applicable content-quality rule."@en .
 
@@ -974,7 +970,7 @@ psq:hasScenarioQualityScore a owl:FunctionalProperty,
     psq:intendedDomain "GeneratedScenario" ;
     psq:intendedRange "ScenarioQualityScore" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a generated scenario to its scenario-quality score resource."@en ;
     skos:definition "Links a generated scenario to its scenario-quality score resource."@en .
 
@@ -996,7 +992,7 @@ psq:hasValidationDecision a owl:FunctionalProperty,
     psq:intendedDomain "GeneratedScenario" ;
     psq:intendedRange "ValidationDecision" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a generated scenario to its acceptance, rejection, or review decision."@en ;
     skos:definition "Links a generated scenario to its acceptance, rejection, or review decision."@en .
 
@@ -1026,7 +1022,7 @@ psq:intendedDomain a owl:AnnotationProperty ;
     rdfs:label "intended domain"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Documentation-only expected subject class for a property; not asserted as an OWL domain axiom."@en ;
     skos:definition "Documentation-only expected subject class for a property; not asserted as an OWL domain axiom."@en .
 
@@ -1034,7 +1030,7 @@ psq:intendedRange a owl:AnnotationProperty ;
     rdfs:label "intended range"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Documentation-only expected object or literal type for a property; not asserted as an OWL range axiom."@en ;
     skos:definition "Documentation-only expected object or literal type for a property; not asserted as an OWL range axiom."@en .
 
@@ -1210,7 +1206,7 @@ psq:qualityRuleCategory a owl:DatatypeProperty ;
     psq:intendedDomain "ContentQualityRule" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Controlled category of a scenario-quality rule."@en ;
     skos:definition "Controlled category of a scenario-quality rule."@en .
 
@@ -1220,7 +1216,7 @@ psq:qualityScore a owl:DatatypeProperty ;
     psq:intendedDomain "ScenarioQualityScore" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#decimal" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Decimal score assigned to a generated scenario candidate."@en ;
     skos:definition "Decimal score assigned to a generated scenario candidate."@en .
 
@@ -1266,7 +1262,7 @@ psq:requiredForAcceptance a owl:DatatypeProperty ;
     psq:intendedDomain "ContentQualityRule" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#boolean" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Boolean marker indicating that a rule is required for scenario acceptance."@en ;
     skos:definition "Boolean marker indicating that a rule is required for scenario acceptance."@en .
 
@@ -1276,7 +1272,7 @@ psq:requiresChannel a owl:ObjectProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "Channel" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Declares the required channel for template or candidate validation."@en ;
     skos:definition "Declares the required channel for template or candidate validation."@en .
 
@@ -1301,7 +1297,7 @@ psq:ruleLanguage a owl:AnnotationProperty ;
     rdfs:label "rule language"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate."@en ;
     skos:definition "Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate."@en .
 
@@ -1309,7 +1305,7 @@ psq:ruleText a owl:AnnotationProperty ;
     rdfs:label "rule text"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Human-readable scenario-control rule text."@en ;
     skos:definition "Human-readable scenario-control rule text."@en .
 
@@ -1319,7 +1315,7 @@ psq:scenarioID a owl:DatatypeProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "v9 alias for engine scenario identifier terminology."@en ;
     skos:definition "v9 alias for engine scenario identifier terminology."@en .
 
@@ -1357,7 +1353,7 @@ psq:scopeBoundary a owl:AnnotationProperty ;
     rdfs:label "scope boundary"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Records the boundary between ontology, engine, and evaluation scope."@en ;
     skos:definition "Records the boundary between ontology, engine, and evaluation scope."@en .
 
@@ -1372,7 +1368,7 @@ psq:sourceDocument a owl:AnnotationProperty ;
     rdfs:label "source document"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Identifies the reviewer-aligned document that motivated the v9 element."@en ;
     skos:definition "Identifies the reviewer-aligned document that motivated the v9 element."@en .
 
@@ -1403,7 +1399,7 @@ psq:sourceURL a owl:DatatypeProperty ;
     psq:intendedDomain "SourceArtifact" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#anyURI" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "v9 alias matching reviewer document terminology; sourceUrl remains retained for compatibility."@en ;
     skos:definition "v9 alias matching reviewer document terminology; sourceUrl remains retained for compatibility."@en .
 
@@ -1490,7 +1486,7 @@ psq:supportedByEvidence a owl:ObjectProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "EvidencePack" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a scenario element or validation decision to an evidence pack."@en ;
     skos:definition "Links a scenario element or validation decision to an evidence pack."@en .
 
@@ -1510,7 +1506,7 @@ psq:targetsLearnerProfile a owl:ObjectProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "LearnerProfile" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a scenario or semantic packet to the learner profile it targets."@en ;
     skos:definition "Links a scenario or semantic packet to the learner profile it targets."@en .
 
@@ -1552,7 +1548,7 @@ psq:validationStatus a owl:DatatypeProperty ;
     psq:intendedDomain "DomainEntity" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Status assigned by the validation process."@en ;
     skos:definition "Status assigned by the validation process."@en .
 
@@ -1572,7 +1568,7 @@ psq:violatesConstraint a owl:ObjectProperty ;
     psq:intendedDomain "GeneratedScenario" ;
     psq:intendedRange "ConstraintViolation" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Links a generated scenario to a detected constraint violation."@en ;
     skos:definition "Links a generated scenario to a detected constraint violation."@en .
 
@@ -1582,7 +1578,7 @@ psq:violationCode a owl:DatatypeProperty ;
     psq:intendedDomain "ConstraintViolation" ;
     psq:intendedRange "http://www.w3.org/2001/XMLSchema#string" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Machine-readable code for a detected constraint violation."@en ;
     skos:definition "Machine-readable code for a detected constraint violation."@en .
 
@@ -1679,7 +1675,7 @@ psq:ConstraintViolation a owl:Class ;
     rdfs:label "Constraint violation"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Detected violation of a scenario-control rule."@en ;
     rdfs:subClassOf psq:ContentQualityKnowledgeEntity ;
     skos:definition "Detected violation of a scenario-control rule."@en .
@@ -1698,7 +1694,6 @@ psq:DS_IRSCallTranscript a psq:Dataset,
     psq:creationMethod "inherited_from_v8_1" ;
     psq:evidenceCategory "external_empirical_transcript" ;
     psq:licenseStatus "source_and_redistribution_review_required" ;
-    psq:localDataPath "data/knowledge_base/raw_data/IRS_CompleteCall_Transcript.pdf" ;
     psq:retrievalDate "2026-06-22"^^xsd:date ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:verificationStatus "identity_checked_license_and_redistribution_pending" ;
@@ -1719,7 +1714,7 @@ psq:Decision_Review a psq:ValidationDecision,
         psq:Rule_RequiredAttackStructure,
         psq:Rule_TemplateEligibility ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Decision indicating that a generated scenario needs human or expert review before use."@en ;
     skos:definition "Decision indicating that a generated scenario needs human or expert review before use."@en .
 
@@ -1743,7 +1738,7 @@ psq:ErrorType a owl:Class ;
     rdfs:label "Error type"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Controlled error category used in scenario-control error analysis."@en ;
     rdfs:subClassOf psq:ContentQualityKnowledgeEntity ;
     skos:definition "Controlled error category used in scenario-control error analysis."@en .
@@ -1753,7 +1748,7 @@ psq:Error_ChannelMismatch a psq:ErrorType,
     rdfs:label "Channel mismatch"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Error category for channel/template contradiction."@en ;
     skos:definition "Error category for channel/template contradiction."@en .
 
@@ -1761,7 +1756,7 @@ psq:EvidenceCoverageConstraint a owl:Class ;
     rdfs:label "Evidence coverage constraint"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Rule checking that scenario claims have evidence and provenance."@en ;
     rdfs:subClassOf psq:ContentQualityRule ;
     skos:definition "Rule checking that scenario claims have evidence and provenance."@en .
@@ -1854,7 +1849,7 @@ psq:GeneratedScenario a owl:Class ;
     rdfs:label "Generated scenario"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "A candidate or stored scenario created by the scenario engine and checked against ontology constraints."@en ;
     rdfs:subClassOf psq:ScenarioKnowledgeEntity ;
     skos:definition "A candidate or stored scenario created by the scenario engine and checked against ontology constraints."@en .
@@ -1871,7 +1866,7 @@ psq:LegalConsequence a owl:Class ;
     rdfs:label "Legal consequence"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Consequence or reporting implication associated with a scenario's action or attack structure."@en ;
     rdfs:subClassOf psq:ScenarioCharacteristic ;
     skos:definition "Consequence or reporting implication associated with a scenario's action or attack structure."@en .
@@ -1889,7 +1884,7 @@ psq:MoodContext a owl:Class ;
     rdfs:label "Mood context placeholder"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Optional runtime mood context. v9 records the placeholder but does not implement emotion inference."@en ;
     rdfs:subClassOf psq:LearnerKnowledgeEntity ;
     skos:definition "Optional runtime mood context. v9 records the placeholder but does not implement emotion inference."@en .
@@ -1899,7 +1894,7 @@ psq:Mood_NotModeledNeutral a psq:MoodContext,
     rdfs:label "Mood context not modeled - neutral placeholder"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Placeholder used to keep the ODEACT framework boundary explicit without claiming implemented emotion inference."@en ;
     skos:definition "Placeholder used to keep the ODEACT framework boundary explicit without claiming implemented emotion inference."@en .
 
@@ -1989,7 +1984,7 @@ psq:PerformanceState a owl:Class ;
     rdfs:label "Performance state"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Runtime state summarizing learner performance for scenario selection."@en ;
     rdfs:subClassOf psq:LearnerKnowledgeEntity ;
     skos:definition "Runtime state summarizing learner performance for scenario selection."@en .
@@ -1999,7 +1994,7 @@ psq:Performance_Stable a psq:PerformanceState,
     rdfs:label "Stable performance"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Learner is stable enough for standard scenario progression."@en ;
     skos:definition "Learner is stable enough for standard scenario progression."@en .
 
@@ -2007,7 +2002,7 @@ psq:PersonaFitConstraint a owl:Class ;
     rdfs:label "Persona fit constraint"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Rule checking whether generated content fits the learner profile and role."@en ;
     rdfs:subClassOf psq:ContentQualityRule ;
     skos:definition "Rule checking whether generated content fits the learner profile and role."@en .
@@ -2032,7 +2027,7 @@ psq:RequiredConceptCoverageRule a owl:Class ;
     rdfs:label "Required concept coverage rule"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Rule requiring a scenario to include mandatory concepts for the selected template."@en ;
     rdfs:subClassOf psq:ContentQualityRule ;
     skos:definition "Rule requiring a scenario to include mandatory concepts for the selected template."@en .
@@ -2049,7 +2044,7 @@ psq:SafetyConstraint a owl:Class ;
     rdfs:label "Safety constraint"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Rule rejecting unsafe instructions, harmful guidance, or contradictory safe responses."@en ;
     rdfs:subClassOf psq:ContentQualityRule ;
     skos:definition "Rule rejecting unsafe instructions, harmful guidance, or contradictory safe responses."@en .
@@ -2058,7 +2053,7 @@ psq:ScenarioQualityScore a owl:Class ;
     rdfs:label "Scenario quality score"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Quality-score resource associated with a generated scenario candidate."@en ;
     rdfs:subClassOf psq:ContentQualityKnowledgeEntity ;
     skos:definition "Quality-score resource associated with a generated scenario candidate."@en .
@@ -2070,7 +2065,7 @@ psq:Score_SMS_BankLink_Candidate a psq:ScenarioQualityScore,
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:qualityScore 0.92 ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     psq:validationStatus "passes_automated_demo_rules" ;
     rdfs:comment "Demonstration score resource for CQ3 content-quality-control validation."@en ;
     skos:definition "Demonstration score resource for CQ3 content-quality-control validation."@en .
@@ -2079,7 +2074,7 @@ psq:SemanticPacket a owl:Class ;
     rdfs:label "Semantic packet"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Selected ontology subgraph supplied to RAG and LLM scenario generation."@en ;
     rdfs:subClassOf psq:ScenarioKnowledgeEntity ;
     skos:definition "Selected ontology subgraph supplied to RAG and LLM scenario generation."@en .
@@ -2373,7 +2368,7 @@ psq:ConsistencyConstraint a owl:Class ;
     rdfs:label "Consistency constraint"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Rule checking channel, variant, persona, difficulty, and template consistency."@en ;
     rdfs:subClassOf psq:ContentQualityRule ;
     skos:definition "Rule checking channel, variant, persona, difficulty, and template consistency."@en .
@@ -2910,7 +2905,7 @@ psq:ValidationDecision a owl:Class ;
     rdfs:label "Validation decision"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Accept, reject, or review decision for a generated scenario candidate."@en ;
     rdfs:subClassOf psq:ContentQualityKnowledgeEntity ;
     skos:definition "Accept, reject, or review decision for a generated scenario candidate."@en .
@@ -3018,7 +3013,7 @@ psq:ContentQualityKnowledgeEntity a owl:Class ;
     rdfs:label "Content quality knowledge entity"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Scenario-control terms used to validate and score generated scenario candidates."@en ;
     rdfs:subClassOf psq:DomainEntity ;
     skos:definition "Scenario-control terms used to validate and score generated scenario candidates."@en .
@@ -3194,7 +3189,7 @@ psq:LegalConsequence_ReportToITOrSecurity a psq:LegalConsequence,
     rdfs:label "Report to IT or security"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Organizational reporting consequence for suspicious social-engineering attempts."@en ;
     skos:definition "Organizational reporting consequence for suspicious social-engineering attempts."@en .
 
@@ -3275,7 +3270,7 @@ psq:ContentQualityRule a owl:Class ;
     rdfs:label "Content quality rule"@en ;
     psq:creationMethod "reviewer_aligned_manual_modeling_v9" ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "Acceptance or rejection rule applied to generated scenario candidates."@en ;
     rdfs:subClassOf psq:ContentQualityKnowledgeEntity ;
     skos:definition "Acceptance or rejection rule applied to generated scenario candidates."@en .
@@ -3359,7 +3354,7 @@ psq:Rule_ChannelConsistency a psq:ConsistencyConstraint,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "GeneratedScenario(s) based on template t must use the channel required by t."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "GeneratedScenario(s) based on template t must use the channel required by t."@en ;
     skos:definition "GeneratedScenario(s) based on template t must use the channel required by t."@en .
 
@@ -3373,7 +3368,7 @@ psq:Rule_EvidenceRequirement a psq:EvidenceCoverageConstraint,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "AcceptableScenario(s) requires verified supporting evidence."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "AcceptableScenario(s) requires verified supporting evidence."@en ;
     skos:definition "AcceptableScenario(s) requires verified supporting evidence."@en .
 
@@ -3387,7 +3382,7 @@ psq:Rule_LegitimateScenarioSeparation a psq:ConsistencyConstraint,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators."@en ;
     skos:definition "LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators."@en .
 
@@ -3401,7 +3396,7 @@ psq:Rule_PersonaFit a psq:PersonaFitConstraint,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "GeneratedScenario(s) must fit the learner profile targeted by the selected template."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "GeneratedScenario(s) must fit the learner profile targeted by the selected template."@en ;
     skos:definition "GeneratedScenario(s) must fit the learner profile targeted by the selected template."@en .
 
@@ -3415,7 +3410,7 @@ psq:Rule_QualityAcceptance a psq:ContentQualityRule,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted."@en ;
     skos:definition "GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted."@en .
 
@@ -3429,7 +3424,7 @@ psq:Rule_QualityRejection a psq:SafetyConstraint,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected."@en ;
     skos:definition "GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected."@en .
 
@@ -3443,7 +3438,7 @@ psq:Rule_RequiredAttackStructure a psq:RequiredConceptCoverageRule,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response."@en ;
     skos:definition "AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response."@en .
 
@@ -3457,7 +3452,7 @@ psq:Rule_TemplateEligibility a psq:ContentQualityRule,
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:ruleLanguage "first_order_predicate_plus_sparql_validation" ;
     psq:ruleText "LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l)."@en ;
-    psq:sourceDocument "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
+    psq:sourceDocument "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx" ;
     rdfs:comment "LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l)."@en ;
     skos:definition "LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l)."@en .
 
@@ -3467,7 +3462,6 @@ psq:DS_KnowledgeBaseJSONL a psq:Dataset,
     psq:creationMethod "inherited_from_v8_1" ;
     psq:evidenceCategory "derived_runtime_dataset" ;
     psq:licenseStatus "mixed_source_license_review_required" ;
-    psq:localDataPath "data/ontology_ready" ;
     psq:retrievalDate "2026-06-22"^^xsd:date ;
     psq:reviewStatus "automated_release_validation_required; domain_expert_review_pending" ;
     psq:verificationStatus "metadata_and_role_verified" ;

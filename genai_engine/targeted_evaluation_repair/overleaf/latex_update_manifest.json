@@ -1,8 +1,8 @@
 {
-  "source_manuscript": "C:\\Users\\user\\.codex\\attachments\\19cedd7e-d4c8-41d6-8ecd-bc4cecbc3f7f\\pasted-text.txt",
+  "source_manuscript": "external-assets/pasted-text.txt",
   "source_sha256": "4ca6b2fbfacf08d3b9f63baa8efabba8d6cf521177635048c18e35569ded9987",
   "revised_main_sha256": "2d142075421e9d40d8fd9612c55583d31c7001c2cabf27e86b2f181db827bb68",
-  "evaluation_dir": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\targeted_psq_sco_evaluation_repair\\20260723_200851\\evaluation_rerun",
+  "evaluation_dir": "genai_engine/output/targeted_psq_sco_evaluation_repair/20260723_200851/evaluation_rerun",
   "protected_blocks_all_byte_identical": true,
   "protected_block_comparison": {
     "title": {

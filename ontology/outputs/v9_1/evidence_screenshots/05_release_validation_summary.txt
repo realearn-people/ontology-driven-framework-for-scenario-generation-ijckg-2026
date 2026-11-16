@@ -1,4 +1,4 @@
-PS C:\Users\user\PersonaShieldQuest-Ontology> & ".\.venv-sparql-v8.2\Scripts\python.exe"
+PS ontology> & ".\.venv-sparql-v8.2\Scripts\python.exe"
 >> scripts\validate_psq_sco_v9_1_no_pedagogy.py
 
 # Complete ontology release validation

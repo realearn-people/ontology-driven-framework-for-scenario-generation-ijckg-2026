@@ -233,7 +233,7 @@ Channel,http://www.w3.org/2000/01/rdf-schema#subClassOf,ScenarioCharacteristic,i
 Channel,http://www.w3.org/2004/02/skos/core#definition,Communication medium through which a scenario is presented.,literal
 ConsistencyConstraint,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ConsistencyConstraint,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ConsistencyConstraint,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ConsistencyConstraint,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ConsistencyConstraint,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ConsistencyConstraint,http://www.w3.org/2000/01/rdf-schema#comment,"Rule checking channel, variant, persona, difficulty, and template consistency.",literal
 ConsistencyConstraint,http://www.w3.org/2000/01/rdf-schema#label,Consistency constraint,literal
@@ -241,7 +241,7 @@ ConsistencyConstraint,http://www.w3.org/2000/01/rdf-schema#subClassOf,ContentQua
 ConsistencyConstraint,http://www.w3.org/2004/02/skos/core#definition,"Rule checking channel, variant, persona, difficulty, and template consistency.",literal
 ConstraintViolation,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ConstraintViolation,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ConstraintViolation,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ConstraintViolation,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ConstraintViolation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ConstraintViolation,http://www.w3.org/2000/01/rdf-schema#comment,Detected violation of a scenario-control rule.,literal
 ConstraintViolation,http://www.w3.org/2000/01/rdf-schema#label,Constraint violation,literal
@@ -249,7 +249,7 @@ ConstraintViolation,http://www.w3.org/2000/01/rdf-schema#subClassOf,ContentQuali
 ConstraintViolation,http://www.w3.org/2004/02/skos/core#definition,Detected violation of a scenario-control rule.,literal
 ContentQualityKnowledgeEntity,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ContentQualityKnowledgeEntity,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ContentQualityKnowledgeEntity,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ContentQualityKnowledgeEntity,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ContentQualityKnowledgeEntity,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ContentQualityKnowledgeEntity,http://www.w3.org/2000/01/rdf-schema#comment,Scenario-control terms used to validate and score generated scenario candidates.,literal
 ContentQualityKnowledgeEntity,http://www.w3.org/2000/01/rdf-schema#label,Content quality knowledge entity,literal
@@ -257,7 +257,7 @@ ContentQualityKnowledgeEntity,http://www.w3.org/2000/01/rdf-schema#subClassOf,Do
 ContentQualityKnowledgeEntity,http://www.w3.org/2004/02/skos/core#definition,Scenario-control terms used to validate and score generated scenario candidates.,literal
 ContentQualityRule,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ContentQualityRule,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ContentQualityRule,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ContentQualityRule,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ContentQualityRule,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ContentQualityRule,http://www.w3.org/2000/01/rdf-schema#comment,Acceptance or rejection rule applied to generated scenario candidates.,literal
 ContentQualityRule,http://www.w3.org/2000/01/rdf-schema#label,Content quality rule,literal
@@ -384,7 +384,7 @@ DS_MITRE_STIX_18_1,http://www.w3.org/2004/02/skos/core#definition,"Named knowled
 DS_ThaiFraudSMS,creationMethod,inherited_from_v8_1,literal
 DS_ThaiFraudSMS,evidenceCategory,local_empirical_dataset,literal
 DS_ThaiFraudSMS,licenseStatus,redistribution_review_required,literal
-DS_ThaiFraudSMS,localDataPath,data/knowledge_base/raw_data/smsfraud.xlsx,literal
+DS_ThaiFraudSMS,localDataPath,unbundled-source/smsfraud.xlsx,literal
 DS_ThaiFraudSMS,retrievalDate,2026-06-22,literal
 DS_ThaiFraudSMS,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 DS_ThaiFraudSMS,verificationStatus,identity_checked_license_and_redistribution_pending,literal
@@ -412,7 +412,7 @@ Decision_Accept,evaluatesRule,Rule_QualityRejection,iri
 Decision_Accept,evaluatesRule,Rule_RequiredAttackStructure,iri
 Decision_Accept,evaluatesRule,Rule_TemplateEligibility,iri
 Decision_Accept,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Decision_Accept,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Decision_Accept,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Decision_Accept,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ValidationDecision,iri
 Decision_Accept,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Decision_Accept,http://www.w3.org/2000/01/rdf-schema#comment,Decision indicating that a generated scenario satisfies required scenario-control constraints.,literal
@@ -428,7 +428,7 @@ Decision_Reject,evaluatesRule,Rule_QualityRejection,iri
 Decision_Reject,evaluatesRule,Rule_RequiredAttackStructure,iri
 Decision_Reject,evaluatesRule,Rule_TemplateEligibility,iri
 Decision_Reject,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Decision_Reject,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Decision_Reject,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Decision_Reject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ValidationDecision,iri
 Decision_Reject,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Decision_Reject,http://www.w3.org/2000/01/rdf-schema#comment,Decision indicating that a generated scenario violates a blocking quality or safety constraint.,literal
@@ -444,7 +444,7 @@ Decision_Review,evaluatesRule,Rule_QualityRejection,iri
 Decision_Review,evaluatesRule,Rule_RequiredAttackStructure,iri
 Decision_Review,evaluatesRule,Rule_TemplateEligibility,iri
 Decision_Review,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Decision_Review,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Decision_Review,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Decision_Review,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ValidationDecision,iri
 Decision_Review,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Decision_Review,http://www.w3.org/2000/01/rdf-schema#comment,Decision indicating that a generated scenario needs human or expert review before use.,literal
@@ -578,7 +578,7 @@ EmailChannel,http://www.w3.org/2000/01/rdf-schema#subClassOf,TextBasedChannel,ir
 EmailChannel,http://www.w3.org/2004/02/skos/core#definition,Leaf class for asynchronous email communication.,literal
 ErrorType,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ErrorType,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ErrorType,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ErrorType,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ErrorType,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ErrorType,http://www.w3.org/2000/01/rdf-schema#comment,Controlled error category used in scenario-control error analysis.,literal
 ErrorType,http://www.w3.org/2000/01/rdf-schema#label,Error type,literal
@@ -586,7 +586,7 @@ ErrorType,http://www.w3.org/2000/01/rdf-schema#subClassOf,ContentQualityKnowledg
 ErrorType,http://www.w3.org/2004/02/skos/core#definition,Controlled error category used in scenario-control error analysis.,literal
 Error_ChannelMismatch,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 Error_ChannelMismatch,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Error_ChannelMismatch,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Error_ChannelMismatch,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Error_ChannelMismatch,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ErrorType,iri
 Error_ChannelMismatch,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Error_ChannelMismatch,http://www.w3.org/2000/01/rdf-schema#comment,Error category for channel/template contradiction.,literal
@@ -594,7 +594,7 @@ Error_ChannelMismatch,http://www.w3.org/2000/01/rdf-schema#label,Channel mismatc
 Error_ChannelMismatch,http://www.w3.org/2004/02/skos/core#definition,Error category for channel/template contradiction.,literal
 EvidenceCoverageConstraint,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 EvidenceCoverageConstraint,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-EvidenceCoverageConstraint,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+EvidenceCoverageConstraint,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 EvidenceCoverageConstraint,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 EvidenceCoverageConstraint,http://www.w3.org/2000/01/rdf-schema#comment,Rule checking that scenario claims have evidence and provenance.,literal
 EvidenceCoverageConstraint,http://www.w3.org/2000/01/rdf-schema#label,Evidence coverage constraint,literal
@@ -718,7 +718,7 @@ GeneralPersonaRole,http://www.w3.org/2000/01/rdf-schema#subClassOf,PersonaRole,i
 GeneralPersonaRole,http://www.w3.org/2004/02/skos/core#definition,Intermediate role category used when a more specific organizational function is not supplied.,literal
 GeneratedScenario,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 GeneratedScenario,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-GeneratedScenario,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+GeneratedScenario,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 GeneratedScenario,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 GeneratedScenario,http://www.w3.org/2000/01/rdf-schema#comment,A candidate or stored scenario created by the scenario engine and checked against ontology constraints.,literal
 GeneratedScenario,http://www.w3.org/2000/01/rdf-schema#label,Generated scenario,literal
@@ -731,7 +731,7 @@ Generated_SMS_BankLink_Candidate_v9,hasScenarioQualityScore,Score_SMS_BankLink_C
 Generated_SMS_BankLink_Candidate_v9,hasValidationDecision,Decision_Review,iri
 Generated_SMS_BankLink_Candidate_v9,hasVariant,FakeVariant,iri
 Generated_SMS_BankLink_Candidate_v9,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Generated_SMS_BankLink_Candidate_v9,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Generated_SMS_BankLink_Candidate_v9,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Generated_SMS_BankLink_Candidate_v9,supportedByEvidence,Evidence_SMS_BankLink_Introductory,iri
 Generated_SMS_BankLink_Candidate_v9,targetsLearnerProfile,Learner_HR_Beginner,iri
 Generated_SMS_BankLink_Candidate_v9,usesChannel,SMSChat,iri
@@ -851,7 +851,7 @@ LearningStage,http://www.w3.org/2000/01/rdf-schema#subClassOf,LearnerKnowledgeEn
 LearningStage,http://www.w3.org/2004/02/skos/core#definition,Exact or grouped position in the engine's nine-stage learning progression.,literal
 LegalConsequence,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 LegalConsequence,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-LegalConsequence,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+LegalConsequence,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 LegalConsequence,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 LegalConsequence,http://www.w3.org/2000/01/rdf-schema#comment,Consequence or reporting implication associated with a scenario's action or attack structure.,literal
 LegalConsequence,http://www.w3.org/2000/01/rdf-schema#label,Legal consequence,literal
@@ -859,7 +859,7 @@ LegalConsequence,http://www.w3.org/2000/01/rdf-schema#subClassOf,ScenarioCharact
 LegalConsequence,http://www.w3.org/2004/02/skos/core#definition,Consequence or reporting implication associated with a scenario's action or attack structure.,literal
 LegalConsequence_ReportToITOrSecurity,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 LegalConsequence_ReportToITOrSecurity,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-LegalConsequence_ReportToITOrSecurity,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+LegalConsequence_ReportToITOrSecurity,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 LegalConsequence_ReportToITOrSecurity,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,LegalConsequence,iri
 LegalConsequence_ReportToITOrSecurity,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 LegalConsequence_ReportToITOrSecurity,http://www.w3.org/2000/01/rdf-schema#comment,Organizational reporting consequence for suspicious social-engineering attempts.,literal
@@ -966,7 +966,7 @@ MiddleEngineAgeGroup,http://www.w3.org/2000/01/rdf-schema#subClassOf,AgeGroup,ir
 MiddleEngineAgeGroup,http://www.w3.org/2004/02/skos/core#definition,"Intermediate grouping for the engine's 36-59 age bands; it is an adaptation category, not a claim about ability.",literal
 MoodContext,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 MoodContext,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-MoodContext,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+MoodContext,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 MoodContext,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 MoodContext,http://www.w3.org/2000/01/rdf-schema#comment,Optional runtime mood context. v9 records the placeholder but does not implement emotion inference.,literal
 MoodContext,http://www.w3.org/2000/01/rdf-schema#label,Mood context placeholder,literal
@@ -974,7 +974,7 @@ MoodContext,http://www.w3.org/2000/01/rdf-schema#subClassOf,LearnerKnowledgeEnti
 MoodContext,http://www.w3.org/2004/02/skos/core#definition,Optional runtime mood context. v9 records the placeholder but does not implement emotion inference.,literal
 Mood_NotModeledNeutral,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 Mood_NotModeledNeutral,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Mood_NotModeledNeutral,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Mood_NotModeledNeutral,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Mood_NotModeledNeutral,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,MoodContext,iri
 Mood_NotModeledNeutral,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Mood_NotModeledNeutral,http://www.w3.org/2000/01/rdf-schema#comment,Placeholder used to keep the ODEACT framework boundary explicit without claiming implemented emotion inference.,literal
@@ -1056,7 +1056,7 @@ PROV_TPL_Voice_Legitimate_Advanced,http://www.w3.org/2004/02/skos/core#definitio
 PROV_TPL_Voice_Legitimate_Advanced,http://www.w3.org/ns/prov#wasDerivedFrom,DS_KnowledgeBaseJSONL,iri
 PerformanceState,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 PerformanceState,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-PerformanceState,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+PerformanceState,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 PerformanceState,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 PerformanceState,http://www.w3.org/2000/01/rdf-schema#comment,Runtime state summarizing learner performance for scenario selection.,literal
 PerformanceState,http://www.w3.org/2000/01/rdf-schema#label,Performance state,literal
@@ -1064,7 +1064,7 @@ PerformanceState,http://www.w3.org/2000/01/rdf-schema#subClassOf,LearnerKnowledg
 PerformanceState,http://www.w3.org/2004/02/skos/core#definition,Runtime state summarizing learner performance for scenario selection.,literal
 Performance_Stable,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 Performance_Stable,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Performance_Stable,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Performance_Stable,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Performance_Stable,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,PerformanceState,iri
 Performance_Stable,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Performance_Stable,http://www.w3.org/2000/01/rdf-schema#comment,Learner is stable enough for standard scenario progression.,literal
@@ -1072,7 +1072,7 @@ Performance_Stable,http://www.w3.org/2000/01/rdf-schema#label,Stable performance
 Performance_Stable,http://www.w3.org/2004/02/skos/core#definition,Learner is stable enough for standard scenario progression.,literal
 PersonaFitConstraint,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 PersonaFitConstraint,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-PersonaFitConstraint,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+PersonaFitConstraint,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 PersonaFitConstraint,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 PersonaFitConstraint,http://www.w3.org/2000/01/rdf-schema#comment,Rule checking whether generated content fits the learner profile and role.,literal
 PersonaFitConstraint,http://www.w3.org/2000/01/rdf-schema#label,Persona fit constraint,literal
@@ -1195,7 +1195,7 @@ RedFlag,http://www.w3.org/2000/01/rdf-schema#subClassOf,ScenarioKnowledgeEntity,
 RedFlag,http://www.w3.org/2004/02/skos/core#definition,Ontology class representing Red flag in the PersonaShield domain model.,literal
 RequiredConceptCoverageRule,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 RequiredConceptCoverageRule,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-RequiredConceptCoverageRule,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+RequiredConceptCoverageRule,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 RequiredConceptCoverageRule,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 RequiredConceptCoverageRule,http://www.w3.org/2000/01/rdf-schema#comment,Rule requiring a scenario to include mandatory concepts for the selected template.,literal
 RequiredConceptCoverageRule,http://www.w3.org/2000/01/rdf-schema#label,Required concept coverage rule,literal
@@ -1255,7 +1255,7 @@ Rule_ChannelConsistency,requiredForAcceptance,true,literal
 Rule_ChannelConsistency,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_ChannelConsistency,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_ChannelConsistency,ruleText,GeneratedScenario(s) based on template t must use the channel required by t.,literal
-Rule_ChannelConsistency,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_ChannelConsistency,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_ChannelConsistency,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ConsistencyConstraint,iri
 Rule_ChannelConsistency,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_ChannelConsistency,http://www.w3.org/2000/01/rdf-schema#comment,GeneratedScenario(s) based on template t must use the channel required by t.,literal
@@ -1268,7 +1268,7 @@ Rule_EvidenceRequirement,requiredForAcceptance,true,literal
 Rule_EvidenceRequirement,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_EvidenceRequirement,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_EvidenceRequirement,ruleText,AcceptableScenario(s) requires verified supporting evidence.,literal
-Rule_EvidenceRequirement,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_EvidenceRequirement,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_EvidenceRequirement,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,EvidenceCoverageConstraint,iri
 Rule_EvidenceRequirement,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_EvidenceRequirement,http://www.w3.org/2000/01/rdf-schema#comment,AcceptableScenario(s) requires verified supporting evidence.,literal
@@ -1281,7 +1281,7 @@ Rule_LegitimateScenarioSeparation,requiredForAcceptance,true,literal
 Rule_LegitimateScenarioSeparation,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_LegitimateScenarioSeparation,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_LegitimateScenarioSeparation,ruleText,LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators.,literal
-Rule_LegitimateScenarioSeparation,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_LegitimateScenarioSeparation,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_LegitimateScenarioSeparation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ConsistencyConstraint,iri
 Rule_LegitimateScenarioSeparation,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_LegitimateScenarioSeparation,http://www.w3.org/2000/01/rdf-schema#comment,LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators.,literal
@@ -1294,7 +1294,7 @@ Rule_PersonaFit,requiredForAcceptance,true,literal
 Rule_PersonaFit,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_PersonaFit,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_PersonaFit,ruleText,GeneratedScenario(s) must fit the learner profile targeted by the selected template.,literal
-Rule_PersonaFit,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_PersonaFit,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_PersonaFit,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,PersonaFitConstraint,iri
 Rule_PersonaFit,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_PersonaFit,http://www.w3.org/2000/01/rdf-schema#comment,GeneratedScenario(s) must fit the learner profile targeted by the selected template.,literal
@@ -1307,7 +1307,7 @@ Rule_QualityAcceptance,requiredForAcceptance,true,literal
 Rule_QualityAcceptance,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_QualityAcceptance,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_QualityAcceptance,ruleText,"GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted.",literal
-Rule_QualityAcceptance,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_QualityAcceptance,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_QualityAcceptance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ContentQualityRule,iri
 Rule_QualityAcceptance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_QualityAcceptance,http://www.w3.org/2000/01/rdf-schema#comment,"GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted.",literal
@@ -1320,7 +1320,7 @@ Rule_QualityRejection,requiredForAcceptance,true,literal
 Rule_QualityRejection,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_QualityRejection,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_QualityRejection,ruleText,"GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected.",literal
-Rule_QualityRejection,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_QualityRejection,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_QualityRejection,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,SafetyConstraint,iri
 Rule_QualityRejection,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_QualityRejection,http://www.w3.org/2000/01/rdf-schema#comment,"GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected.",literal
@@ -1333,7 +1333,7 @@ Rule_RequiredAttackStructure,requiredForAcceptance,true,literal
 Rule_RequiredAttackStructure,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_RequiredAttackStructure,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_RequiredAttackStructure,ruleText,"AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response.",literal
-Rule_RequiredAttackStructure,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_RequiredAttackStructure,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_RequiredAttackStructure,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,RequiredConceptCoverageRule,iri
 Rule_RequiredAttackStructure,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_RequiredAttackStructure,http://www.w3.org/2000/01/rdf-schema#comment,"AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response.",literal
@@ -1346,7 +1346,7 @@ Rule_TemplateEligibility,requiredForAcceptance,true,literal
 Rule_TemplateEligibility,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
 Rule_TemplateEligibility,ruleLanguage,first_order_predicate_plus_sparql_validation,literal
 Rule_TemplateEligibility,ruleText,"LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l).",literal
-Rule_TemplateEligibility,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Rule_TemplateEligibility,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Rule_TemplateEligibility,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ContentQualityRule,iri
 Rule_TemplateEligibility,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
 Rule_TemplateEligibility,http://www.w3.org/2000/01/rdf-schema#comment,"LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l).",literal
@@ -1404,7 +1404,7 @@ SafeResponseAction,http://www.w3.org/2000/01/rdf-schema#subClassOf,ScenarioKnowl
 SafeResponseAction,http://www.w3.org/2004/02/skos/core#definition,Ontology class representing Safe response action in the PersonaShield domain model.,literal
 SafetyConstraint,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 SafetyConstraint,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-SafetyConstraint,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+SafetyConstraint,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 SafetyConstraint,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 SafetyConstraint,http://www.w3.org/2000/01/rdf-schema#comment,"Rule rejecting unsafe instructions, harmful guidance, or contradictory safe responses.",literal
 SafetyConstraint,http://www.w3.org/2000/01/rdf-schema#label,Safety constraint,literal
@@ -1426,7 +1426,7 @@ ScenarioKnowledgeEntity,http://www.w3.org/2000/01/rdf-schema#subClassOf,DomainEn
 ScenarioKnowledgeEntity,http://www.w3.org/2004/02/skos/core#definition,"Entity that describes scenario content, communication form, attack semantics, or safe response.",literal
 ScenarioQualityScore,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ScenarioQualityScore,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ScenarioQualityScore,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ScenarioQualityScore,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ScenarioQualityScore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ScenarioQualityScore,http://www.w3.org/2000/01/rdf-schema#comment,Quality-score resource associated with a generated scenario candidate.,literal
 ScenarioQualityScore,http://www.w3.org/2000/01/rdf-schema#label,Scenario quality score,literal
@@ -1434,7 +1434,7 @@ ScenarioQualityScore,http://www.w3.org/2000/01/rdf-schema#subClassOf,ContentQual
 ScenarioQualityScore,http://www.w3.org/2004/02/skos/core#definition,Quality-score resource associated with a generated scenario candidate.,literal
 ScenarioStep,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ScenarioStep,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ScenarioStep,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ScenarioStep,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ScenarioStep,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ScenarioStep,http://www.w3.org/2000/01/rdf-schema#comment,A step or decision unit inside a scenario candidate or template.,literal
 ScenarioStep,http://www.w3.org/2000/01/rdf-schema#label,Scenario step,literal
@@ -1463,7 +1463,7 @@ Score_SMS_BankLink_Candidate,confidenceScore,0.88,literal
 Score_SMS_BankLink_Candidate,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 Score_SMS_BankLink_Candidate,qualityScore,0.92,literal
 Score_SMS_BankLink_Candidate,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Score_SMS_BankLink_Candidate,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Score_SMS_BankLink_Candidate,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Score_SMS_BankLink_Candidate,validationStatus,passes_automated_demo_rules,literal
 Score_SMS_BankLink_Candidate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ScenarioQualityScore,iri
 Score_SMS_BankLink_Candidate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
@@ -1472,7 +1472,7 @@ Score_SMS_BankLink_Candidate,http://www.w3.org/2000/01/rdf-schema#label,SMS bank
 Score_SMS_BankLink_Candidate,http://www.w3.org/2004/02/skos/core#definition,Demonstration score resource for CQ3 content-quality-control validation.,literal
 SemanticPacket,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 SemanticPacket,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-SemanticPacket,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+SemanticPacket,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 SemanticPacket,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 SemanticPacket,http://www.w3.org/2000/01/rdf-schema#comment,Selected ontology subgraph supplied to RAG and LLM scenario generation.,literal
 SemanticPacket,http://www.w3.org/2000/01/rdf-schema#label,Semantic packet,literal
@@ -1489,7 +1489,7 @@ SemanticPacket_SMS_BankLink_v9,hasQualityRule,Rule_QualityRejection,iri
 SemanticPacket_SMS_BankLink_v9,hasQualityRule,Rule_RequiredAttackStructure,iri
 SemanticPacket_SMS_BankLink_v9,hasQualityRule,Rule_TemplateEligibility,iri
 SemanticPacket_SMS_BankLink_v9,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-SemanticPacket_SMS_BankLink_v9,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+SemanticPacket_SMS_BankLink_v9,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 SemanticPacket_SMS_BankLink_v9,supportedByEvidence,Evidence_SMS_BankLink_Introductory,iri
 SemanticPacket_SMS_BankLink_v9,targetsLearnerProfile,Learner_HR_Beginner,iri
 SemanticPacket_SMS_BankLink_v9,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,SemanticPacket,iri
@@ -2130,7 +2130,7 @@ Transition_BeginnerIntro_to_BeginnerDeveloping_SMS,http://www.w3.org/2000/01/rdf
 Transition_BeginnerIntro_to_BeginnerDeveloping_SMS,http://www.w3.org/2004/02/skos/core#definition,"Named knowledge-graph individual 'Advance to beginner developing with paired SMS scenarios', classified as Transition constraint profile.",literal
 ValidationDecision,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ValidationDecision,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ValidationDecision,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ValidationDecision,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ValidationDecision,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#Class,iri
 ValidationDecision,http://www.w3.org/2000/01/rdf-schema#comment,"Accept, reject, or review decision for a generated scenario candidate.",literal
 ValidationDecision,http://www.w3.org/2000/01/rdf-schema#label,Validation decision,literal
@@ -2141,7 +2141,7 @@ Violation_ChannelMismatch,errorType,channel_mismatch,literal
 Violation_ChannelMismatch,explanationText,Candidate channel does not match template channel.,literal
 Violation_ChannelMismatch,hasErrorType,Error_ChannelMismatch,iri
 Violation_ChannelMismatch,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-Violation_ChannelMismatch,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+Violation_ChannelMismatch,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 Violation_ChannelMismatch,violationCode,ChannelMismatch,literal
 Violation_ChannelMismatch,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,ConstraintViolation,iri
 Violation_ChannelMismatch,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#NamedIndividual,iri
@@ -2196,7 +2196,7 @@ acceptanceThreshold,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 acceptanceThreshold,intendedDomain,ContentQualityRule,literal
 acceptanceThreshold,intendedRange,http://www.w3.org/2001/XMLSchema#decimal,literal
 acceptanceThreshold,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-acceptanceThreshold,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+acceptanceThreshold,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 acceptanceThreshold,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 acceptanceThreshold,http://www.w3.org/2000/01/rdf-schema#comment,Threshold associated with a content-quality rule.,literal
 acceptanceThreshold,http://www.w3.org/2000/01/rdf-schema#label,acceptance threshold,literal
@@ -2216,7 +2216,7 @@ basedOnTemplate,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 basedOnTemplate,intendedDomain,GeneratedScenario,literal
 basedOnTemplate,intendedRange,ScenarioTemplate,literal
 basedOnTemplate,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-basedOnTemplate,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+basedOnTemplate,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 basedOnTemplate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty,iri
 basedOnTemplate,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 basedOnTemplate,http://www.w3.org/2000/01/rdf-schema#comment,Links a generated scenario to the scenario template that controls it.,literal
@@ -2238,7 +2238,7 @@ competencyQuestion,http://www.w3.org/2000/01/rdf-schema#label,competency questio
 competencyQuestion,http://www.w3.org/2004/02/skos/core#definition,"Annotation property 'competency question' used to document competency questions, mappings, evidence quality, or transformation metadata.",literal
 competencyQuestionRole,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 competencyQuestionRole,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-competencyQuestionRole,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+competencyQuestionRole,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 competencyQuestionRole,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 competencyQuestionRole,http://www.w3.org/2000/01/rdf-schema#comment,Explains how an entity supports a competency question.,literal
 competencyQuestionRole,http://www.w3.org/2000/01/rdf-schema#label,competency question role,literal
@@ -2247,7 +2247,7 @@ confidenceScore,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 confidenceScore,intendedDomain,DomainEntity,literal
 confidenceScore,intendedRange,http://www.w3.org/2001/XMLSchema#decimal,literal
 confidenceScore,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-confidenceScore,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+confidenceScore,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 confidenceScore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 confidenceScore,http://www.w3.org/2000/01/rdf-schema#comment,Decimal confidence score for a validation decision or quality score.,literal
 confidenceScore,http://www.w3.org/2000/01/rdf-schema#label,confidence score,literal
@@ -2256,7 +2256,7 @@ containsStep,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 containsStep,intendedDomain,DomainEntity,literal
 containsStep,intendedRange,ScenarioStep,literal
 containsStep,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-containsStep,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+containsStep,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 containsStep,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 containsStep,http://www.w3.org/2000/01/rdf-schema#comment,Links a scenario template or generated scenario to a scenario step.,literal
 containsStep,http://www.w3.org/2000/01/rdf-schema#label,contains step,literal
@@ -2290,7 +2290,7 @@ difficultyValue,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 difficultyValue,intendedDomain,DomainEntity,literal
 difficultyValue,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 difficultyValue,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-difficultyValue,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+difficultyValue,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 difficultyValue,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 difficultyValue,http://www.w3.org/2000/01/rdf-schema#comment,Numerical or controlled difficulty value used for scenario-control scoring.,literal
 difficultyValue,http://www.w3.org/2000/01/rdf-schema#label,difficulty value,literal
@@ -2321,7 +2321,7 @@ errorType,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 errorType,intendedDomain,ConstraintViolation,literal
 errorType,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 errorType,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-errorType,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+errorType,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 errorType,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 errorType,http://www.w3.org/2000/01/rdf-schema#comment,Literal form of an error category for export and logs.,literal
 errorType,http://www.w3.org/2000/01/rdf-schema#label,error type literal,literal
@@ -2330,7 +2330,7 @@ evaluatesRule,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 evaluatesRule,intendedDomain,ValidationDecision,literal
 evaluatesRule,intendedRange,ContentQualityRule,literal
 evaluatesRule,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-evaluatesRule,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+evaluatesRule,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 evaluatesRule,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 evaluatesRule,http://www.w3.org/2000/01/rdf-schema#comment,Links a validation decision to the quality rule it evaluates.,literal
 evaluatesRule,http://www.w3.org/2000/01/rdf-schema#label,evaluates rule,literal
@@ -2361,7 +2361,7 @@ explanationText,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 explanationText,intendedDomain,DomainEntity,literal
 explanationText,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 explanationText,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-explanationText,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+explanationText,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 explanationText,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 explanationText,http://www.w3.org/2000/01/rdf-schema#comment,"Human-readable explanation for a rule, score, violation, or decision.",literal
 explanationText,http://www.w3.org/2000/01/rdf-schema#label,explanation text,literal
@@ -2374,7 +2374,7 @@ externalId,http://www.w3.org/2000/01/rdf-schema#label,external identifier,litera
 externalId,http://www.w3.org/2004/02/skos/core#definition,"Annotation property 'external identifier' used to document competency questions, mappings, evidence quality, or transformation metadata.",literal
 frameworkName,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 frameworkName,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-frameworkName,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+frameworkName,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 frameworkName,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 frameworkName,http://www.w3.org/2000/01/rdf-schema#comment,Names the wider research framework that uses this ontology.,literal
 frameworkName,http://www.w3.org/2000/01/rdf-schema#label,framework name,literal
@@ -2426,7 +2426,7 @@ hasErrorType,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 hasErrorType,intendedDomain,ConstraintViolation,literal
 hasErrorType,intendedRange,ErrorType,literal
 hasErrorType,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasErrorType,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasErrorType,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasErrorType,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasErrorType,http://www.w3.org/2000/01/rdf-schema#comment,Links a constraint violation to its controlled error category.,literal
 hasErrorType,http://www.w3.org/2000/01/rdf-schema#label,has error type,literal
@@ -2444,7 +2444,7 @@ hasLegalConsequence,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 hasLegalConsequence,intendedDomain,DomainEntity,literal
 hasLegalConsequence,intendedRange,LegalConsequence,literal
 hasLegalConsequence,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasLegalConsequence,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasLegalConsequence,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasLegalConsequence,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasLegalConsequence,http://www.w3.org/2000/01/rdf-schema#comment,Links a scenario template or response to a legal or organizational consequence.,literal
 hasLegalConsequence,http://www.w3.org/2000/01/rdf-schema#label,has legal consequence,literal
@@ -2471,7 +2471,7 @@ hasMoodContext,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 hasMoodContext,intendedDomain,LearnerProfile,literal
 hasMoodContext,intendedRange,MoodContext,literal
 hasMoodContext,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasMoodContext,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasMoodContext,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasMoodContext,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty,iri
 hasMoodContext,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasMoodContext,http://www.w3.org/2000/01/rdf-schema#comment,Links a learner profile to an optional mood-context placeholder.,literal
@@ -2481,7 +2481,7 @@ hasPerformanceState,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 hasPerformanceState,intendedDomain,LearnerProfile,literal
 hasPerformanceState,intendedRange,PerformanceState,literal
 hasPerformanceState,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasPerformanceState,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasPerformanceState,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasPerformanceState,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty,iri
 hasPerformanceState,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasPerformanceState,http://www.w3.org/2000/01/rdf-schema#comment,Links a learner profile to its runtime performance state.,literal
@@ -2515,7 +2515,7 @@ hasQualityRule,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 hasQualityRule,intendedDomain,DomainEntity,literal
 hasQualityRule,intendedRange,ContentQualityRule,literal
 hasQualityRule,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasQualityRule,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasQualityRule,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasQualityRule,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasQualityRule,http://www.w3.org/2000/01/rdf-schema#comment,"Links a template, candidate, or semantic packet to an applicable content-quality rule.",literal
 hasQualityRule,http://www.w3.org/2000/01/rdf-schema#label,has quality rule,literal
@@ -2559,7 +2559,7 @@ hasScenarioQualityScore,creationMethod,reviewer_aligned_manual_modeling_v9,liter
 hasScenarioQualityScore,intendedDomain,GeneratedScenario,literal
 hasScenarioQualityScore,intendedRange,ScenarioQualityScore,literal
 hasScenarioQualityScore,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasScenarioQualityScore,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasScenarioQualityScore,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasScenarioQualityScore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty,iri
 hasScenarioQualityScore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasScenarioQualityScore,http://www.w3.org/2000/01/rdf-schema#comment,Links a generated scenario to its scenario-quality score resource.,literal
@@ -2579,7 +2579,7 @@ hasValidationDecision,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 hasValidationDecision,intendedDomain,GeneratedScenario,literal
 hasValidationDecision,intendedRange,ValidationDecision,literal
 hasValidationDecision,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-hasValidationDecision,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+hasValidationDecision,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 hasValidationDecision,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#FunctionalProperty,iri
 hasValidationDecision,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 hasValidationDecision,http://www.w3.org/2000/01/rdf-schema#comment,"Links a generated scenario to its acceptance, rejection, or review decision.",literal
@@ -2620,14 +2620,14 @@ implementsTechnique,http://www.w3.org/2000/01/rdf-schema#range,ATTACKTechnique,i
 implementsTechnique,http://www.w3.org/2004/02/skos/core#definition,Object property 'implements ATT&CK technique' relating Scenario template to MITRE ATT&CK technique.,literal
 intendedDomain,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 intendedDomain,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-intendedDomain,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+intendedDomain,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 intendedDomain,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 intendedDomain,http://www.w3.org/2000/01/rdf-schema#comment,Documentation-only expected subject class for a property; not asserted as an OWL domain axiom.,literal
 intendedDomain,http://www.w3.org/2000/01/rdf-schema#label,intended domain,literal
 intendedDomain,http://www.w3.org/2004/02/skos/core#definition,Documentation-only expected subject class for a property; not asserted as an OWL domain axiom.,literal
 intendedRange,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 intendedRange,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-intendedRange,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+intendedRange,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 intendedRange,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 intendedRange,http://www.w3.org/2000/01/rdf-schema#comment,Documentation-only expected object or literal type for a property; not asserted as an OWL range axiom.,literal
 intendedRange,http://www.w3.org/2000/01/rdf-schema#label,intended range,literal
@@ -2786,7 +2786,7 @@ qualityRuleCategory,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 qualityRuleCategory,intendedDomain,ContentQualityRule,literal
 qualityRuleCategory,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 qualityRuleCategory,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-qualityRuleCategory,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+qualityRuleCategory,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 qualityRuleCategory,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 qualityRuleCategory,http://www.w3.org/2000/01/rdf-schema#comment,Controlled category of a scenario-quality rule.,literal
 qualityRuleCategory,http://www.w3.org/2000/01/rdf-schema#label,quality rule category,literal
@@ -2795,7 +2795,7 @@ qualityScore,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 qualityScore,intendedDomain,ScenarioQualityScore,literal
 qualityScore,intendedRange,http://www.w3.org/2001/XMLSchema#decimal,literal
 qualityScore,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-qualityScore,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+qualityScore,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 qualityScore,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 qualityScore,http://www.w3.org/2000/01/rdf-schema#comment,Decimal score assigned to a generated scenario candidate.,literal
 qualityScore,http://www.w3.org/2000/01/rdf-schema#label,quality score,literal
@@ -2837,7 +2837,7 @@ requiredForAcceptance,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 requiredForAcceptance,intendedDomain,ContentQualityRule,literal
 requiredForAcceptance,intendedRange,http://www.w3.org/2001/XMLSchema#boolean,literal
 requiredForAcceptance,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-requiredForAcceptance,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+requiredForAcceptance,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 requiredForAcceptance,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 requiredForAcceptance,http://www.w3.org/2000/01/rdf-schema#comment,Boolean marker indicating that a rule is required for scenario acceptance.,literal
 requiredForAcceptance,http://www.w3.org/2000/01/rdf-schema#label,required for acceptance,literal
@@ -2846,7 +2846,7 @@ requiresChannel,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 requiresChannel,intendedDomain,DomainEntity,literal
 requiresChannel,intendedRange,Channel,literal
 requiresChannel,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-requiresChannel,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+requiresChannel,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 requiresChannel,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 requiresChannel,http://www.w3.org/2000/01/rdf-schema#comment,Declares the required channel for template or candidate validation.,literal
 requiresChannel,http://www.w3.org/2000/01/rdf-schema#label,requires channel,literal
@@ -2868,14 +2868,14 @@ reviewStatus,http://www.w3.org/2000/01/rdf-schema#label,review status,literal
 reviewStatus,http://www.w3.org/2004/02/skos/core#definition,Documents the current structural and domain-review status of an ontology element.,literal
 ruleLanguage,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ruleLanguage,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ruleLanguage,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ruleLanguage,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ruleLanguage,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 ruleLanguage,http://www.w3.org/2000/01/rdf-schema#comment,"Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate.",literal
 ruleLanguage,http://www.w3.org/2000/01/rdf-schema#label,rule language,literal
 ruleLanguage,http://www.w3.org/2004/02/skos/core#definition,"Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate.",literal
 ruleText,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 ruleText,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-ruleText,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+ruleText,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 ruleText,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 ruleText,http://www.w3.org/2000/01/rdf-schema#comment,Human-readable scenario-control rule text.,literal
 ruleText,http://www.w3.org/2000/01/rdf-schema#label,rule text,literal
@@ -2884,7 +2884,7 @@ scenarioID,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 scenarioID,intendedDomain,DomainEntity,literal
 scenarioID,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 scenarioID,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-scenarioID,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+scenarioID,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 scenarioID,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 scenarioID,http://www.w3.org/2000/01/rdf-schema#comment,v9 alias for engine scenario identifier terminology.,literal
 scenarioID,http://www.w3.org/2000/01/rdf-schema#label,scenario ID,literal
@@ -2918,7 +2918,7 @@ scenarioTitle,http://www.w3.org/2000/01/rdf-schema#range,http://www.w3.org/2001/
 scenarioTitle,http://www.w3.org/2004/02/skos/core#definition,Datatype property 'scenario title' recording a literal value for Scenario template.,literal
 scopeBoundary,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 scopeBoundary,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-scopeBoundary,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+scopeBoundary,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 scopeBoundary,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 scopeBoundary,http://www.w3.org/2000/01/rdf-schema#comment,"Records the boundary between ontology, engine, and evaluation scope.",literal
 scopeBoundary,http://www.w3.org/2000/01/rdf-schema#label,scope boundary,literal
@@ -2931,7 +2931,7 @@ sourceColumn,http://www.w3.org/2000/01/rdf-schema#label,source field or column,l
 sourceColumn,http://www.w3.org/2004/02/skos/core#definition,"Annotation property 'source field or column' used to document competency questions, mappings, evidence quality, or transformation metadata.",literal
 sourceDocument,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 sourceDocument,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-sourceDocument,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+sourceDocument,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 sourceDocument,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#AnnotationProperty,iri
 sourceDocument,http://www.w3.org/2000/01/rdf-schema#comment,Identifies the reviewer-aligned document that motivated the v9 element.,literal
 sourceDocument,http://www.w3.org/2000/01/rdf-schema#label,source document,literal
@@ -2959,7 +2959,7 @@ sourceURL,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 sourceURL,intendedDomain,SourceArtifact,literal
 sourceURL,intendedRange,http://www.w3.org/2001/XMLSchema#anyURI,literal
 sourceURL,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-sourceURL,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+sourceURL,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 sourceURL,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 sourceURL,http://www.w3.org/2000/01/rdf-schema#comment,v9 alias matching reviewer document terminology; sourceUrl remains retained for compatibility.,literal
 sourceURL,http://www.w3.org/2000/01/rdf-schema#label,source URL,literal
@@ -3038,7 +3038,7 @@ supportedByEvidence,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 supportedByEvidence,intendedDomain,DomainEntity,literal
 supportedByEvidence,intendedRange,EvidencePack,literal
 supportedByEvidence,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-supportedByEvidence,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+supportedByEvidence,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 supportedByEvidence,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 supportedByEvidence,http://www.w3.org/2000/01/rdf-schema#comment,Links a scenario element or validation decision to an evidence pack.,literal
 supportedByEvidence,http://www.w3.org/2000/01/rdf-schema#label,supported by evidence,literal
@@ -3056,7 +3056,7 @@ targetsLearnerProfile,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 targetsLearnerProfile,intendedDomain,DomainEntity,literal
 targetsLearnerProfile,intendedRange,LearnerProfile,literal
 targetsLearnerProfile,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-targetsLearnerProfile,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+targetsLearnerProfile,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 targetsLearnerProfile,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 targetsLearnerProfile,http://www.w3.org/2000/01/rdf-schema#comment,Links a scenario or semantic packet to the learner profile it targets.,literal
 targetsLearnerProfile,http://www.w3.org/2000/01/rdf-schema#label,targets learner profile,literal
@@ -3120,7 +3120,7 @@ validationStatus,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 validationStatus,intendedDomain,DomainEntity,literal
 validationStatus,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 validationStatus,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-validationStatus,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+validationStatus,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 validationStatus,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 validationStatus,http://www.w3.org/2000/01/rdf-schema#comment,Status assigned by the validation process.,literal
 validationStatus,http://www.w3.org/2000/01/rdf-schema#label,validation status,literal
@@ -3138,7 +3138,7 @@ violatesConstraint,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 violatesConstraint,intendedDomain,GeneratedScenario,literal
 violatesConstraint,intendedRange,ConstraintViolation,literal
 violatesConstraint,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-violatesConstraint,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+violatesConstraint,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 violatesConstraint,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#ObjectProperty,iri
 violatesConstraint,http://www.w3.org/2000/01/rdf-schema#comment,Links a generated scenario to a detected constraint violation.,literal
 violatesConstraint,http://www.w3.org/2000/01/rdf-schema#label,violates constraint,literal
@@ -3147,7 +3147,7 @@ violationCode,creationMethod,reviewer_aligned_manual_modeling_v9,literal
 violationCode,intendedDomain,ConstraintViolation,literal
 violationCode,intendedRange,http://www.w3.org/2001/XMLSchema#string,literal
 violationCode,reviewStatus,automated_release_validation_required; domain_expert_review_pending,literal
-violationCode,sourceDocument,C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
+violationCode,sourceDocument,external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx,literal
 violationCode,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,http://www.w3.org/2002/07/owl#DatatypeProperty,iri
 violationCode,http://www.w3.org/2000/01/rdf-schema#comment,Machine-readable code for a detected constraint violation.,literal
 violationCode,http://www.w3.org/2000/01/rdf-schema#label,violation code,literal

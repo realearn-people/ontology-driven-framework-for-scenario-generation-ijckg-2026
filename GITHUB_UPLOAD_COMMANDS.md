@@ -26,7 +26,7 @@ Do this before running `git push`.
 ## 2. Sign in from PowerShell
 
 ```powershell
-Set-Location 'D:\Japan_InternProject\PSQ_SCO_GitHub_Ready_2026-07-30'
+Set-Location 'PSQ_SCO_GitHub_Ready_2026-07-30'
 
 git credential-manager github login `
   --username HopeChanphot `

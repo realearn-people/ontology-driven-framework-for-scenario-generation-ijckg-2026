@@ -153,17 +153,17 @@ Therefore, Self-BLEU should be interpreted together with embedding diversity, co
 The complete evaluation was rerun with three sentence-transformer embedding models:
 
 ```text
-SBERT: D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_sbert_complete\20260710_164438
-E5:    D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_e5_complete\20260710_164848
-LaBSE: D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_labse_complete\20260710_165456
+SBERT: genai_engine/output/three_layer_eval_3models_120cases_4modes_sbert_complete/20260710_164438
+E5:    genai_engine/output/three_layer_eval_3models_120cases_4modes_e5_complete/20260710_164848
+LaBSE: genai_engine/output/three_layer_eval_3models_120cases_4modes_labse_complete/20260710_165456
 ```
 
 The combined comparison files are:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_embedding_model_comparison\embedding_model_diversity_comparison.md
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_embedding_model_comparison\embedding_model_diversity_method_summary.csv
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_embedding_model_comparison\embedding_model_diversity_consensus.csv
+genai_engine/output/three_layer_eval_embedding_model_comparison/embedding_model_diversity_comparison.md
+genai_engine/output/three_layer_eval_embedding_model_comparison/embedding_model_diversity_method_summary.csv
+genai_engine/output/three_layer_eval_embedding_model_comparison/embedding_model_diversity_consensus.csv
 ```
 
 Consensus across SBERT, E5, and LaBSE:

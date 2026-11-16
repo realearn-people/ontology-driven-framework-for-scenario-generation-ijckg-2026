@@ -27,10 +27,10 @@
     }
   ],
   "same_sources_across_conditions": "Text-RAG Generation, Ontology-Derived Structured Prompting RAG, and Ontology-to-Text Vector RAG attempt retrieval from the same PSQ_RAG_PROFILE=quality external corpus selection unless explicitly overridden; the evaluator separately reports rows where retrieval returned no external context. Prompt-Only Generation is the no-retrieval baseline.",
-  "kb_dir": "D:\\PersonaShieldQuest-GenAI-Engine\\output",
+  "kb_dir": "genai_engine/output",
   "rag_profile": "quality",
   "vector_database": "ChromaDB PersistentClient",
-  "vector_index_path": "D:\\PersonaShieldQuest-GenAI-Engine\\chroma_db_quality",
+  "vector_index_path": "genai_engine/chroma_db_quality",
   "vector_space": "cosine HNSW",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2 (expected Chroma default because rag_engine.py does not pass a custom embedding_function)",
   "embedding_model_status": "Expected from the official Chroma default-embedding documentation, not fully provenance-frozen for the historical generation run. The exact Chroma package version, model artifact hash, and embedding-function configuration were not stored in the generation records.",
@@ -93,7 +93,7 @@
       "raw_document_count": 17271,
       "profile_cap": 5000,
       "used_document_count": 5000,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_CEAS_08_ham_en.jsonl"
+      "path": "genai_engine/output/email/auto_CEAS_08_ham_en.jsonl"
     },
     {
       "source_file": "auto_CEAS_08_scam_en.jsonl",
@@ -105,7 +105,7 @@
       "raw_document_count": 21088,
       "profile_cap": 5000,
       "used_document_count": 5000,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_CEAS_08_scam_en.jsonl"
+      "path": "genai_engine/output/email/auto_CEAS_08_scam_en.jsonl"
     },
     {
       "source_file": "auto_dataset_kaggle_ham_en.jsonl",
@@ -117,7 +117,7 @@
       "raw_document_count": 6,
       "profile_cap": 1200,
       "used_document_count": 6,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_dataset_kaggle_ham_en.jsonl"
+      "path": "genai_engine/output/email/auto_dataset_kaggle_ham_en.jsonl"
     },
     {
       "source_file": "auto_dataset_kaggle_scam_en.jsonl",
@@ -129,7 +129,7 @@
       "raw_document_count": 1,
       "profile_cap": 1200,
       "used_document_count": 1,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_dataset_kaggle_scam_en.jsonl"
+      "path": "genai_engine/output/email/auto_dataset_kaggle_scam_en.jsonl"
     },
     {
       "source_file": "auto_Enron_ham_en.jsonl",
@@ -141,7 +141,7 @@
       "raw_document_count": 29327,
       "profile_cap": 6000,
       "used_document_count": 6000,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_Enron_ham_en.jsonl"
+      "path": "genai_engine/output/email/auto_Enron_ham_en.jsonl"
     },
     {
       "source_file": "auto_financialfraud_ham_th.jsonl",
@@ -153,7 +153,7 @@
       "raw_document_count": 27,
       "profile_cap": 27,
       "used_document_count": 27,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_financialfraud_ham_th.jsonl"
+      "path": "genai_engine/output/email/auto_financialfraud_ham_th.jsonl"
     },
     {
       "source_file": "auto_Ling_ham_en.jsonl",
@@ -165,7 +165,7 @@
       "raw_document_count": 2401,
       "profile_cap": 2000,
       "used_document_count": 2000,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_Ling_ham_en.jsonl"
+      "path": "genai_engine/output/email/auto_Ling_ham_en.jsonl"
     },
     {
       "source_file": "auto_Ling_scam_en.jsonl",
@@ -177,7 +177,7 @@
       "raw_document_count": 458,
       "profile_cap": 2000,
       "used_document_count": 458,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_Ling_scam_en.jsonl"
+      "path": "genai_engine/output/email/auto_Ling_scam_en.jsonl"
     },
     {
       "source_file": "auto_Nazario_5_scam_en.jsonl",
@@ -189,7 +189,7 @@
       "raw_document_count": 3019,
       "profile_cap": 2500,
       "used_document_count": 2500,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_Nazario_5_scam_en.jsonl"
+      "path": "genai_engine/output/email/auto_Nazario_5_scam_en.jsonl"
     },
     {
       "source_file": "auto_Nazario_scam_en.jsonl",
@@ -201,7 +201,7 @@
       "raw_document_count": 1522,
       "profile_cap": 2500,
       "used_document_count": 1522,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_Nazario_scam_en.jsonl"
+      "path": "genai_engine/output/email/auto_Nazario_scam_en.jsonl"
     },
     {
       "source_file": "auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl",
@@ -213,7 +213,7 @@
       "raw_document_count": 30,
       "profile_cap": 30,
       "used_document_count": 30,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl"
+      "path": "genai_engine/output/email/auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl"
     },
     {
       "source_file": "auto_SpamAssasin_ham_en.jsonl",
@@ -225,7 +225,7 @@
       "raw_document_count": 4090,
       "profile_cap": 2500,
       "used_document_count": 2500,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_SpamAssasin_ham_en.jsonl"
+      "path": "genai_engine/output/email/auto_SpamAssasin_ham_en.jsonl"
     },
     {
       "source_file": "auto_SpamAssasin_scam_en.jsonl",
@@ -237,7 +237,7 @@
       "raw_document_count": 1693,
       "profile_cap": 2500,
       "used_document_count": 1693,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\email\\auto_SpamAssasin_scam_en.jsonl"
+      "path": "genai_engine/output/email/auto_SpamAssasin_scam_en.jsonl"
     },
     {
       "source_file": "auto_dataset_kaggle_ham_en.jsonl",
@@ -249,7 +249,7 @@
       "raw_document_count": 4934,
       "profile_cap": 1200,
       "used_document_count": 1200,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\sms\\auto_dataset_kaggle_ham_en.jsonl"
+      "path": "genai_engine/output/sms/auto_dataset_kaggle_ham_en.jsonl"
     },
     {
       "source_file": "auto_dataset_kaggle_scam_en.jsonl",
@@ -261,7 +261,7 @@
       "raw_document_count": 222,
       "profile_cap": 1200,
       "used_document_count": 222,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\sms\\auto_dataset_kaggle_scam_en.jsonl"
+      "path": "genai_engine/output/sms/auto_dataset_kaggle_scam_en.jsonl"
     },
     {
       "source_file": "auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl",
@@ -273,7 +273,7 @@
       "raw_document_count": 20,
       "profile_cap": 30,
       "used_document_count": 20,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\sms\\auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl"
+      "path": "genai_engine/output/sms/auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl"
     },
     {
       "source_file": "auto_smsfraud_scam_th.jsonl",
@@ -285,7 +285,7 @@
       "raw_document_count": 357,
       "profile_cap": 357,
       "used_document_count": 357,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\sms\\auto_smsfraud_scam_th.jsonl"
+      "path": "genai_engine/output/sms/auto_smsfraud_scam_th.jsonl"
     },
     {
       "source_file": "auto_smsnormal_ham_th.jsonl",
@@ -297,7 +297,7 @@
       "raw_document_count": 355,
       "profile_cap": 355,
       "used_document_count": 355,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\sms\\auto_smsnormal_ham_th.jsonl"
+      "path": "genai_engine/output/sms/auto_smsnormal_ham_th.jsonl"
     },
     {
       "source_file": "auto_dataset_kaggle_ham_en.jsonl",
@@ -309,7 +309,7 @@
       "raw_document_count": 2,
       "profile_cap": 1200,
       "used_document_count": 2,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\voice\\auto_dataset_kaggle_ham_en.jsonl"
+      "path": "genai_engine/output/voice/auto_dataset_kaggle_ham_en.jsonl"
     },
     {
       "source_file": "auto_dataset_kaggle_scam_en.jsonl",
@@ -321,7 +321,7 @@
       "raw_document_count": 12,
       "profile_cap": 1200,
       "used_document_count": 12,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\voice\\auto_dataset_kaggle_scam_en.jsonl"
+      "path": "genai_engine/output/voice/auto_dataset_kaggle_scam_en.jsonl"
     },
     {
       "source_file": "auto_English_NonScam_ham_en.jsonl",
@@ -333,7 +333,7 @@
       "raw_document_count": 400,
       "profile_cap": 400,
       "used_document_count": 400,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\voice\\auto_English_NonScam_ham_en.jsonl"
+      "path": "genai_engine/output/voice/auto_English_NonScam_ham_en.jsonl"
     },
     {
       "source_file": "auto_English_Scam_scam_en.jsonl",
@@ -345,7 +345,7 @@
       "raw_document_count": 396,
       "profile_cap": 400,
       "used_document_count": 396,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\voice\\auto_English_Scam_scam_en.jsonl"
+      "path": "genai_engine/output/voice/auto_English_Scam_scam_en.jsonl"
     },
     {
       "source_file": "auto_IRS_CompleteCall_Transcript_scam_en.jsonl",
@@ -357,7 +357,7 @@
       "raw_document_count": 30,
       "profile_cap": 300,
       "used_document_count": 30,
-      "path": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\voice\\auto_IRS_CompleteCall_Transcript_scam_en.jsonl"
+      "path": "genai_engine/output/voice/auto_IRS_CompleteCall_Transcript_scam_en.jsonl"
     }
   ]
 }

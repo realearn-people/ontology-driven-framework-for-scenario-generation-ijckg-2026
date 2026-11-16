@@ -5,25 +5,25 @@ This guide explains how to run the new PersonaShield Quest PSQ-SCO three-layer e
 The program evaluates generated scenarios from:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output
+genai_engine/output
 ```
 
 against the ontology project at:
 
 ```text
-C:\Users\user\PersonaShieldQuest-Ontology
+ontology
 ```
 
 The entry point is:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\evaluate_three_layer.py
+genai_engine/evaluate_three_layer.py
 ```
 
 The implementation package is:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\three_layer_evaluation
+genai_engine/three_layer_evaluation
 ```
 
 ## 1. What This Program Evaluates
@@ -43,14 +43,14 @@ This matches the compact evaluation design for an ontology-driven scenario-gener
 Open PowerShell and go to the GenAI engine folder:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
+cd genai_engine
 ```
 
 Set the Python runtime. This uses the local Codex runtime plus the project virtual-environment packages:
 
 ```powershell
-$env:PYTHONPATH="D:\PersonaShieldQuest-GenAI-Engine\venv\Lib\site-packages"
-$PY="C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+$env:PYTHONPATH="genai_engine/venv/Lib/site-packages"
+$PY="python"
 ```
 
 ## 3. Check Which Scenario Files Will Be Evaluated
@@ -60,7 +60,7 @@ To list every generated scenario JSONL file under the output folder:
 ```powershell
 & $PY .\evaluate_three_layer.py `
   --list-input-files `
-  --scenario-output-root D:\PersonaShieldQuest-GenAI-Engine\output
+  --scenario-output-root genai_engine/output
 ```
 
 To list only selected 120-case runs:
@@ -109,7 +109,7 @@ This scans the whole output folder:
 
 ```powershell
 & $PY .\evaluate_three_layer.py `
-  --scenario-output-root D:\PersonaShieldQuest-GenAI-Engine\output `
+  --scenario-output-root genai_engine/output `
   --out-dir output\three_layer_eval_all_outputs
 ```
 
@@ -121,9 +121,9 @@ The defaults already point to v9.1, but this is the fully explicit command:
 
 ```powershell
 & $PY .\evaluate_three_layer.py `
-  --ontology-root C:\Users\user\PersonaShieldQuest-Ontology `
-  --ontology-path C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl `
-  --queries-dir C:\Users\user\PersonaShieldQuest-Ontology\queries\v9_1 `
+  --ontology-root ontology `
+  --ontology-path ontology/ontology/personashield-psq-sco-v9.1.owl `
+  --queries-dir ontology/queries/v9_1 `
   --input-dir .\output\prompt_only_paper_120_qwen2_5_7b `
   --input-dir .\output\psq_sco_120_qwen2_5_7b `
   --out-dir output\three_layer_eval_qwen2_5_7b
@@ -155,7 +155,7 @@ If you have a HermiT jar, pass it like this:
 & $PY .\evaluate_three_layer.py `
   --input-dir .\output\prompt_only_paper_120_qwen2_5_7b `
   --input-dir .\output\psq_sco_120_qwen2_5_7b `
-  --hermit-jar C:\path\to\HermiT.jar `
+  --hermit-jar archived-inputs/HermiT.jar `
   --out-dir output\three_layer_eval_with_hermit
 ```
 

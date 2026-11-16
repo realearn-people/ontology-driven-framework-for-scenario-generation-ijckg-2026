@@ -152,6 +152,7 @@ activemq-data/
 .envrc
 .venv
 .macos_test_output/
+.psq_runs/
 .portable_runtime/
 live_scenario_output/
 models/*.gguf

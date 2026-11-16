@@ -13,8 +13,8 @@ try:
     from rdflib import Graph
 except ImportError:
     print(
-        "RDFLib is required. Use the existing project environment:\n"
-        '  & ".\\.venv-sparql-v8.2\\Scripts\\python.exe" scripts/run_sparql_cq_v9.py --cq all',
+        "RDFLib is required. Install the checkout's minimal requirements, then re-run:\n"
+        "  python ontology/scripts/run_sparql_cq_v9_1.py --cq all",
         file=sys.stderr,
     )
     raise SystemExit(2)

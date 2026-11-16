@@ -13,15 +13,15 @@ The manuscript's frozen experiment uses
 The later Graph-Walk v1 output is a separate ablation and is not silently mixed
 into this paper-aligned rerun.
 
-Run from `D:\PersonaShieldQuest-GenAI-Engine`:
+Run from `genai_engine`:
 
 ```powershell
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+$PY = "python"
 
 & $PY .\output\targeted_psq_sco_evaluation_repair\20260723_200851\src\targeted_evaluation.py `
   --input-root .\output\paper120_live_recovered_final\20260714_031104\generated_scenarios `
-  --ontology C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl `
-  --dataset-catalog C:\Users\user\PersonaShieldQuest-Ontology\data\ontology_bindings\dataset-catalog.json `
+  --ontology ontology/ontology/personashield-psq-sco-v9.1.owl `
+  --dataset-catalog ontology/data/ontology_bindings/dataset-catalog.json `
   --corpus-root .\output `
   --out-dir .\output\targeted_psq_sco_evaluation_repair\20260723_200851\evaluation_rerun
 ```

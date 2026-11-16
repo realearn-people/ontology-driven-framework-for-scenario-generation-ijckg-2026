@@ -129,7 +129,7 @@ def build_document() -> None:
         "EVALUATE_4_MODES_MINIMAL.ps1, ontology, genai_engine, and internship. Replace the example path below with "
         "the folder where you extracted the package."
     )
-    command(doc, r"Set-Location 'C:\path\to\PSQ_SCO_Internship_Handover_2026-07-26'")
+    command(doc, r"Set-Location '.'")
     add_body(
         doc,
         "All paths in this guide are relative to that folder unless explicitly stated. The active launchers are portable; "

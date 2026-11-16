@@ -68,7 +68,7 @@ It does not prove that the scenario is pedagogically excellent or that learners 
 This comes from PSQ-SCO v9.1:
 
 ```text
-C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl
+ontology/ontology/personashield-psq-sco-v9.1.owl
 ```
 
 The ontology provides:
@@ -504,7 +504,7 @@ For final publication or a stronger journal version, create expert-approved refe
 Latest completed run:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_bertscore_complete\20260710_180002
+genai_engine/output/three_layer_eval_3models_120cases_4modes_bertscore_complete/20260710_180002
 ```
 
 It evaluates:

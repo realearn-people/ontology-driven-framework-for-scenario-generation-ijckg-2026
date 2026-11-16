@@ -14,17 +14,17 @@ from docx.oxml.ns import qn
 from docx.shared import Inches, Pt, RGBColor
 
 
-WORKSPACE = Path(r"D:\Japan_InternProject")
+WORKSPACE = Path(r".")
 WORK = WORKSPACE / "_internship_report_work"
 FINAL = WORKSPACE / "Research_Internship_Report_Chanphot_Wongtaweesup_PSQ_SCO.docx"
 TOC_PAGES_PATH = WORK / "toc_pages.json"
 
 FIG_FRAMEWORK = Path(
-    r"C:\Users\user\PersonaShieldQuest-Ontology\docs\figures"
+    r"ontology/docs/figures"
     r"\psq_sco_ontology_framework_diagram.png"
 )
 FIG_CASES = Path(
-    r"D:\PersonaShieldQuest-GenAI-Engine\paper\overleaf_live_recovered_20260714"
+    r"genai_engine/paper/overleaf_live_recovered_20260714"
     r"\psq_paper120_design.png"
 )
 
@@ -1227,17 +1227,17 @@ def build_document():
         ("P8", "Chanphot Presentation ReaLearn 6 July 2026", str(WORKSPACE / "_Chanphot Presentation Realearn 06_07_2026 (1).pdf"), "Early 120-case three-layer evaluation results and limitations."),
         ("P9", "Chanphot Presentation ReaLearn 14 July 2026", str(WORKSPACE / "Chanphot Presentation Realearn 14 _07_2026 (1).pdf"), "Four modes, construct definitions, common versus operational metrics."),
         ("P10", "Chanphot Presentation ReaLearn 23 July 2026", str(WORKSPACE / "Chanphot Presentation Realearn 23_07_2026.pdf"), "Final paper-safe conclusions, three layers, limitations, ethics, and future work."),
-        ("P11", "PSQ-SCO v9.1 release validation report", r"C:\Users\user\PersonaShieldQuest-Ontology\outputs\v9_1\release-validation-report.json", "Authoritative release counts, CQ, reasoner, completeness, error, and warning status."),
-        ("P12", "PSQ-SCO v9 reviewer-aligned change log", r"C:\Users\user\PersonaShieldQuest-Ontology\docs\PSQ_SCO_v9_REVIEWER_ALIGNED_CHANGE_LOG.md", "Rename, CQ3 quality-control shift, rules, packets, and reasoning decisions."),
-        ("P13", "PSQ-SCO v9.1 no-pedagogy correction log", r"C:\Users\user\PersonaShieldQuest-Ontology\docs\PSQ_SCO_v9_1_NO_PEDAGOGY_CHANGE_LOG.md", "Final scope correction and removed resources/properties/triples."),
-        ("P14", "PSQ-SCO v9.1 KG completeness and error analysis", r"C:\Users\user\PersonaShieldQuest-Ontology\docs\PSQ_SCO_v9_1_KG_COMPLETENESS_AND_ERROR_ANALYSIS.md", "Bounded completeness definition and graph-noise evidence."),
-        ("P15", "PSQ-SCO ontology validation analysis", r"C:\Users\user\PersonaShieldQuest-Ontology\docs\PSQ_SCO_Ontology_Validation_Analysis_Report.md", "Compact release validation summary."),
+        ("P11", "PSQ-SCO v9.1 release validation report", r"ontology/outputs/v9_1/release-validation-report.json", "Authoritative release counts, CQ, reasoner, completeness, error, and warning status."),
+        ("P12", "PSQ-SCO v9 reviewer-aligned change log", r"ontology/docs/PSQ_SCO_v9_REVIEWER_ALIGNED_CHANGE_LOG.md", "Rename, CQ3 quality-control shift, rules, packets, and reasoning decisions."),
+        ("P13", "PSQ-SCO v9.1 no-pedagogy correction log", r"ontology/docs/PSQ_SCO_v9_1_NO_PEDAGOGY_CHANGE_LOG.md", "Final scope correction and removed resources/properties/triples."),
+        ("P14", "PSQ-SCO v9.1 KG completeness and error analysis", r"ontology/docs/PSQ_SCO_v9_1_KG_COMPLETENESS_AND_ERROR_ANALYSIS.md", "Bounded completeness definition and graph-noise evidence."),
+        ("P15", "PSQ-SCO ontology validation analysis", r"ontology/docs/PSQ_SCO_Ontology_Validation_Analysis_Report.md", "Compact release validation summary."),
         ("P16", "PSQ-SCO ontology framework diagram", str(FIG_FRAMEWORK), "Architecture used in Figure 1."),
         ("P17", "Paper 120 matched-case design figure", str(FIG_CASES), "Experimental design used in Figure 2."),
-        ("P18", "Four-condition GenAI engine monograph", r"D:\PersonaShieldQuest-GenAI-Engine\docs\PERSONASHIELD_QUEST_FOUR_CONDITION_GENAI_ENGINE_COMPLETE_RESEARCH_MONOGRAPH.md", "Implementation-grounded engine, evaluation, metric, and limitation account."),
-        ("P19", "Three-layer evaluation technical documentation", r"D:\PersonaShieldQuest-GenAI-Engine\docs\THREE_LAYER_EVALUATION_TECHNICAL_DOCUMENTATION.md", "Metric definitions and output contracts."),
-        ("P20", "Latest targeted IJCKG manuscript package", r"D:\PersonaShieldQuest-GenAI-Engine\output\targeted_psq_sco_evaluation_repair\20260723_200851\overleaf\main.tex", "Final title, paper argument, common and mechanism-specific results, limitations, and conclusion."),
-        ("P21", "Graph-Walk v1 separate comparative evaluation", r"D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_graph_walk_v1_comparison\20260723_134114\PSQ_SCO_GRAPH_WALK_V1_SEPARATE_COMPARATIVE_EVALUATION.md", "Supplementary treatment-exposure, generation-integrity, and diversity evidence."),
+        ("P18", "Four-condition GenAI engine monograph", r"genai_engine/docs/PERSONASHIELD_QUEST_FOUR_CONDITION_GENAI_ENGINE_COMPLETE_RESEARCH_MONOGRAPH.md", "Implementation-grounded engine, evaluation, metric, and limitation account."),
+        ("P19", "Three-layer evaluation technical documentation", r"genai_engine/docs/THREE_LAYER_EVALUATION_TECHNICAL_DOCUMENTATION.md", "Metric definitions and output contracts."),
+        ("P20", "Latest targeted IJCKG manuscript package", r"genai_engine/output/targeted_psq_sco_evaluation_repair/20260723_200851/overleaf/main.tex", "Final title, paper argument, common and mechanism-specific results, limitations, and conclusion."),
+        ("P21", "Graph-Walk v1 separate comparative evaluation", r"genai_engine/output/three_layer_eval_graph_walk_v1_comparison/20260723_134114/PSQ_SCO_GRAPH_WALK_V1_SEPARATE_COMPARATIVE_EVALUATION.md", "Supplementary treatment-exposure, generation-integrity, and diversity evidence."),
     ]
     for code, title, path, role in project_sources:
         add_project_source(doc, code, title, path, role)
@@ -1271,24 +1271,24 @@ def build_document():
     add_heading(doc, "Appendix B. Project Artifact Inventory", 1, page_break=True)
     add_heading(doc, "B.1 Ontology repository", 2)
     for item in [
-        r"Final ontology: C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl",
-        r"Knowledge-graph exports: C:\Users\user\PersonaShieldQuest-Ontology\knowledge_graph\v9_1",
-        r"Competency queries: C:\Users\user\PersonaShieldQuest-Ontology\queries\v9_1",
-        r"Validation evidence: C:\Users\user\PersonaShieldQuest-Ontology\outputs\v9_1",
-        r"Ontology bindings and schemas: C:\Users\user\PersonaShieldQuest-Ontology\data\ontology_bindings",
-        r"Change logs and guides: C:\Users\user\PersonaShieldQuest-Ontology\docs",
+        r"Final ontology: ontology/ontology/personashield-psq-sco-v9.1.owl",
+        r"Knowledge-graph exports: ontology/knowledge_graph/v9_1",
+        r"Competency queries: ontology/queries/v9_1",
+        r"Validation evidence: ontology/outputs/v9_1",
+        r"Ontology bindings and schemas: ontology/data/ontology_bindings",
+        r"Change logs and guides: ontology/docs",
     ]:
         add_bullet(doc, item)
     add_heading(doc, "B.2 GenAI engine repository", 2)
     for item in [
-        r"Four-mode generation package: D:\PersonaShieldQuest-GenAI-Engine\psq_sco_generation",
+        r"Four-mode generation package: genai_engine/psq_sco_generation",
         r"Scenario generation entry points: generate_scenarios_prompt_only.py and generate_scenarios_sco.py",
-        r"Three-layer evaluator: D:\PersonaShieldQuest-GenAI-Engine\three_layer_evaluation",
-        r"Main July 18 evaluation: D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_live_recovered_methodology_v5_final\20260718_065435",
-        r"Graph-Walk v1 experiment: D:\PersonaShieldQuest-GenAI-Engine\output\experiments\paper120_mode4_graph_walk_v1\20260723_030518",
-        r"Graph-Walk v1 evaluation: D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_graph_walk_v1_comparison\20260723_134114",
-        r"Latest targeted manuscript repair: D:\PersonaShieldQuest-GenAI-Engine\output\targeted_psq_sco_evaluation_repair\20260723_200851",
-        r"Paper and technical documentation: D:\PersonaShieldQuest-GenAI-Engine\paper and D:\PersonaShieldQuest-GenAI-Engine\docs",
+        r"Three-layer evaluator: genai_engine/three_layer_evaluation",
+        r"Main July 18 evaluation: genai_engine/output/three_layer_eval_live_recovered_methodology_v5_final/20260718_065435",
+        r"Graph-Walk v1 experiment: genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518",
+        r"Graph-Walk v1 evaluation: genai_engine/output/three_layer_eval_graph_walk_v1_comparison/20260723_134114",
+        r"Latest targeted manuscript repair: genai_engine/output/targeted_psq_sco_evaluation_repair/20260723_200851",
+        "Paper and technical documentation: genai_engine/paper and genai_engine/docs",
     ]:
         add_bullet(doc, item)
 

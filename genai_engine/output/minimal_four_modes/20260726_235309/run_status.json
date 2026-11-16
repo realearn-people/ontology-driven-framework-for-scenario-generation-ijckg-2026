@@ -31,10 +31,10 @@
   "latest_validation_passed": true,
   "latest_error": null,
   "output_files": {
-    "scenarios_jsonl": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\output\\minimal_four_modes\\20260726_235309\\scenarios.jsonl",
-    "scenarios_prompt_only_jsonl": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\output\\minimal_four_modes\\20260726_235309\\scenarios_prompt_only.jsonl",
-    "scenarios_prompt_rag_jsonl": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\output\\minimal_four_modes\\20260726_235309\\scenarios_prompt_rag.jsonl",
-    "scenarios_ontology_prompt_rag_jsonl": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\output\\minimal_four_modes\\20260726_235309\\scenarios_ontology_prompt_rag.jsonl",
-    "scenarios_ontology_text_rag_jsonl": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\output\\minimal_four_modes\\20260726_235309\\scenarios_ontology_text_rag.jsonl"
+    "scenarios_jsonl": "genai_engine/output/minimal_four_modes/20260726_235309/scenarios.jsonl",
+    "scenarios_prompt_only_jsonl": "genai_engine/output/minimal_four_modes/20260726_235309/scenarios_prompt_only.jsonl",
+    "scenarios_prompt_rag_jsonl": "genai_engine/output/minimal_four_modes/20260726_235309/scenarios_prompt_rag.jsonl",
+    "scenarios_ontology_prompt_rag_jsonl": "genai_engine/output/minimal_four_modes/20260726_235309/scenarios_ontology_prompt_rag.jsonl",
+    "scenarios_ontology_text_rag_jsonl": "genai_engine/output/minimal_four_modes/20260726_235309/scenarios_ontology_text_rag.jsonl"
   }
 }

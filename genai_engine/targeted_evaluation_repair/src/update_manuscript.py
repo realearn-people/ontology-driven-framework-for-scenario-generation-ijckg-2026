@@ -17,11 +17,11 @@ from typing import Any, Dict, List, Mapping, Optional, Sequence, Tuple
 
 
 DEFAULT_MANUSCRIPT_SOURCE = Path(
-    r"C:\Users\user\.codex\attachments\19cedd7e-d4c8-41d6-8ecd-bc4cecbc3f7f"
+    r"external-assets/19cedd7e-d4c8-41d6-8ecd-bc4cecbc3f7f"
     r"\pasted-text.txt"
 )
 DEFAULT_PACKAGE_SOURCE = Path(
-    r"C:\Users\user\Documents\IEEEpaper\output\latex"
+    r"archived-inputs/latex"
     r"\IJCKG2026_Overleaf_Required_Files_Only"
 )
 DEFAULT_EVALUATION_DIR = Path(__file__).resolve().parents[1] / "evaluation_rerun"

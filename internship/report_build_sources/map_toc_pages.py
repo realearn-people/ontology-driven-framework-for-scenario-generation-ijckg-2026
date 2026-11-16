@@ -5,7 +5,7 @@ import pdfplumber
 
 
 PDF = Path(
-    r"D:\Japan_InternProject\_internship_report_work\render_verified"
+    r"_internship_report_work/render_verified"
     r"\Research_Internship_Report_Chanphot_Wongtaweesup_PSQ_SCO.pdf"
 )
 TARGETS = [

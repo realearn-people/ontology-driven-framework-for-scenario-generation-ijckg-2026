@@ -1,7 +1,7 @@
 # PSQ-SCO Detailed Validation Metrics and CQ Query Results
 
 Generated: 2026-07-01T04:57:45
-Ontology: `C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl`
+Ontology: `ontology/ontology/personashield-psq-sco-v9.1.owl`
 Version: `9.1.0`
 
 ## Executive Result

@@ -80,8 +80,8 @@ def main() -> None:
     commands: List[str] = [
         "# Auto-generated live-LLM recovery commands for PSQ-SCO paper-120 fallback rows.",
         "# Run one block at a time. Each command stops if fallback is used again.",
-        "cd D:\\PersonaShieldQuest-GenAI-Engine",
-        '$PY = "C:\\Users\\user\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\python.exe"',
+        "cd genai_engine",
+        '$PY = "python"',
         "Remove-Item Env:\\PSQ_KB_DIR -ErrorAction SilentlyContinue",
         "",
     ]

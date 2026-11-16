@@ -331,7 +331,7 @@ def update_header(g: Graph) -> None:
     )
     add_literal(g, ONTOLOGY, PSQ.scopeBoundary, "scenario_control_only_no_learning_design_module_not_general_cybersecurity_not_engine_modification")
     add_literal(g, ONTOLOGY, PSQ.reviewStatus, "automated_release_validation_required; domain_expert_review_pending")
-    add_literal(g, ONTOLOGY, PSQ.sourceDocument, "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx")
+    add_literal(g, ONTOLOGY, PSQ.sourceDocument, "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx")
 
 
 def compact_node(value) -> str:

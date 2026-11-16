@@ -97,7 +97,7 @@ The LLM writes the scenario. The ontology controls, grounds, and documents the g
 Default ontology:
 
 ```text
-C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl
+ontology/ontology/personashield-psq-sco-v9.1.owl
 ```
 
 The engine reads this file only. It does not modify it.
@@ -276,7 +276,7 @@ The external project RAG examples come from the old PersonaShield knowledge-base
 For a normal local run, point the RAG layer to:
 
 ```powershell
-$env:PSQ_KB_DIR = "D:\PersonaShieldQuest-GenAI-Engine\knowledge_base"
+$env:PSQ_KB_DIR = "genai_engine/knowledge_base"
 ```
 
 The output metadata separates the two sources:

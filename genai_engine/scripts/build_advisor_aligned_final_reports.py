@@ -46,11 +46,11 @@ EVAL_DIR = (
     / "three_layer_eval_3models_120cases_4modes_live_recovered_standard_no_bertscore"
     / "20260712_184750"
 )
-ONTOLOGY_ROOT = Path(r"C:\Users\user\PersonaShieldQuest-Ontology")
+ONTOLOGY_ROOT = Path(r"ontology")
 ONTOLOGY_PATH = ONTOLOGY_ROOT / "ontology" / "personashield-psq-sco-v9.1.owl"
 ONTOLOGY_OUT = ONTOLOGY_ROOT / "outputs" / "v9_1"
 ADVISER_COMMENTS_PATH = Path(
-    r"C:\Users\user\.codex\attachments\1109cf44-f71a-4d7f-a3fb-e41ebbacb898\pasted-text.txt"
+    r"external-assets/pasted-text.txt"
 )
 
 METHOD_ORDER = ["prompt_only", "prompt_rag", "ontology_prompt_rag", "ontology_text_rag"]

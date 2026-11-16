@@ -2,7 +2,7 @@
   "run_id": "qwen2_5_7b",
   "created_at": "2026-07-23T04:28:10.440542",
   "engine": "psq_sco_generation",
-  "ontology_path": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+  "ontology_path": "ontology/ontology/personashield-psq-sco-v9.1.owl",
   "mode": "ontology_text_rag",
   "selected_modes": [
     "ontology_text_rag"
@@ -25,10 +25,10 @@
   "validation_passed": 52,
   "validation_failed": 68,
   "output_files": {
-    "case_manifest_json": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen2_5_7b\\case_manifest.json",
-    "case_manifest_csv": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen2_5_7b\\case_manifest.csv",
-    "scenarios_jsonl": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen2_5_7b\\scenarios.jsonl",
-    "scenarios_ontology_text_rag_jsonl": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen2_5_7b\\scenarios_ontology_text_rag.jsonl"
+    "case_manifest_json": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen2_5_7b/case_manifest.json",
+    "case_manifest_csv": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen2_5_7b/case_manifest.csv",
+    "scenarios_jsonl": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen2_5_7b/scenarios.jsonl",
+    "scenarios_ontology_text_rag_jsonl": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen2_5_7b/scenarios_ontology_text_rag.jsonl"
   },
   "case_set_summary": {
     "case_set_id": "psq_sco_paper_120",
@@ -86,7 +86,7 @@
     "total_formula": "90 + 30 = 120 cases"
   },
   "ontology_summary": {
-    "ontology_path": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+    "ontology_path": "ontology/ontology/personashield-psq-sco-v9.1.owl",
     "record_count": 324,
     "class_count": 74,
     "named_individual_count": 133,
@@ -97,7 +97,7 @@
     "source_count": 12
   },
   "ontology_text_summary": {
-    "ontology_path": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+    "ontology_path": "ontology/ontology/personashield-psq-sco-v9.1.owl",
     "document_count": 324,
     "document_counts_by_type": {
       "class": 74,

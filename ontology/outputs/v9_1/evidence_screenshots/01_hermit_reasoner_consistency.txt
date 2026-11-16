@@ -1,4 +1,4 @@
-PS C:\Users\user\PersonaShieldQuest-Ontology> powershell.exe -NoProfile -ExecutionPolicy Bypass -File
+PS ontology> powershell.exe -NoProfile -ExecutionPolicy Bypass -File
 >> scripts\run_hermit_reasoner_v8_2.ps1 -Ontology "ontology\personashield-psq-sco-v9.1.owl" -Output "outputs\v9_1\hermit-reasoner-
 >> report.json"
 

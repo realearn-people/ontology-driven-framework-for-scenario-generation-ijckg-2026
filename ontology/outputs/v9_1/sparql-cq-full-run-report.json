@@ -1,5 +1,5 @@
 {
-  "ontology": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+  "ontology": "ontology/ontology/personashield-psq-sco-v9.1.owl",
   "ontology_version": "9.1.0",
   "triple_count": 3229,
   "load_ms": 303.197,

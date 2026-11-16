@@ -1,7 +1,7 @@
 {
   "version": "9.1.0",
   "generated_at": "2026-07-01T00:14:48",
-  "ontology": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+  "ontology": "ontology/ontology/personashield-psq-sco-v9.1.owl",
   "bounded_completeness_claim": "complete_for_CQ1_CQ2_CQ3_CQ4_only",
   "status": "PASS",
   "required_checks": 4362,
@@ -76,7 +76,7 @@
     "malformed_restrictions": []
   },
   "graph_export": {
-    "graph_json": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\knowledge_graph\\v9_1\\personashield-psq-sco-v9.1-graph.json",
+    "graph_json": "ontology/knowledge_graph/v9_1/personashield-psq-sco-v9.1-graph.json",
     "nodes": 311,
     "edges": 3164
   },
@@ -84,7 +84,7 @@
     "status": "PASS",
     "consistent": true,
     "unsatisfiable_count": 0,
-    "ontology": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+    "ontology": "ontology/ontology/personashield-psq-sco-v9.1.owl",
     "reasoner": "HermiT"
   },
   "error_analysis": {

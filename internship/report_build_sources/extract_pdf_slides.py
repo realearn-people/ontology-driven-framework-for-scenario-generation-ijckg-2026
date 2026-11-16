@@ -7,7 +7,7 @@ from pathlib import Path
 import pdfplumber
 
 
-ROOT = Path(r"D:\Japan_InternProject")
+ROOT = Path(r".")
 OUT = ROOT / "_internship_report_work" / "slide_text"
 OUT.mkdir(parents=True, exist_ok=True)
 

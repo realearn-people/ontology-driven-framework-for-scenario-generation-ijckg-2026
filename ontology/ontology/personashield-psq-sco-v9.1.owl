@@ -22,7 +22,6 @@
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#DS_KnowledgeBaseJSONL">
     <psq:evidenceCategory>derived_runtime_dataset</psq:evidenceCategory>
     <psq:licenseStatus>mixed_source_license_review_required</psq:licenseStatus>
-    <psq:localDataPath>data/ontology_ready</psq:localDataPath>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Dataset"/>
     <skos:definition xml:lang="en">Named knowledge-graph individual 'PersonaShield normalized JSONL knowledge base', classified as Dataset.</skos:definition>
@@ -43,7 +42,7 @@
     <skos:definition xml:lang="en">Decision indicating that a generated scenario satisfies required scenario-control constraints.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_TemplateEligibility"/>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_RequiredAttackStructure"/>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_LegitimateScenarioSeparation"/>
@@ -105,7 +104,7 @@
     <skos:definition xml:lang="en">Selected ontology subgraph supplied to RAG and LLM scenario generation.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#hasEvidencePack">
     <rdfs:range rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#EvidencePack"/>
@@ -196,7 +195,6 @@
     <skos:definition xml:lang="en">Named knowledge-graph individual 'IRS phone-scam transcript', classified as Dataset.</skos:definition>
     <psq:licenseStatus>source_and_redistribution_review_required</psq:licenseStatus>
     <dcterms:title xml:lang="en">IRS phone-scam transcript</dcterms:title>
-    <psq:localDataPath>data/knowledge_base/raw_data/IRS_CompleteCall_Transcript.pdf</psq:localDataPath>
     <rdfs:label xml:lang="en">IRS phone-scam transcript</rdfs:label>
     <psq:verificationStatus>identity_checked_license_and_redistribution_pending</psq:verificationStatus>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -221,7 +219,7 @@
     <skos:definition xml:lang="en">Demonstration generated scenario candidate used to show PSQ-SCO content-quality-control checks.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:basedOnTemplate rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#TPL_SMS_BankLink_Introductory"/>
     <psq:targetsLearnerProfile rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Learner_HR_Beginner"/>
     <psq:usesChannel rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#SMSChat"/>
@@ -275,7 +273,7 @@
     <dcterms:hasVersion>9.1.0</dcterms:hasVersion>
     <skos:definition xml:lang="en">Task-oriented scenario-control ontology and ontology-based KG for PSQ-SCO CQ1-CQ4, limited to scenario control, cybersecurity structure, quality rules, and evidence grounding.</skos:definition>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#sourceFile">
     <rdfs:label xml:lang="en">source file</rdfs:label>
@@ -506,7 +504,7 @@
     <skos:definition xml:lang="en">Selected subgraph for ontology-guided RAG and LLM generation.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:targetsLearnerProfile rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Learner_HR_Beginner"/>
     <psq:basedOnTemplate rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#TPL_SMS_BankLink_Introductory"/>
     <psq:supportedByEvidence rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Evidence_SMS_BankLink_Introductory"/>
@@ -693,7 +691,7 @@
     <skos:definition xml:lang="en">Learner is stable enough for standard scenario progression.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#hasSafeResponse">
     <rdfs:range rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#SafeResponseAction"/>
@@ -754,7 +752,7 @@
     <skos:definition xml:lang="en">Decision indicating that a generated scenario needs human or expert review before use.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_TemplateEligibility"/>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_RequiredAttackStructure"/>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_LegitimateScenarioSeparation"/>
@@ -772,7 +770,7 @@
     <skos:definition xml:lang="en">AttackScenario(s) and basedOnTemplate(s,t) -&gt; requires attack type, channel, red flag, and safe response.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>required_attack_structure</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">AttackScenario(s) and basedOnTemplate(s,t) -&gt; requires attack type, channel, red flag, and safe response.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -787,7 +785,7 @@
     <skos:definition xml:lang="en">Error category for channel/template contradiction.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#LegitimateScenarioVariant">
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -816,7 +814,7 @@
     <skos:definition xml:lang="en">AcceptableScenario(s) requires verified supporting evidence.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>evidence_requirement</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">AcceptableScenario(s) requires verified supporting evidence.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -898,7 +896,7 @@
     <skos:definition xml:lang="en">Demonstration score resource for CQ3 content-quality-control validation.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.92</psq:qualityScore>
     <psq:confidenceScore rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.88</psq:confidenceScore>
     <psq:validationStatus>passes_automated_demo_rules</psq:validationStatus>
@@ -911,7 +909,7 @@
     <skos:definition xml:lang="en">LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>legitimate_scenario_separation</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -1079,7 +1077,7 @@
     <psq:intendedRange>MoodContext</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#BEGINNER_INTRODUCTORY">
     <psq:vocabularyBand>V1_FOUNDATION</psq:vocabularyBand>
@@ -1156,7 +1154,7 @@
     <skos:definition xml:lang="en">A candidate or stored scenario created by the scenario engine and checked against ontology constraints.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#DomainEntity">
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
@@ -1174,7 +1172,7 @@
     <skos:definition xml:lang="en">Scenario-control terms used to validate and score generated scenario candidates.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#TA_PaymentDiversion">
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
@@ -1216,7 +1214,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#LegalConsequence_ReportToITOrSecurity">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1226,7 +1224,7 @@
     <skos:definition xml:lang="en">Organizational reporting consequence for suspicious social-engineering attempts.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#INTERMEDIATE_DEVELOPING">
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#LearningStage"/>
@@ -1325,7 +1323,7 @@
     <psq:intendedRange>LearnerProfile</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#sourceUrl">
     <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
@@ -1377,7 +1375,7 @@
     <psq:intendedRange>LegalConsequence</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#creationMethod">
     <rdfs:comment xml:lang="en">Documents whether an ontology element was inherited, manually modeled, imported, or suggested by an automated tool.</rdfs:comment>
@@ -1416,7 +1414,7 @@
     <skos:definition xml:lang="en">Detected violation of a scenario-control rule.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Evidence_Voice_ITSupport_Advanced">
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -1444,7 +1442,7 @@
     <psq:intendedRange>ContentQualityRule</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#CAPECPattern">
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -1568,7 +1566,7 @@
     <psq:intendedRange>ScenarioTemplate</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#doi">
     <rdfs:label xml:lang="en">digital object identifier</rdfs:label>
@@ -1587,7 +1585,7 @@
     <skos:definition xml:lang="en">Documentation-only expected subject class for a property; not asserted as an OWL domain axiom.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Source_SeriousGamesMeta2013">
     <dcterms:publisher>American Psychological Association</dcterms:publisher>
@@ -1677,7 +1675,7 @@
     <skos:definition xml:lang="en">Quality-score resource associated with a generated scenario candidate.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Rule_ChannelConsistency">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -1687,7 +1685,7 @@
     <skos:definition xml:lang="en">GeneratedScenario(s) based on template t must use the channel required by t.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>channel_consistency</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">GeneratedScenario(s) based on template t must use the channel required by t.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -1721,7 +1719,7 @@
     <skos:definition xml:lang="en">Names the wider research framework that uses this ontology.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#validationStatus">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -1732,7 +1730,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#VoiceBasedAttackType">
     <skos:definition xml:lang="en">Social-engineering attack delivered primarily through spoken communication.</skos:definition>
@@ -1751,7 +1749,7 @@
     <skos:definition xml:lang="en">Optional runtime mood context. v9 records the placeholder but does not implement emotion inference.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#sourceURL">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -1762,7 +1760,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#anyURI</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Source_MITRE_T1566_004">
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
@@ -1932,7 +1930,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#RF_SenderMismatch">
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -1980,7 +1978,7 @@
     <skos:definition xml:lang="en">Accept, reject, or review decision for a generated scenario candidate.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#observableAction">
     <rdfs:label xml:lang="en">observable learner action</rdfs:label>
@@ -1996,7 +1994,7 @@
     <skos:definition xml:lang="en">Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#DS_AFNC">
     <psq:retrievalDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-22</psq:retrievalDate>
@@ -2007,7 +2005,6 @@
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Dataset"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <rdfs:label xml:lang="en">Thailand Anti-Fake News Center open data</rdfs:label>
-    <psq:localDataPath>data/scenarios/New folder/AFNC_Opendata_export_20260225205450.csv</psq:localDataPath>
     <skos:definition xml:lang="en">Named knowledge-graph individual 'Thailand Anti-Fake News Center open data', classified as Dataset.</skos:definition>
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
     <psq:verificationStatus>metadata_and_role_verified</psq:verificationStatus>
@@ -2039,7 +2036,6 @@
     <psq:retrievalDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-22</psq:retrievalDate>
     <rdfs:comment xml:lang="en">Named knowledge-graph individual 'CAPEC XML snapshot', classified as Dataset.</rdfs:comment>
     <psq:licenseStatus>public_snapshot_check_terms_before_redistribution</psq:licenseStatus>
-    <psq:localDataPath>data/capec/capec_latest.xml</psq:localDataPath>
     <psq:evidenceCategory>authoritative_pattern_snapshot</psq:evidenceCategory>
     <dcterms:publisher>MITRE Corporation</dcterms:publisher>
   </rdf:Description>
@@ -2052,7 +2048,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#decimal</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#scenarioId">
     <rdfs:domain rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#ScenarioTemplate"/>
@@ -2112,7 +2108,7 @@
     <skos:definition xml:lang="en">Runtime state summarizing learner performance for scenario selection.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Action_DoNotClickOrReply">
     <rdfs:label xml:lang="en">Do not click or reply; verify independently</rdfs:label>
@@ -2143,7 +2139,7 @@
     <psq:intendedRange>ContentQualityRule</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Violation_ChannelMismatch">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2153,7 +2149,7 @@
     <skos:definition xml:lang="en">Generated scenario uses a different channel than the selected template requires.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:hasErrorType rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Error_ChannelMismatch"/>
     <psq:violationCode>ChannelMismatch</psq:violationCode>
     <psq:errorType>channel_mismatch</psq:errorType>
@@ -2166,7 +2162,7 @@
     <skos:definition xml:lang="en">Explains how an entity supports a competency question.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#LegitimateCommunication">
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -2218,7 +2214,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#TPL_Email_Legitimate_Developing">
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#ScenarioTemplate"/>
@@ -2343,7 +2339,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Smishing">
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#MessageBasedAttackType"/>
@@ -2365,7 +2361,7 @@
     <psq:intendedRange>ValidationDecision</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Decision_Reject">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2375,7 +2371,7 @@
     <skos:definition xml:lang="en">Decision indicating that a generated scenario violates a blocking quality or safety constraint.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_TemplateEligibility"/>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_RequiredAttackStructure"/>
     <psq:evaluatesRule rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Rule_LegitimateScenarioSeparation"/>
@@ -2395,7 +2391,7 @@
     <psq:intendedRange>PerformanceState</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#EvidencePack">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -2482,7 +2478,6 @@
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Dataset"/>
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
-    <psq:localDataPath>data/mitre-attack/attack-stix-data/enterprise-attack/enterprise-attack-18.1.json</psq:localDataPath>
     <dcterms:title xml:lang="en">MITRE ATT&amp;CK Enterprise STIX 18.1</dcterms:title>
     <skos:definition xml:lang="en">Named knowledge-graph individual 'MITRE ATT&amp;CK Enterprise STIX 18.1', classified as Dataset.</skos:definition>
     <psq:licenseStatus>local_snapshot_with_repository_license</psq:licenseStatus>
@@ -2521,7 +2516,7 @@
     <skos:definition xml:lang="en">Rule rejecting unsafe instructions, harmful guidance, or contradictory safe responses.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#ATTACKTechnique">
     <skos:definition xml:lang="en">Ontology class representing MITRE ATT&amp;CK technique in the PersonaShield domain model.</skos:definition>
@@ -2589,7 +2584,7 @@
     <skos:definition xml:lang="en">LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -&gt; EligibleTemplate(t,l).</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>template_eligibility</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -&gt; EligibleTemplate(t,l).</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -2631,7 +2626,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#boolean</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Mood_NotModeledNeutral">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
@@ -2641,7 +2636,7 @@
     <skos:definition xml:lang="en">Placeholder used to keep the ODEACT framework boundary explicit without claiming implemented emotion inference.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#sourceDocument">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
@@ -2650,7 +2645,7 @@
     <skos:definition xml:lang="en">Identifies the reviewer-aligned document that motivated the v9 element.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#AgeGroup">
     <rdfs:subClassOf rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#LearnerKnowledgeEntity"/>
@@ -2670,7 +2665,7 @@
     <psq:intendedRange>EvidencePack</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#TA_CredentialHarvesting">
     <skos:definition xml:lang="en">Named knowledge-graph individual 'Credential harvesting', classified as Threat action.</skos:definition>
@@ -2758,7 +2753,7 @@
     <skos:definition xml:lang="en">Rule checking whether generated content fits the learner profile and role.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#vocabularyBand">
     <psq:engineJsonPath>scenario_pool[].vocabulary_band</psq:engineJsonPath>
@@ -2945,7 +2940,7 @@
     <psq:intendedRange>ScenarioQualityScore</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Action_EndCallAndVerify">
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#SafeResponseAction"/>
@@ -2989,7 +2984,6 @@
     <rdf:type rdf:resource="http://personashield.ait.ac.th/ontology/psq-sco#Dataset"/>
     <psq:evidenceCategory>local_empirical_dataset</psq:evidenceCategory>
     <psq:retrievalDate rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-06-22</psq:retrievalDate>
-    <psq:localDataPath>data/knowledge_base/raw_data/smsfraud.xlsx</psq:localDataPath>
     <dcterms:title xml:lang="en">Thai fraud SMS collection</dcterms:title>
     <dcterms:publisher>PersonaShield Quest local research collection</dcterms:publisher>
     <psq:verificationStatus>identity_checked_license_and_redistribution_pending</psq:verificationStatus>
@@ -3048,7 +3042,7 @@
     <skos:definition xml:lang="en">Acceptance or rejection rule applied to generated scenario candidates.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#hasErrorType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -3059,7 +3053,7 @@
     <psq:intendedRange>ErrorType</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#EvidenceCoverageConstraint">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3069,7 +3063,7 @@
     <skos:definition xml:lang="en">Rule checking that scenario claims have evidence and provenance.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#ENGLISH_GLOBAL">
     <rdfs:label xml:lang="en">ENGLISH_GLOBAL</rdfs:label>
@@ -3112,7 +3106,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#INTERMEDIATE_ADVANCED">
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
@@ -3161,7 +3155,7 @@
     <skos:definition xml:lang="en">Rule checking channel, variant, persona, difficulty, and template consistency.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#YoungerEngineAgeGroup">
     <skos:definition xml:lang="en">Intermediate grouping for the engine's 15-35 age bands; it is an adaptation category, not a claim about universal life stages.</skos:definition>
@@ -3189,7 +3183,7 @@
     <skos:definition xml:lang="en">Rule requiring a scenario to include mandatory concepts for the selected template.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#engineJsonPath">
     <psq:creationMethod>inherited_from_v8_1</psq:creationMethod>
@@ -3257,7 +3251,7 @@
     <skos:definition xml:lang="en">Consequence or reporting implication associated with a scenario's action or attack structure.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#explanationText">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
@@ -3268,7 +3262,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#string</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#ErrorType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3278,7 +3272,7 @@
     <skos:definition xml:lang="en">Controlled error category used in scenario-control error analysis.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#stageId">
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
@@ -3354,7 +3348,7 @@
     <skos:definition xml:lang="en">GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>quality_acceptance</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -3397,7 +3391,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#decimal</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#implementsTechnique">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
@@ -3465,7 +3459,7 @@
     <psq:intendedRange>ScenarioStep</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Source_PhishingGameFramework2013">
     <skos:definition xml:lang="en">Named knowledge-graph individual 'A game design framework for avoiding phishing attacks', classified as Theory source.</skos:definition>
@@ -3503,7 +3497,7 @@
     <skos:definition xml:lang="en">GeneratedScenario(s) must fit the learner profile targeted by the selected template.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>persona_fit</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">GeneratedScenario(s) must fit the learner profile targeted by the selected template.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>
@@ -3527,7 +3521,7 @@
     <skos:definition xml:lang="en">A step or decision unit inside a scenario candidate or template.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#hasCurrentState">
     <rdfs:comment xml:lang="en">Object property 'has current state' relating Learner profile to Learner state snapshot.</rdfs:comment>
@@ -3582,7 +3576,7 @@
     <psq:intendedRange>http://www.w3.org/2001/XMLSchema#decimal</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#SocialEngineeringAttackType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3654,7 +3648,7 @@
     <psq:intendedRange>Channel</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#MessageBasedAttackType">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
@@ -3674,7 +3668,7 @@
     <psq:intendedRange>ConstraintViolation</psq:intendedRange>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#sourceRecordId">
     <rdfs:label xml:lang="en">source record identifier</rdfs:label>
@@ -3733,7 +3727,7 @@
     <skos:definition xml:lang="en">Human-readable scenario-control rule text.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://purl.org/dc/terms/title">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
@@ -3745,7 +3739,7 @@
     <skos:definition xml:lang="en">Records the boundary between ontology, engine, and evaluation scope.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://personashield.ait.ac.th/ontology/psq-sco#Age36To45Group">
     <skos:definition xml:lang="en">Leaf class for the inclusive engine band from age 36 through age 45.</skos:definition>
@@ -3804,7 +3798,7 @@
     <skos:definition xml:lang="en">Documentation-only expected object or literal type for a property; not asserted as an OWL range axiom.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
   </rdf:Description>
   <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#altLabel">
     <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AnnotationProperty"/>
@@ -3829,7 +3823,7 @@
     <skos:definition xml:lang="en">GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected.</skos:definition>
     <psq:creationMethod>reviewer_aligned_manual_modeling_v9</psq:creationMethod>
     <psq:reviewStatus>automated_release_validation_required; domain_expert_review_pending</psq:reviewStatus>
-    <psq:sourceDocument>C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
+    <psq:sourceDocument>external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx</psq:sourceDocument>
     <psq:qualityRuleCategory>quality_rejection</psq:qualityRuleCategory>
     <psq:ruleText xml:lang="en">GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected.</psq:ruleText>
     <psq:ruleLanguage>first_order_predicate_plus_sparql_validation</psq:ruleLanguage>

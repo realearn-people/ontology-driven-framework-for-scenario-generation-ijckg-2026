@@ -138,7 +138,7 @@
     {
       "id": "sms_thai",
       "paths": [
-        "data/knowledge_base/raw_data/smsfraud.xlsx",
+        "unbundled-source/smsfraud.xlsx",
         "data/knowledge_base/raw_data/smsnormal.xlsx",
         "data/knowledge_base/raw_data/THFraud.txt",
         "data/knowledge_base/raw_data/THHam.txt"
@@ -221,7 +221,7 @@
       "sha256_equal": true
     },
     {
-      "canonical": "data/knowledge_base/raw_data/smsfraud.xlsx",
+      "canonical": "unbundled-source/smsfraud.xlsx",
       "duplicate": "data/scenarios/smsfraud.xlsx",
       "sha256_equal": true
     },

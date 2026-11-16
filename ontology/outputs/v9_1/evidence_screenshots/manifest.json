@@ -1,27 +1,27 @@
 [
   {
     "name": "01_hermit_reasoner_consistency",
-    "text": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\01_hermit_reasoner_consistency.txt",
-    "image": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\01_hermit_reasoner_consistency.png"
+    "text": "ontology/outputs/v9_1/evidence_screenshots/01_hermit_reasoner_consistency.txt",
+    "image": "ontology/outputs/v9_1/evidence_screenshots/01_hermit_reasoner_consistency.png"
   },
   {
     "name": "02_sparql_cq_select_results",
-    "text": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\02_sparql_cq_select_results.txt",
-    "image": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\02_sparql_cq_select_results.png"
+    "text": "ontology/outputs/v9_1/evidence_screenshots/02_sparql_cq_select_results.txt",
+    "image": "ontology/outputs/v9_1/evidence_screenshots/02_sparql_cq_select_results.png"
   },
   {
     "name": "03_sparql_ask_validation",
-    "text": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\03_sparql_ask_validation.txt",
-    "image": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\03_sparql_ask_validation.png"
+    "text": "ontology/outputs/v9_1/evidence_screenshots/03_sparql_ask_validation.txt",
+    "image": "ontology/outputs/v9_1/evidence_screenshots/03_sparql_ask_validation.png"
   },
   {
     "name": "04_kg_completeness_missing_relationships",
-    "text": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\04_kg_completeness_missing_relationships.txt",
-    "image": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\04_kg_completeness_missing_relationships.png"
+    "text": "ontology/outputs/v9_1/evidence_screenshots/04_kg_completeness_missing_relationships.txt",
+    "image": "ontology/outputs/v9_1/evidence_screenshots/04_kg_completeness_missing_relationships.png"
   },
   {
     "name": "05_release_validation_summary",
-    "text": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\05_release_validation_summary.txt",
-    "image": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\evidence_screenshots\\05_release_validation_summary.png"
+    "text": "ontology/outputs/v9_1/evidence_screenshots/05_release_validation_summary.txt",
+    "image": "ontology/outputs/v9_1/evidence_screenshots/05_release_validation_summary.png"
   }
 ]

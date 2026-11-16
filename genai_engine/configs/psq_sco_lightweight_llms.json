@@ -49,7 +49,7 @@
     ]
   },
   "ontology_text_rag": {
-    "source_ontology": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+    "source_ontology": "ontology/ontology/personashield-psq-sco-v9.1.owl",
     "transformation_methods": [
       "record verbalization",
       "static Graph-CoT-inspired control trace (not iterative Graph-CoT)",

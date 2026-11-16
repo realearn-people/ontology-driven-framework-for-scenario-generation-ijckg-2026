@@ -1,6 +1,6 @@
 
 Add-Type -AssemblyName System.Drawing
-$text = Get-Content -Path "C:\Users\user\PersonaShieldQuest-Ontology\outputs\v9_1\evidence_screenshots\03_sparql_ask_validation.txt" -Raw
+$text = Get-Content -Path "ontology/outputs/v9_1/evidence_screenshots/03_sparql_ask_validation.txt" -Raw
 $font = New-Object System.Drawing.Font "Consolas", 18, ([System.Drawing.FontStyle]::Regular)
 $titleFont = New-Object System.Drawing.Font "Consolas", 18, ([System.Drawing.FontStyle]::Bold)
 $lines = $text -split "`r?`n"
@@ -41,9 +41,9 @@ foreach ($line in $lines) {
     }
     $y += $lineHeight
 }
-$bmp.Save("C:\Users\user\PersonaShieldQuest-Ontology\outputs\v9_1\evidence_screenshots\03_sparql_ask_validation.png", [System.Drawing.Imaging.ImageFormat]::Png)
+$bmp.Save("ontology/outputs/v9_1/evidence_screenshots/03_sparql_ask_validation.png", [System.Drawing.Imaging.ImageFormat]::Png)
 $g.Dispose()
 $bmp.Dispose()
 $font.Dispose()
 $titleFont.Dispose()
-Write-Output "C:\Users\user\PersonaShieldQuest-Ontology\outputs\v9_1\evidence_screenshots\03_sparql_ask_validation.png"
+Write-Output "ontology/outputs/v9_1/evidence_screenshots/03_sparql_ask_validation.png"

@@ -9,7 +9,7 @@ This package is intentionally small. The three source locations contained about 
 - Vector indexes and caches: `chroma_db*`, Matplotlib caches, telemetry, logs, and temporary folders.
 - Raw or third-party corpora: the ontology repository's large `data/` holdings, the engine `knowledge_base/`, and copied MITRE ATT&CK STIX repository.
 - Generated content libraries: `content_bundles/`, full `scenario_pool/`, and most of `output/`.
-- Frozen 1,440 scenario JSONL records and the 360 Graph-Walk generation JSONL records. Compact manifests, summaries, statistics, and reports are retained.
+- Original unredacted scenario files from the 1,440-record paper experiment and the separate 360-record Graph-Walk run. The [public paper records](data/paper120_live/) retain the fields needed for the documented replay.
 - The 41 MB `ontology_runtime_v9_1/` mapping export. Its verified 1,440/1,440 result remains in the release evidence.
 - Git histories and internal Codex metadata. This is a clean handover snapshot, not a clone.
 - HermiT JAR, Tectonic executable, LibreOffice QA tools, report-render intermediates, and duplicate paper builds.
@@ -56,7 +56,7 @@ Push-Location .\genai_engine
 Pop-Location
 ```
 
-The exact paper-aligned rerun requires the excluded frozen JSONL inputs. Recreating them with new model/runtime versions is a new experiment and may not be bit-identical.
+The [paper replay](README.md#replay-the-ijckg-2026-paper-evaluation) uses the published fields to reproduce the supported metrics. Recomputing metrics that depend on complete scenario text requires the original archive. Assign a new run identifier to any fresh generation.
 
 ### Ontology release validation
 

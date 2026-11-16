@@ -54,13 +54,13 @@ Layer 1 evaluates the PSQ-SCO ontology, not generated prose. It checks:
 The ontology file used by default is:
 
 ```text
-C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl
+ontology/ontology/personashield-psq-sco-v9.1.owl
 ```
 
 The current completed run imported:
 
 ```text
-C:\Users\user\PersonaShieldQuest-Ontology\outputs\v9_1\hermit-reasoner-report.json
+ontology/outputs/v9_1/hermit-reasoner-report.json
 ```
 
 This avoids reporting a "not run" ontology result when the completed formal reasoner output already exists for the same ontology.
@@ -153,7 +153,7 @@ The current code uses ChromaDB PersistentClient when available:
 ```text
 Vector database: ChromaDB PersistentClient
 Vector space: cosine HNSW
-Index path: D:\PersonaShieldQuest-GenAI-Engine\chroma_db_quality
+Index path: genai_engine/chroma_db_quality
 Embedding model: ChromaDB default embedding function, because rag_engine.py does not pass a custom embedding_function.
 ```
 
@@ -435,8 +435,8 @@ The engine should not use retrieved ABox examples as the whole universe. It shou
 From PowerShell:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+cd genai_engine
+$PY = "python"
 
 & $PY .\evaluate_three_layer.py `
   --paper-120-final `
@@ -446,8 +446,8 @@ $PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\py
 For complete neural diversity evaluation, install optional dependencies and cache models locally:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+cd genai_engine
+$PY = "python"
 
 & $PY -m pip install --target .\.codex_pydeps `
   sentence-transformers scikit-learn nltk sacrebleu

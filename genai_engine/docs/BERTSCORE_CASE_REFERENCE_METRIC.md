@@ -95,8 +95,8 @@ bertscore_method_summary.csv
 PowerShell:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+cd genai_engine
+$PY = "python"
 $env:PYTHONPATH = (Resolve-Path .\.codex_pydeps).Path
 $env:HF_HOME = (Resolve-Path .\.hf_cache).Path
 
@@ -144,7 +144,7 @@ BERTScore should not be interpreted alone. A generated scenario can score high o
 The complete 3-model x 4-mode x 120-case evaluation with BERTScore was run at:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_bertscore_complete\20260710_180002
+genai_engine/output/three_layer_eval_3models_120cases_4modes_bertscore_complete/20260710_180002
 ```
 
 Run configuration:

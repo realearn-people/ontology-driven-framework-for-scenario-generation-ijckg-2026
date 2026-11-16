@@ -15,8 +15,8 @@ by PersonaShield Quest scenario control.
 
 ## Scope of the Completeness Claim
 
-- Ontology: `C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl`
-- Knowledge graph export: `C:\Users\user\PersonaShieldQuest-Ontology\knowledge_graph\v9_1\personashield-psq-sco-v9.1-graph.json`
+- Ontology: `ontology/ontology/personashield-psq-sco-v9.1.owl`
+- Knowledge graph export: `ontology/knowledge_graph/v9_1/personashield-psq-sco-v9.1-graph.json`
 - Scenario templates checked: 6
 - Required quality rules checked: 8
 - Evidence packs checked: 6

@@ -27,10 +27,10 @@
     }
   ],
   "same_sources_across_conditions": "Text-RAG Generation, Ontology-Derived Structured Prompting RAG, and Ontology-to-Text Vector RAG attempt retrieval from the same PSQ_RAG_PROFILE=quality external corpus selection unless explicitly overridden; the evaluator separately reports rows where retrieval returned no external context. Prompt-Only Generation is the no-retrieval baseline.",
-  "kb_dir": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\output",
+  "kb_dir": "genai_engine/output",
   "rag_profile": "quality",
   "vector_database": "ChromaDB PersistentClient",
-  "vector_index_path": "D:\\Japan_InternProject\\PSQ_SCO_Internship_Handover_2026-07-26\\genai_engine\\chroma_db_quality",
+  "vector_index_path": "genai_engine/chroma_db_quality",
   "vector_space": "cosine HNSW",
   "embedding_model": "sentence-transformers/all-MiniLM-L6-v2 (expected Chroma default because rag_engine.py does not pass a custom embedding_function)",
   "embedding_model_status": "Expected from the official Chroma default-embedding documentation, not fully provenance-frozen for the historical generation run. The exact Chroma package version, model artifact hash, and embedding-function configuration were not stored in the generation records.",

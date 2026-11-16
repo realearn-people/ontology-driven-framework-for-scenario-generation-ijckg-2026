@@ -1,6 +1,6 @@
 {
   "version": "9.1.0",
-  "ontology": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+  "ontology": "ontology/ontology/personashield-psq-sco-v9.1.owl",
   "counts": {
     "classes": 73,
     "object_properties": 49,
@@ -56,10 +56,10 @@
     "total": 8
   },
   "reasoner": {
-    "ontology": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\ontology\\personashield-psq-sco-v9.1.owl",
+    "ontology": "ontology/ontology/personashield-psq-sco-v9.1.owl",
     "reasoner": "HermiT",
-    "protege_home": "C:\\Users\\user\\Downloads\\Protege-5.6.7-win\\Protege-5.6.7",
-    "java_executable": "C:\\Program Files\\Eclipse Adoptium\\jdk-25.0.2.10-hotspot\\bin\\java.exe",
+    "protege_home": "external-assets/Protege-5.6.7",
+    "java_executable": "archived-inputs/java.exe",
     "started": "2026-07-01T00:13:32.1086209+09:00",
     "finished": "2026-07-01T00:13:35.7444583+09:00",
     "duration_seconds": 3.636,
@@ -68,8 +68,8 @@
     "unsatisfiable_count": 0,
     "unsatisfiable_classes": [],
     "status": "PASS",
-    "stdout_file": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v8.2\\reasoner_runtime\\hermit-standalone-stdout.txt",
-    "stderr_file": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v8.2\\reasoner_runtime\\hermit-standalone-stderr.txt"
+    "stdout_file": "ontology/outputs/v8.2/reasoner_runtime/hermit-standalone-stdout.txt",
+    "stderr_file": "ontology/outputs/v8.2/reasoner_runtime/hermit-standalone-stderr.txt"
   },
   "kg_completeness": {
     "status": "PASS",
@@ -123,7 +123,7 @@
       "severity_counts": {},
       "category_counts": {}
     },
-    "report_file": "C:\\Users\\user\\PersonaShieldQuest-Ontology\\outputs\\v9_1\\kg-completeness-report.json"
+    "report_file": "ontology/outputs/v9_1/kg-completeness-report.json"
   },
   "errors": [],
   "warnings": [],

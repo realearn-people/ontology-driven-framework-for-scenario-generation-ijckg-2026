@@ -1,24 +1,24 @@
 source_file,channel_folder,source_origin,source_type,language,variant_label,raw_document_count,profile_cap,used_document_count,path
-auto_CEAS_08_ham_en.jsonl,email,CEAS email corpus,email/web text,en,real/ham,17271,5000,5000,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_CEAS_08_ham_en.jsonl
-auto_CEAS_08_scam_en.jsonl,email,CEAS email corpus,email/web text,en,fake/scam,21088,5000,5000,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_CEAS_08_scam_en.jsonl
-auto_dataset_kaggle_ham_en.jsonl,email,Kaggle SMS/email fraud dataset export,sms/text message,en,real/ham,6,1200,6,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_dataset_kaggle_ham_en.jsonl
-auto_dataset_kaggle_scam_en.jsonl,email,Kaggle SMS/email fraud dataset export,sms/text message,en,fake/scam,1,1200,1,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_dataset_kaggle_scam_en.jsonl
-auto_Enron_ham_en.jsonl,email,Enron email corpus,email/web text,en,real/ham,29327,6000,6000,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_Enron_ham_en.jsonl
-auto_financialfraud_ham_th.jsonl,email,Thai financial-fraud local corpus export,email/web text,th,real/ham,27,27,27,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_financialfraud_ham_th.jsonl
-auto_Ling_ham_en.jsonl,email,Ling spam/ham corpus,email/web text,en,real/ham,2401,2000,2000,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_Ling_ham_en.jsonl
-auto_Ling_scam_en.jsonl,email,Ling spam/ham corpus,email/web text,en,fake/scam,458,2000,458,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_Ling_scam_en.jsonl
-auto_Nazario_5_scam_en.jsonl,email,Nazario phishing corpus,email/web text,en,fake/scam,3019,2500,2500,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_Nazario_5_scam_en.jsonl
-auto_Nazario_scam_en.jsonl,email,Nazario phishing corpus,email/web text,en,fake/scam,1522,2500,1522,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_Nazario_scam_en.jsonl
-auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl,email,NCSA/TB-CERT awareness material export,email/web text,th,real/ham,30,30,30,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl
-auto_SpamAssasin_ham_en.jsonl,email,SpamAssassin public corpus,email/web text,en,real/ham,4090,2500,2500,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_SpamAssasin_ham_en.jsonl
-auto_SpamAssasin_scam_en.jsonl,email,SpamAssassin public corpus,email/web text,en,fake/scam,1693,2500,1693,D:\PersonaShieldQuest-GenAI-Engine\output\email\auto_SpamAssasin_scam_en.jsonl
-auto_dataset_kaggle_ham_en.jsonl,sms,Kaggle SMS/email fraud dataset export,sms/text message,en,real/ham,4934,1200,1200,D:\PersonaShieldQuest-GenAI-Engine\output\sms\auto_dataset_kaggle_ham_en.jsonl
-auto_dataset_kaggle_scam_en.jsonl,sms,Kaggle SMS/email fraud dataset export,sms/text message,en,fake/scam,222,1200,222,D:\PersonaShieldQuest-GenAI-Engine\output\sms\auto_dataset_kaggle_scam_en.jsonl
-auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl,sms,NCSA/TB-CERT awareness material export,email/web text,th,real/ham,20,30,20,D:\PersonaShieldQuest-GenAI-Engine\output\sms\auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl
-auto_smsfraud_scam_th.jsonl,sms,Thai SMS local corpus export,sms/text message,th,fake/scam,357,357,357,D:\PersonaShieldQuest-GenAI-Engine\output\sms\auto_smsfraud_scam_th.jsonl
-auto_smsnormal_ham_th.jsonl,sms,Thai SMS local corpus export,sms/text message,th,real/ham,355,355,355,D:\PersonaShieldQuest-GenAI-Engine\output\sms\auto_smsnormal_ham_th.jsonl
-auto_dataset_kaggle_ham_en.jsonl,voice,Kaggle SMS/email fraud dataset export,sms/text message,en,real/ham,2,1200,2,D:\PersonaShieldQuest-GenAI-Engine\output\voice\auto_dataset_kaggle_ham_en.jsonl
-auto_dataset_kaggle_scam_en.jsonl,voice,Kaggle SMS/email fraud dataset export,sms/text message,en,fake/scam,12,1200,12,D:\PersonaShieldQuest-GenAI-Engine\output\voice\auto_dataset_kaggle_scam_en.jsonl
-auto_English_NonScam_ham_en.jsonl,voice,project-exported JSONL corpus,email/web text,en,real/ham,400,400,400,D:\PersonaShieldQuest-GenAI-Engine\output\voice\auto_English_NonScam_ham_en.jsonl
-auto_English_Scam_scam_en.jsonl,voice,project-exported JSONL corpus,email/web text,en,fake/scam,396,400,396,D:\PersonaShieldQuest-GenAI-Engine\output\voice\auto_English_Scam_scam_en.jsonl
-auto_IRS_CompleteCall_Transcript_scam_en.jsonl,voice,IRS phone-scam transcript source,voice/call transcript,en,fake/scam,30,300,30,D:\PersonaShieldQuest-GenAI-Engine\output\voice\auto_IRS_CompleteCall_Transcript_scam_en.jsonl
+auto_CEAS_08_ham_en.jsonl,email,CEAS email corpus,email/web text,en,real/ham,17271,5000,5000,genai_engine/output/email/auto_CEAS_08_ham_en.jsonl
+auto_CEAS_08_scam_en.jsonl,email,CEAS email corpus,email/web text,en,fake/scam,21088,5000,5000,genai_engine/output/email/auto_CEAS_08_scam_en.jsonl
+auto_dataset_kaggle_ham_en.jsonl,email,Kaggle SMS/email fraud dataset export,sms/text message,en,real/ham,6,1200,6,genai_engine/output/email/auto_dataset_kaggle_ham_en.jsonl
+auto_dataset_kaggle_scam_en.jsonl,email,Kaggle SMS/email fraud dataset export,sms/text message,en,fake/scam,1,1200,1,genai_engine/output/email/auto_dataset_kaggle_scam_en.jsonl
+auto_Enron_ham_en.jsonl,email,Enron email corpus,email/web text,en,real/ham,29327,6000,6000,genai_engine/output/email/auto_Enron_ham_en.jsonl
+auto_financialfraud_ham_th.jsonl,email,Thai financial-fraud local corpus export,email/web text,th,real/ham,27,27,27,genai_engine/output/email/auto_financialfraud_ham_th.jsonl
+auto_Ling_ham_en.jsonl,email,Ling spam/ham corpus,email/web text,en,real/ham,2401,2000,2000,genai_engine/output/email/auto_Ling_ham_en.jsonl
+auto_Ling_scam_en.jsonl,email,Ling spam/ham corpus,email/web text,en,fake/scam,458,2000,458,genai_engine/output/email/auto_Ling_scam_en.jsonl
+auto_Nazario_5_scam_en.jsonl,email,Nazario phishing corpus,email/web text,en,fake/scam,3019,2500,2500,genai_engine/output/email/auto_Nazario_5_scam_en.jsonl
+auto_Nazario_scam_en.jsonl,email,Nazario phishing corpus,email/web text,en,fake/scam,1522,2500,1522,genai_engine/output/email/auto_Nazario_scam_en.jsonl
+auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl,email,NCSA/TB-CERT awareness material export,email/web text,th,real/ham,30,30,30,genai_engine/output/email/auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl
+auto_SpamAssasin_ham_en.jsonl,email,SpamAssassin public corpus,email/web text,en,real/ham,4090,2500,2500,genai_engine/output/email/auto_SpamAssasin_ham_en.jsonl
+auto_SpamAssasin_scam_en.jsonl,email,SpamAssassin public corpus,email/web text,en,fake/scam,1693,2500,1693,genai_engine/output/email/auto_SpamAssasin_scam_en.jsonl
+auto_dataset_kaggle_ham_en.jsonl,sms,Kaggle SMS/email fraud dataset export,sms/text message,en,real/ham,4934,1200,1200,genai_engine/output/sms/auto_dataset_kaggle_ham_en.jsonl
+auto_dataset_kaggle_scam_en.jsonl,sms,Kaggle SMS/email fraud dataset export,sms/text message,en,fake/scam,222,1200,222,genai_engine/output/sms/auto_dataset_kaggle_scam_en.jsonl
+auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl,sms,NCSA/TB-CERT awareness material export,email/web text,th,real/ham,20,30,20,genai_engine/output/sms/auto_NCSA_Virtaul_Summit_1_Presentation_TB-CERT_ham_th.jsonl
+auto_smsfraud_scam_th.jsonl,sms,Thai SMS local corpus export,sms/text message,th,fake/scam,357,357,357,genai_engine/output/sms/auto_smsfraud_scam_th.jsonl
+auto_smsnormal_ham_th.jsonl,sms,Thai SMS local corpus export,sms/text message,th,real/ham,355,355,355,genai_engine/output/sms/auto_smsnormal_ham_th.jsonl
+auto_dataset_kaggle_ham_en.jsonl,voice,Kaggle SMS/email fraud dataset export,sms/text message,en,real/ham,2,1200,2,genai_engine/output/voice/auto_dataset_kaggle_ham_en.jsonl
+auto_dataset_kaggle_scam_en.jsonl,voice,Kaggle SMS/email fraud dataset export,sms/text message,en,fake/scam,12,1200,12,genai_engine/output/voice/auto_dataset_kaggle_scam_en.jsonl
+auto_English_NonScam_ham_en.jsonl,voice,project-exported JSONL corpus,email/web text,en,real/ham,400,400,400,genai_engine/output/voice/auto_English_NonScam_ham_en.jsonl
+auto_English_Scam_scam_en.jsonl,voice,project-exported JSONL corpus,email/web text,en,fake/scam,396,400,396,genai_engine/output/voice/auto_English_Scam_scam_en.jsonl
+auto_IRS_CompleteCall_Transcript_scam_en.jsonl,voice,IRS phone-scam transcript source,voice/call transcript,en,fake/scam,30,300,30,genai_engine/output/voice/auto_IRS_CompleteCall_Transcript_scam_en.jsonl

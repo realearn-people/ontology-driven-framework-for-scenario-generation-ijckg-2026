@@ -22,6 +22,7 @@ OPTIONAL_PORTABILITY_PATHS = {
 EXCLUDED_DIRECTORY_NAMES = {
     ".git",
     ".venv",
+    ".psq_runs",
     ".macos_test_output",
     ".portable_runtime",
     "live_scenario_output",

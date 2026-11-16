@@ -1,6 +1,6 @@
 ﻿{
     "model":  "qwen2_5_7b",
-    "scenario_file":  "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\qwen2_5_7b\\scenarios_ontology_text_rag.jsonl",
+    "scenario_file":  "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/qwen2_5_7b/scenarios_ontology_text_rag.jsonl",
     "scenario_file_sha256":  "1D95982B5D870374B706A52A1CE00338D5047DA1F132E70DE79E83DA48BF8F6B",
     "expected_rows":  120,
     "observed_rows":  120,

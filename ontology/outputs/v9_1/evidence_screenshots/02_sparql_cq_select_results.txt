@@ -1,8 +1,8 @@
-PS C:\Users\user\PersonaShieldQuest-Ontology> & ".\.venv-sparql-v8.2\Scripts\python.exe" scripts\run_sparql_cq_v9_1.py --cq all
+PS ontology> & ".\.venv-sparql-v8.2\Scripts\python.exe" scripts\run_sparql_cq_v9_1.py --cq all
 >> --format json --output outputs\v9_1\sparql-cq-full-run-report.json
 
 # SPARQL competency-question SELECT results
-ontology: C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl
+ontology: ontology/ontology/personashield-psq-sco-v9.1.owl
 triple_count: 3229
 CQ1 Scenario Selection rows: 2
 CQ2 Cybersecurity Structure rows: 13

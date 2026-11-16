@@ -232,7 +232,7 @@
 {"source": "Channel", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Communication medium through which a scenario is presented.", "target_type": "literal"}
 {"source": "ConsistencyConstraint", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ConsistencyConstraint", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ConsistencyConstraint", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ConsistencyConstraint", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ConsistencyConstraint", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ConsistencyConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Rule checking channel, variant, persona, difficulty, and template consistency.", "target_type": "literal"}
 {"source": "ConsistencyConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Consistency constraint", "target_type": "literal"}
@@ -240,7 +240,7 @@
 {"source": "ConsistencyConstraint", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Rule checking channel, variant, persona, difficulty, and template consistency.", "target_type": "literal"}
 {"source": "ConstraintViolation", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ConstraintViolation", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ConstraintViolation", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ConstraintViolation", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ConstraintViolation", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ConstraintViolation", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Detected violation of a scenario-control rule.", "target_type": "literal"}
 {"source": "ConstraintViolation", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Constraint violation", "target_type": "literal"}
@@ -248,7 +248,7 @@
 {"source": "ConstraintViolation", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Detected violation of a scenario-control rule.", "target_type": "literal"}
 {"source": "ContentQualityKnowledgeEntity", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ContentQualityKnowledgeEntity", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ContentQualityKnowledgeEntity", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ContentQualityKnowledgeEntity", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ContentQualityKnowledgeEntity", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ContentQualityKnowledgeEntity", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Scenario-control terms used to validate and score generated scenario candidates.", "target_type": "literal"}
 {"source": "ContentQualityKnowledgeEntity", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Content quality knowledge entity", "target_type": "literal"}
@@ -256,7 +256,7 @@
 {"source": "ContentQualityKnowledgeEntity", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Scenario-control terms used to validate and score generated scenario candidates.", "target_type": "literal"}
 {"source": "ContentQualityRule", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ContentQualityRule", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ContentQualityRule", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ContentQualityRule", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ContentQualityRule", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ContentQualityRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Acceptance or rejection rule applied to generated scenario candidates.", "target_type": "literal"}
 {"source": "ContentQualityRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Content quality rule", "target_type": "literal"}
@@ -383,7 +383,7 @@
 {"source": "DS_ThaiFraudSMS", "predicate": "creationMethod", "target": "inherited_from_v8_1", "target_type": "literal"}
 {"source": "DS_ThaiFraudSMS", "predicate": "evidenceCategory", "target": "local_empirical_dataset", "target_type": "literal"}
 {"source": "DS_ThaiFraudSMS", "predicate": "licenseStatus", "target": "redistribution_review_required", "target_type": "literal"}
-{"source": "DS_ThaiFraudSMS", "predicate": "localDataPath", "target": "data/knowledge_base/raw_data/smsfraud.xlsx", "target_type": "literal"}
+{"source": "DS_ThaiFraudSMS", "predicate": "localDataPath", "target": "unbundled-source/smsfraud.xlsx", "target_type": "literal"}
 {"source": "DS_ThaiFraudSMS", "predicate": "retrievalDate", "target": "2026-06-22", "target_type": "literal"}
 {"source": "DS_ThaiFraudSMS", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "DS_ThaiFraudSMS", "predicate": "verificationStatus", "target": "identity_checked_license_and_redistribution_pending", "target_type": "literal"}
@@ -411,7 +411,7 @@
 {"source": "Decision_Accept", "predicate": "evaluatesRule", "target": "Rule_RequiredAttackStructure", "target_type": "iri"}
 {"source": "Decision_Accept", "predicate": "evaluatesRule", "target": "Rule_TemplateEligibility", "target_type": "iri"}
 {"source": "Decision_Accept", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Decision_Accept", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Decision_Accept", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Decision_Accept", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ValidationDecision", "target_type": "iri"}
 {"source": "Decision_Accept", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Decision_Accept", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Decision indicating that a generated scenario satisfies required scenario-control constraints.", "target_type": "literal"}
@@ -427,7 +427,7 @@
 {"source": "Decision_Reject", "predicate": "evaluatesRule", "target": "Rule_RequiredAttackStructure", "target_type": "iri"}
 {"source": "Decision_Reject", "predicate": "evaluatesRule", "target": "Rule_TemplateEligibility", "target_type": "iri"}
 {"source": "Decision_Reject", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Decision_Reject", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Decision_Reject", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Decision_Reject", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ValidationDecision", "target_type": "iri"}
 {"source": "Decision_Reject", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Decision_Reject", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Decision indicating that a generated scenario violates a blocking quality or safety constraint.", "target_type": "literal"}
@@ -443,7 +443,7 @@
 {"source": "Decision_Review", "predicate": "evaluatesRule", "target": "Rule_RequiredAttackStructure", "target_type": "iri"}
 {"source": "Decision_Review", "predicate": "evaluatesRule", "target": "Rule_TemplateEligibility", "target_type": "iri"}
 {"source": "Decision_Review", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Decision_Review", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Decision_Review", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Decision_Review", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ValidationDecision", "target_type": "iri"}
 {"source": "Decision_Review", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Decision_Review", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Decision indicating that a generated scenario needs human or expert review before use.", "target_type": "literal"}
@@ -577,7 +577,7 @@
 {"source": "EmailChannel", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Leaf class for asynchronous email communication.", "target_type": "literal"}
 {"source": "ErrorType", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ErrorType", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ErrorType", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ErrorType", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ErrorType", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ErrorType", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Controlled error category used in scenario-control error analysis.", "target_type": "literal"}
 {"source": "ErrorType", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Error type", "target_type": "literal"}
@@ -585,7 +585,7 @@
 {"source": "ErrorType", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Controlled error category used in scenario-control error analysis.", "target_type": "literal"}
 {"source": "Error_ChannelMismatch", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "Error_ChannelMismatch", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Error_ChannelMismatch", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Error_ChannelMismatch", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Error_ChannelMismatch", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ErrorType", "target_type": "iri"}
 {"source": "Error_ChannelMismatch", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Error_ChannelMismatch", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Error category for channel/template contradiction.", "target_type": "literal"}
@@ -593,7 +593,7 @@
 {"source": "Error_ChannelMismatch", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Error category for channel/template contradiction.", "target_type": "literal"}
 {"source": "EvidenceCoverageConstraint", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "EvidenceCoverageConstraint", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "EvidenceCoverageConstraint", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "EvidenceCoverageConstraint", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "EvidenceCoverageConstraint", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "EvidenceCoverageConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Rule checking that scenario claims have evidence and provenance.", "target_type": "literal"}
 {"source": "EvidenceCoverageConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Evidence coverage constraint", "target_type": "literal"}
@@ -717,7 +717,7 @@
 {"source": "GeneralPersonaRole", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Intermediate role category used when a more specific organizational function is not supplied.", "target_type": "literal"}
 {"source": "GeneratedScenario", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "GeneratedScenario", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "GeneratedScenario", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "GeneratedScenario", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "GeneratedScenario", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "GeneratedScenario", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "A candidate or stored scenario created by the scenario engine and checked against ontology constraints.", "target_type": "literal"}
 {"source": "GeneratedScenario", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Generated scenario", "target_type": "literal"}
@@ -730,7 +730,7 @@
 {"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "hasValidationDecision", "target": "Decision_Review", "target_type": "iri"}
 {"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "hasVariant", "target": "FakeVariant", "target_type": "iri"}
 {"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "supportedByEvidence", "target": "Evidence_SMS_BankLink_Introductory", "target_type": "iri"}
 {"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "targetsLearnerProfile", "target": "Learner_HR_Beginner", "target_type": "iri"}
 {"source": "Generated_SMS_BankLink_Candidate_v9", "predicate": "usesChannel", "target": "SMSChat", "target_type": "iri"}
@@ -850,7 +850,7 @@
 {"source": "LearningStage", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Exact or grouped position in the engine's nine-stage learning progression.", "target_type": "literal"}
 {"source": "LegalConsequence", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "LegalConsequence", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "LegalConsequence", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "LegalConsequence", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "LegalConsequence", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "LegalConsequence", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Consequence or reporting implication associated with a scenario's action or attack structure.", "target_type": "literal"}
 {"source": "LegalConsequence", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Legal consequence", "target_type": "literal"}
@@ -858,7 +858,7 @@
 {"source": "LegalConsequence", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Consequence or reporting implication associated with a scenario's action or attack structure.", "target_type": "literal"}
 {"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "LegalConsequence", "target_type": "iri"}
 {"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "LegalConsequence_ReportToITOrSecurity", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Organizational reporting consequence for suspicious social-engineering attempts.", "target_type": "literal"}
@@ -965,7 +965,7 @@
 {"source": "MiddleEngineAgeGroup", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Intermediate grouping for the engine's 36-59 age bands; it is an adaptation category, not a claim about ability.", "target_type": "literal"}
 {"source": "MoodContext", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "MoodContext", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "MoodContext", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "MoodContext", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "MoodContext", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "MoodContext", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Optional runtime mood context. v9 records the placeholder but does not implement emotion inference.", "target_type": "literal"}
 {"source": "MoodContext", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Mood context placeholder", "target_type": "literal"}
@@ -973,7 +973,7 @@
 {"source": "MoodContext", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Optional runtime mood context. v9 records the placeholder but does not implement emotion inference.", "target_type": "literal"}
 {"source": "Mood_NotModeledNeutral", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "Mood_NotModeledNeutral", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Mood_NotModeledNeutral", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Mood_NotModeledNeutral", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Mood_NotModeledNeutral", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "MoodContext", "target_type": "iri"}
 {"source": "Mood_NotModeledNeutral", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Mood_NotModeledNeutral", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Placeholder used to keep the ODEACT framework boundary explicit without claiming implemented emotion inference.", "target_type": "literal"}
@@ -1055,7 +1055,7 @@
 {"source": "PROV_TPL_Voice_Legitimate_Advanced", "predicate": "http://www.w3.org/ns/prov#wasDerivedFrom", "target": "DS_KnowledgeBaseJSONL", "target_type": "iri"}
 {"source": "PerformanceState", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "PerformanceState", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "PerformanceState", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "PerformanceState", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "PerformanceState", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "PerformanceState", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Runtime state summarizing learner performance for scenario selection.", "target_type": "literal"}
 {"source": "PerformanceState", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Performance state", "target_type": "literal"}
@@ -1063,7 +1063,7 @@
 {"source": "PerformanceState", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Runtime state summarizing learner performance for scenario selection.", "target_type": "literal"}
 {"source": "Performance_Stable", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "Performance_Stable", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Performance_Stable", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Performance_Stable", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Performance_Stable", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "PerformanceState", "target_type": "iri"}
 {"source": "Performance_Stable", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Performance_Stable", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Learner is stable enough for standard scenario progression.", "target_type": "literal"}
@@ -1071,7 +1071,7 @@
 {"source": "Performance_Stable", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Learner is stable enough for standard scenario progression.", "target_type": "literal"}
 {"source": "PersonaFitConstraint", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "PersonaFitConstraint", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "PersonaFitConstraint", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "PersonaFitConstraint", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "PersonaFitConstraint", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "PersonaFitConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Rule checking whether generated content fits the learner profile and role.", "target_type": "literal"}
 {"source": "PersonaFitConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Persona fit constraint", "target_type": "literal"}
@@ -1194,7 +1194,7 @@
 {"source": "RedFlag", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Ontology class representing Red flag in the PersonaShield domain model.", "target_type": "literal"}
 {"source": "RequiredConceptCoverageRule", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "RequiredConceptCoverageRule", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "RequiredConceptCoverageRule", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "RequiredConceptCoverageRule", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "RequiredConceptCoverageRule", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "RequiredConceptCoverageRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Rule requiring a scenario to include mandatory concepts for the selected template.", "target_type": "literal"}
 {"source": "RequiredConceptCoverageRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Required concept coverage rule", "target_type": "literal"}
@@ -1254,7 +1254,7 @@
 {"source": "Rule_ChannelConsistency", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_ChannelConsistency", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_ChannelConsistency", "predicate": "ruleText", "target": "GeneratedScenario(s) based on template t must use the channel required by t.", "target_type": "literal"}
-{"source": "Rule_ChannelConsistency", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_ChannelConsistency", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_ChannelConsistency", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ConsistencyConstraint", "target_type": "iri"}
 {"source": "Rule_ChannelConsistency", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_ChannelConsistency", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "GeneratedScenario(s) based on template t must use the channel required by t.", "target_type": "literal"}
@@ -1267,7 +1267,7 @@
 {"source": "Rule_EvidenceRequirement", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_EvidenceRequirement", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_EvidenceRequirement", "predicate": "ruleText", "target": "AcceptableScenario(s) requires verified supporting evidence.", "target_type": "literal"}
-{"source": "Rule_EvidenceRequirement", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_EvidenceRequirement", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_EvidenceRequirement", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "EvidenceCoverageConstraint", "target_type": "iri"}
 {"source": "Rule_EvidenceRequirement", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_EvidenceRequirement", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "AcceptableScenario(s) requires verified supporting evidence.", "target_type": "literal"}
@@ -1280,7 +1280,7 @@
 {"source": "Rule_LegitimateScenarioSeparation", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_LegitimateScenarioSeparation", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_LegitimateScenarioSeparation", "predicate": "ruleText", "target": "LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators.", "target_type": "literal"}
-{"source": "Rule_LegitimateScenarioSeparation", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_LegitimateScenarioSeparation", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_LegitimateScenarioSeparation", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ConsistencyConstraint", "target_type": "iri"}
 {"source": "Rule_LegitimateScenarioSeparation", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_LegitimateScenarioSeparation", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "LegitimateScenario(s) must not import malicious attack technique or red flags and must include safe indicators.", "target_type": "literal"}
@@ -1293,7 +1293,7 @@
 {"source": "Rule_PersonaFit", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_PersonaFit", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_PersonaFit", "predicate": "ruleText", "target": "GeneratedScenario(s) must fit the learner profile targeted by the selected template.", "target_type": "literal"}
-{"source": "Rule_PersonaFit", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_PersonaFit", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_PersonaFit", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "PersonaFitConstraint", "target_type": "iri"}
 {"source": "Rule_PersonaFit", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_PersonaFit", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "GeneratedScenario(s) must fit the learner profile targeted by the selected template.", "target_type": "literal"}
@@ -1306,7 +1306,7 @@
 {"source": "Rule_QualityAcceptance", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_QualityAcceptance", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_QualityAcceptance", "predicate": "ruleText", "target": "GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted.", "target_type": "literal"}
-{"source": "Rule_QualityAcceptance", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_QualityAcceptance", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_QualityAcceptance", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ContentQualityRule", "target_type": "iri"}
 {"source": "Rule_QualityAcceptance", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_QualityAcceptance", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "GeneratedScenario(s) with sufficient constraint coverage, evidence coverage, and zero violations may be accepted.", "target_type": "literal"}
@@ -1319,7 +1319,7 @@
 {"source": "Rule_QualityRejection", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_QualityRejection", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_QualityRejection", "predicate": "ruleText", "target": "GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected.", "target_type": "literal"}
-{"source": "Rule_QualityRejection", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_QualityRejection", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_QualityRejection", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "SafetyConstraint", "target_type": "iri"}
 {"source": "Rule_QualityRejection", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_QualityRejection", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "GeneratedScenario(s) with missing required concepts, contradiction, or unsafe instruction must be rejected.", "target_type": "literal"}
@@ -1332,7 +1332,7 @@
 {"source": "Rule_RequiredAttackStructure", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_RequiredAttackStructure", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_RequiredAttackStructure", "predicate": "ruleText", "target": "AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response.", "target_type": "literal"}
-{"source": "Rule_RequiredAttackStructure", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_RequiredAttackStructure", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_RequiredAttackStructure", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "RequiredConceptCoverageRule", "target_type": "iri"}
 {"source": "Rule_RequiredAttackStructure", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_RequiredAttackStructure", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "AttackScenario(s) and basedOnTemplate(s,t) -> requires attack type, channel, red flag, and safe response.", "target_type": "literal"}
@@ -1345,7 +1345,7 @@
 {"source": "Rule_TemplateEligibility", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
 {"source": "Rule_TemplateEligibility", "predicate": "ruleLanguage", "target": "first_order_predicate_plus_sparql_validation", "target_type": "literal"}
 {"source": "Rule_TemplateEligibility", "predicate": "ruleText", "target": "LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l).", "target_type": "literal"}
-{"source": "Rule_TemplateEligibility", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Rule_TemplateEligibility", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Rule_TemplateEligibility", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ContentQualityRule", "target_type": "iri"}
 {"source": "Rule_TemplateEligibility", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
 {"source": "Rule_TemplateEligibility", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "LearnerProfile(l) and ScenarioTemplate(t) and compatibleRole(t,l) and compatibleStage(t,l) and compatibleChannel(t,l) -> EligibleTemplate(t,l).", "target_type": "literal"}
@@ -1403,7 +1403,7 @@
 {"source": "SafeResponseAction", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Ontology class representing Safe response action in the PersonaShield domain model.", "target_type": "literal"}
 {"source": "SafetyConstraint", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "SafetyConstraint", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "SafetyConstraint", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "SafetyConstraint", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "SafetyConstraint", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "SafetyConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Rule rejecting unsafe instructions, harmful guidance, or contradictory safe responses.", "target_type": "literal"}
 {"source": "SafetyConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Safety constraint", "target_type": "literal"}
@@ -1425,7 +1425,7 @@
 {"source": "ScenarioKnowledgeEntity", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Entity that describes scenario content, communication form, attack semantics, or safe response.", "target_type": "literal"}
 {"source": "ScenarioQualityScore", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ScenarioQualityScore", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ScenarioQualityScore", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ScenarioQualityScore", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ScenarioQualityScore", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ScenarioQualityScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Quality-score resource associated with a generated scenario candidate.", "target_type": "literal"}
 {"source": "ScenarioQualityScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Scenario quality score", "target_type": "literal"}
@@ -1433,7 +1433,7 @@
 {"source": "ScenarioQualityScore", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Quality-score resource associated with a generated scenario candidate.", "target_type": "literal"}
 {"source": "ScenarioStep", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ScenarioStep", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ScenarioStep", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ScenarioStep", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ScenarioStep", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ScenarioStep", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "A step or decision unit inside a scenario candidate or template.", "target_type": "literal"}
 {"source": "ScenarioStep", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Scenario step", "target_type": "literal"}
@@ -1462,7 +1462,7 @@
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "qualityScore", "target": "0.92", "target_type": "literal"}
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Score_SMS_BankLink_Candidate", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Score_SMS_BankLink_Candidate", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "validationStatus", "target": "passes_automated_demo_rules", "target_type": "literal"}
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ScenarioQualityScore", "target_type": "iri"}
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
@@ -1471,7 +1471,7 @@
 {"source": "Score_SMS_BankLink_Candidate", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Demonstration score resource for CQ3 content-quality-control validation.", "target_type": "literal"}
 {"source": "SemanticPacket", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "SemanticPacket", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "SemanticPacket", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "SemanticPacket", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "SemanticPacket", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "SemanticPacket", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Selected ontology subgraph supplied to RAG and LLM scenario generation.", "target_type": "literal"}
 {"source": "SemanticPacket", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Semantic packet", "target_type": "literal"}
@@ -1488,7 +1488,7 @@
 {"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "hasQualityRule", "target": "Rule_RequiredAttackStructure", "target_type": "iri"}
 {"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "hasQualityRule", "target": "Rule_TemplateEligibility", "target_type": "iri"}
 {"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "supportedByEvidence", "target": "Evidence_SMS_BankLink_Introductory", "target_type": "iri"}
 {"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "targetsLearnerProfile", "target": "Learner_HR_Beginner", "target_type": "iri"}
 {"source": "SemanticPacket_SMS_BankLink_v9", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "SemanticPacket", "target_type": "iri"}
@@ -2129,7 +2129,7 @@
 {"source": "Transition_BeginnerIntro_to_BeginnerDeveloping_SMS", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Named knowledge-graph individual 'Advance to beginner developing with paired SMS scenarios', classified as Transition constraint profile.", "target_type": "literal"}
 {"source": "ValidationDecision", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ValidationDecision", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ValidationDecision", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ValidationDecision", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ValidationDecision", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#Class", "target_type": "iri"}
 {"source": "ValidationDecision", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Accept, reject, or review decision for a generated scenario candidate.", "target_type": "literal"}
 {"source": "ValidationDecision", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "Validation decision", "target_type": "literal"}
@@ -2140,7 +2140,7 @@
 {"source": "Violation_ChannelMismatch", "predicate": "explanationText", "target": "Candidate channel does not match template channel.", "target_type": "literal"}
 {"source": "Violation_ChannelMismatch", "predicate": "hasErrorType", "target": "Error_ChannelMismatch", "target_type": "iri"}
 {"source": "Violation_ChannelMismatch", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "Violation_ChannelMismatch", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "Violation_ChannelMismatch", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "Violation_ChannelMismatch", "predicate": "violationCode", "target": "ChannelMismatch", "target_type": "literal"}
 {"source": "Violation_ChannelMismatch", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "ConstraintViolation", "target_type": "iri"}
 {"source": "Violation_ChannelMismatch", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#NamedIndividual", "target_type": "iri"}
@@ -2195,7 +2195,7 @@
 {"source": "acceptanceThreshold", "predicate": "intendedDomain", "target": "ContentQualityRule", "target_type": "literal"}
 {"source": "acceptanceThreshold", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#decimal", "target_type": "literal"}
 {"source": "acceptanceThreshold", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "acceptanceThreshold", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "acceptanceThreshold", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "acceptanceThreshold", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "acceptanceThreshold", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Threshold associated with a content-quality rule.", "target_type": "literal"}
 {"source": "acceptanceThreshold", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "acceptance threshold", "target_type": "literal"}
@@ -2215,7 +2215,7 @@
 {"source": "basedOnTemplate", "predicate": "intendedDomain", "target": "GeneratedScenario", "target_type": "literal"}
 {"source": "basedOnTemplate", "predicate": "intendedRange", "target": "ScenarioTemplate", "target_type": "literal"}
 {"source": "basedOnTemplate", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "basedOnTemplate", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "basedOnTemplate", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "basedOnTemplate", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#FunctionalProperty", "target_type": "iri"}
 {"source": "basedOnTemplate", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "basedOnTemplate", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a generated scenario to the scenario template that controls it.", "target_type": "literal"}
@@ -2237,7 +2237,7 @@
 {"source": "competencyQuestion", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Annotation property 'competency question' used to document competency questions, mappings, evidence quality, or transformation metadata.", "target_type": "literal"}
 {"source": "competencyQuestionRole", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "competencyQuestionRole", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "competencyQuestionRole", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "competencyQuestionRole", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "competencyQuestionRole", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "competencyQuestionRole", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Explains how an entity supports a competency question.", "target_type": "literal"}
 {"source": "competencyQuestionRole", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "competency question role", "target_type": "literal"}
@@ -2246,7 +2246,7 @@
 {"source": "confidenceScore", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "confidenceScore", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#decimal", "target_type": "literal"}
 {"source": "confidenceScore", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "confidenceScore", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "confidenceScore", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "confidenceScore", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "confidenceScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Decimal confidence score for a validation decision or quality score.", "target_type": "literal"}
 {"source": "confidenceScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "confidence score", "target_type": "literal"}
@@ -2255,7 +2255,7 @@
 {"source": "containsStep", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "containsStep", "predicate": "intendedRange", "target": "ScenarioStep", "target_type": "literal"}
 {"source": "containsStep", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "containsStep", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "containsStep", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "containsStep", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "containsStep", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a scenario template or generated scenario to a scenario step.", "target_type": "literal"}
 {"source": "containsStep", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "contains step", "target_type": "literal"}
@@ -2289,7 +2289,7 @@
 {"source": "difficultyValue", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "difficultyValue", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "difficultyValue", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "difficultyValue", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "difficultyValue", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "difficultyValue", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "difficultyValue", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Numerical or controlled difficulty value used for scenario-control scoring.", "target_type": "literal"}
 {"source": "difficultyValue", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "difficulty value", "target_type": "literal"}
@@ -2320,7 +2320,7 @@
 {"source": "errorType", "predicate": "intendedDomain", "target": "ConstraintViolation", "target_type": "literal"}
 {"source": "errorType", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "errorType", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "errorType", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "errorType", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "errorType", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "errorType", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Literal form of an error category for export and logs.", "target_type": "literal"}
 {"source": "errorType", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "error type literal", "target_type": "literal"}
@@ -2329,7 +2329,7 @@
 {"source": "evaluatesRule", "predicate": "intendedDomain", "target": "ValidationDecision", "target_type": "literal"}
 {"source": "evaluatesRule", "predicate": "intendedRange", "target": "ContentQualityRule", "target_type": "literal"}
 {"source": "evaluatesRule", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "evaluatesRule", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "evaluatesRule", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "evaluatesRule", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "evaluatesRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a validation decision to the quality rule it evaluates.", "target_type": "literal"}
 {"source": "evaluatesRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "evaluates rule", "target_type": "literal"}
@@ -2360,7 +2360,7 @@
 {"source": "explanationText", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "explanationText", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "explanationText", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "explanationText", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "explanationText", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "explanationText", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "explanationText", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Human-readable explanation for a rule, score, violation, or decision.", "target_type": "literal"}
 {"source": "explanationText", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "explanation text", "target_type": "literal"}
@@ -2373,7 +2373,7 @@
 {"source": "externalId", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Annotation property 'external identifier' used to document competency questions, mappings, evidence quality, or transformation metadata.", "target_type": "literal"}
 {"source": "frameworkName", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "frameworkName", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "frameworkName", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "frameworkName", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "frameworkName", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "frameworkName", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Names the wider research framework that uses this ontology.", "target_type": "literal"}
 {"source": "frameworkName", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "framework name", "target_type": "literal"}
@@ -2425,7 +2425,7 @@
 {"source": "hasErrorType", "predicate": "intendedDomain", "target": "ConstraintViolation", "target_type": "literal"}
 {"source": "hasErrorType", "predicate": "intendedRange", "target": "ErrorType", "target_type": "literal"}
 {"source": "hasErrorType", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasErrorType", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasErrorType", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasErrorType", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasErrorType", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a constraint violation to its controlled error category.", "target_type": "literal"}
 {"source": "hasErrorType", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "has error type", "target_type": "literal"}
@@ -2443,7 +2443,7 @@
 {"source": "hasLegalConsequence", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "hasLegalConsequence", "predicate": "intendedRange", "target": "LegalConsequence", "target_type": "literal"}
 {"source": "hasLegalConsequence", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasLegalConsequence", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasLegalConsequence", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasLegalConsequence", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasLegalConsequence", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a scenario template or response to a legal or organizational consequence.", "target_type": "literal"}
 {"source": "hasLegalConsequence", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "has legal consequence", "target_type": "literal"}
@@ -2470,7 +2470,7 @@
 {"source": "hasMoodContext", "predicate": "intendedDomain", "target": "LearnerProfile", "target_type": "literal"}
 {"source": "hasMoodContext", "predicate": "intendedRange", "target": "MoodContext", "target_type": "literal"}
 {"source": "hasMoodContext", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasMoodContext", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasMoodContext", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasMoodContext", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#FunctionalProperty", "target_type": "iri"}
 {"source": "hasMoodContext", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasMoodContext", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a learner profile to an optional mood-context placeholder.", "target_type": "literal"}
@@ -2480,7 +2480,7 @@
 {"source": "hasPerformanceState", "predicate": "intendedDomain", "target": "LearnerProfile", "target_type": "literal"}
 {"source": "hasPerformanceState", "predicate": "intendedRange", "target": "PerformanceState", "target_type": "literal"}
 {"source": "hasPerformanceState", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasPerformanceState", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasPerformanceState", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasPerformanceState", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#FunctionalProperty", "target_type": "iri"}
 {"source": "hasPerformanceState", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasPerformanceState", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a learner profile to its runtime performance state.", "target_type": "literal"}
@@ -2514,7 +2514,7 @@
 {"source": "hasQualityRule", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "hasQualityRule", "predicate": "intendedRange", "target": "ContentQualityRule", "target_type": "literal"}
 {"source": "hasQualityRule", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasQualityRule", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasQualityRule", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasQualityRule", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasQualityRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a template, candidate, or semantic packet to an applicable content-quality rule.", "target_type": "literal"}
 {"source": "hasQualityRule", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "has quality rule", "target_type": "literal"}
@@ -2558,7 +2558,7 @@
 {"source": "hasScenarioQualityScore", "predicate": "intendedDomain", "target": "GeneratedScenario", "target_type": "literal"}
 {"source": "hasScenarioQualityScore", "predicate": "intendedRange", "target": "ScenarioQualityScore", "target_type": "literal"}
 {"source": "hasScenarioQualityScore", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasScenarioQualityScore", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasScenarioQualityScore", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasScenarioQualityScore", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#FunctionalProperty", "target_type": "iri"}
 {"source": "hasScenarioQualityScore", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasScenarioQualityScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a generated scenario to its scenario-quality score resource.", "target_type": "literal"}
@@ -2578,7 +2578,7 @@
 {"source": "hasValidationDecision", "predicate": "intendedDomain", "target": "GeneratedScenario", "target_type": "literal"}
 {"source": "hasValidationDecision", "predicate": "intendedRange", "target": "ValidationDecision", "target_type": "literal"}
 {"source": "hasValidationDecision", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "hasValidationDecision", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "hasValidationDecision", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "hasValidationDecision", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#FunctionalProperty", "target_type": "iri"}
 {"source": "hasValidationDecision", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "hasValidationDecision", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a generated scenario to its acceptance, rejection, or review decision.", "target_type": "literal"}
@@ -2619,14 +2619,14 @@
 {"source": "implementsTechnique", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Object property 'implements ATT&CK technique' relating Scenario template to MITRE ATT&CK technique.", "target_type": "literal"}
 {"source": "intendedDomain", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "intendedDomain", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "intendedDomain", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "intendedDomain", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "intendedDomain", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "intendedDomain", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Documentation-only expected subject class for a property; not asserted as an OWL domain axiom.", "target_type": "literal"}
 {"source": "intendedDomain", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "intended domain", "target_type": "literal"}
 {"source": "intendedDomain", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Documentation-only expected subject class for a property; not asserted as an OWL domain axiom.", "target_type": "literal"}
 {"source": "intendedRange", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "intendedRange", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "intendedRange", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "intendedRange", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "intendedRange", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "intendedRange", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Documentation-only expected object or literal type for a property; not asserted as an OWL range axiom.", "target_type": "literal"}
 {"source": "intendedRange", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "intended range", "target_type": "literal"}
@@ -2785,7 +2785,7 @@
 {"source": "qualityRuleCategory", "predicate": "intendedDomain", "target": "ContentQualityRule", "target_type": "literal"}
 {"source": "qualityRuleCategory", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "qualityRuleCategory", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "qualityRuleCategory", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "qualityRuleCategory", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "qualityRuleCategory", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "qualityRuleCategory", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Controlled category of a scenario-quality rule.", "target_type": "literal"}
 {"source": "qualityRuleCategory", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "quality rule category", "target_type": "literal"}
@@ -2794,7 +2794,7 @@
 {"source": "qualityScore", "predicate": "intendedDomain", "target": "ScenarioQualityScore", "target_type": "literal"}
 {"source": "qualityScore", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#decimal", "target_type": "literal"}
 {"source": "qualityScore", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "qualityScore", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "qualityScore", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "qualityScore", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "qualityScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Decimal score assigned to a generated scenario candidate.", "target_type": "literal"}
 {"source": "qualityScore", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "quality score", "target_type": "literal"}
@@ -2836,7 +2836,7 @@
 {"source": "requiredForAcceptance", "predicate": "intendedDomain", "target": "ContentQualityRule", "target_type": "literal"}
 {"source": "requiredForAcceptance", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#boolean", "target_type": "literal"}
 {"source": "requiredForAcceptance", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "requiredForAcceptance", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "requiredForAcceptance", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "requiredForAcceptance", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "requiredForAcceptance", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Boolean marker indicating that a rule is required for scenario acceptance.", "target_type": "literal"}
 {"source": "requiredForAcceptance", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "required for acceptance", "target_type": "literal"}
@@ -2845,7 +2845,7 @@
 {"source": "requiresChannel", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "requiresChannel", "predicate": "intendedRange", "target": "Channel", "target_type": "literal"}
 {"source": "requiresChannel", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "requiresChannel", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "requiresChannel", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "requiresChannel", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "requiresChannel", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Declares the required channel for template or candidate validation.", "target_type": "literal"}
 {"source": "requiresChannel", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "requires channel", "target_type": "literal"}
@@ -2867,14 +2867,14 @@
 {"source": "reviewStatus", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Documents the current structural and domain-review status of an ontology element.", "target_type": "literal"}
 {"source": "ruleLanguage", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ruleLanguage", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ruleLanguage", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ruleLanguage", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ruleLanguage", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "ruleLanguage", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate.", "target_type": "literal"}
 {"source": "ruleLanguage", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "rule language", "target_type": "literal"}
 {"source": "ruleLanguage", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Rule notation or execution layer, such as OWL, SPARQL, SHACL-style validation, or first-order predicate.", "target_type": "literal"}
 {"source": "ruleText", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "ruleText", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "ruleText", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "ruleText", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "ruleText", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "ruleText", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Human-readable scenario-control rule text.", "target_type": "literal"}
 {"source": "ruleText", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "rule text", "target_type": "literal"}
@@ -2883,7 +2883,7 @@
 {"source": "scenarioID", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "scenarioID", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "scenarioID", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "scenarioID", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "scenarioID", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "scenarioID", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "scenarioID", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "v9 alias for engine scenario identifier terminology.", "target_type": "literal"}
 {"source": "scenarioID", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "scenario ID", "target_type": "literal"}
@@ -2917,7 +2917,7 @@
 {"source": "scenarioTitle", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Datatype property 'scenario title' recording a literal value for Scenario template.", "target_type": "literal"}
 {"source": "scopeBoundary", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "scopeBoundary", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "scopeBoundary", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "scopeBoundary", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "scopeBoundary", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "scopeBoundary", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Records the boundary between ontology, engine, and evaluation scope.", "target_type": "literal"}
 {"source": "scopeBoundary", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "scope boundary", "target_type": "literal"}
@@ -2930,7 +2930,7 @@
 {"source": "sourceColumn", "predicate": "http://www.w3.org/2004/02/skos/core#definition", "target": "Annotation property 'source field or column' used to document competency questions, mappings, evidence quality, or transformation metadata.", "target_type": "literal"}
 {"source": "sourceDocument", "predicate": "creationMethod", "target": "reviewer_aligned_manual_modeling_v9", "target_type": "literal"}
 {"source": "sourceDocument", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "sourceDocument", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "sourceDocument", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "sourceDocument", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#AnnotationProperty", "target_type": "iri"}
 {"source": "sourceDocument", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Identifies the reviewer-aligned document that motivated the v9 element.", "target_type": "literal"}
 {"source": "sourceDocument", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "source document", "target_type": "literal"}
@@ -2958,7 +2958,7 @@
 {"source": "sourceURL", "predicate": "intendedDomain", "target": "SourceArtifact", "target_type": "literal"}
 {"source": "sourceURL", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#anyURI", "target_type": "literal"}
 {"source": "sourceURL", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "sourceURL", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "sourceURL", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "sourceURL", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "sourceURL", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "v9 alias matching reviewer document terminology; sourceUrl remains retained for compatibility.", "target_type": "literal"}
 {"source": "sourceURL", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "source URL", "target_type": "literal"}
@@ -3037,7 +3037,7 @@
 {"source": "supportedByEvidence", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "supportedByEvidence", "predicate": "intendedRange", "target": "EvidencePack", "target_type": "literal"}
 {"source": "supportedByEvidence", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "supportedByEvidence", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "supportedByEvidence", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "supportedByEvidence", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "supportedByEvidence", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a scenario element or validation decision to an evidence pack.", "target_type": "literal"}
 {"source": "supportedByEvidence", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "supported by evidence", "target_type": "literal"}
@@ -3055,7 +3055,7 @@
 {"source": "targetsLearnerProfile", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "targetsLearnerProfile", "predicate": "intendedRange", "target": "LearnerProfile", "target_type": "literal"}
 {"source": "targetsLearnerProfile", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "targetsLearnerProfile", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "targetsLearnerProfile", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "targetsLearnerProfile", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "targetsLearnerProfile", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a scenario or semantic packet to the learner profile it targets.", "target_type": "literal"}
 {"source": "targetsLearnerProfile", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "targets learner profile", "target_type": "literal"}
@@ -3119,7 +3119,7 @@
 {"source": "validationStatus", "predicate": "intendedDomain", "target": "DomainEntity", "target_type": "literal"}
 {"source": "validationStatus", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "validationStatus", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "validationStatus", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "validationStatus", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "validationStatus", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "validationStatus", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Status assigned by the validation process.", "target_type": "literal"}
 {"source": "validationStatus", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "validation status", "target_type": "literal"}
@@ -3137,7 +3137,7 @@
 {"source": "violatesConstraint", "predicate": "intendedDomain", "target": "GeneratedScenario", "target_type": "literal"}
 {"source": "violatesConstraint", "predicate": "intendedRange", "target": "ConstraintViolation", "target_type": "literal"}
 {"source": "violatesConstraint", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "violatesConstraint", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "violatesConstraint", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "violatesConstraint", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#ObjectProperty", "target_type": "iri"}
 {"source": "violatesConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Links a generated scenario to a detected constraint violation.", "target_type": "literal"}
 {"source": "violatesConstraint", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "violates constraint", "target_type": "literal"}
@@ -3146,7 +3146,7 @@
 {"source": "violationCode", "predicate": "intendedDomain", "target": "ConstraintViolation", "target_type": "literal"}
 {"source": "violationCode", "predicate": "intendedRange", "target": "http://www.w3.org/2001/XMLSchema#string", "target_type": "literal"}
 {"source": "violationCode", "predicate": "reviewStatus", "target": "automated_release_validation_required; domain_expert_review_pending", "target_type": "literal"}
-{"source": "violationCode", "predicate": "sourceDocument", "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
+{"source": "violationCode", "predicate": "sourceDocument", "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx", "target_type": "literal"}
 {"source": "violationCode", "predicate": "http://www.w3.org/1999/02/22-rdf-syntax-ns#type", "target": "http://www.w3.org/2002/07/owl#DatatypeProperty", "target_type": "iri"}
 {"source": "violationCode", "predicate": "http://www.w3.org/2000/01/rdf-schema#comment", "target": "Machine-readable code for a detected constraint violation.", "target_type": "literal"}
 {"source": "violationCode", "predicate": "http://www.w3.org/2000/01/rdf-schema#label", "target": "violation code", "target_type": "literal"}

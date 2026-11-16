@@ -1,8 +1,8 @@
 # Advisor Response: Live-Recovered Standard Evaluation Without BERTScore
 
 Prepared for: PersonaShield Quest PSQ-SCO ontology-guided scenario-generation paper  
-Latest evaluation run: `D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_live_recovered_standard_no_bertscore\20260712_184750`  
-Recovered scenario source: `D:\PersonaShieldQuest-GenAI-Engine\output\paper120_live_recovered_final\20260712_183315`
+Latest evaluation run: `genai_engine/output/three_layer_eval_3models_120cases_4modes_live_recovered_standard_no_bertscore/20260712_184750`  
+Recovered scenario source: `genai_engine/output/paper120_live_recovered_final/20260712_183315`
 
 ## 1. Short Answer To The Advisor
 
@@ -320,7 +320,7 @@ If reviewers challenge the coefficients, the paper should add:
 The evaluator exports:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_live_recovered_standard_no_bertscore\20260712_184750\manual_inspection_sample.csv
+genai_engine/output/three_layer_eval_3models_120cases_4modes_live_recovered_standard_no_bertscore/20260712_184750/manual_inspection_sample.csv
 ```
 
 This file should be filled before final paper submission. The current automated run can support claims about control conformance and grounding, but human inspection is still needed for:
@@ -385,8 +385,8 @@ Do not claim:
 Merge live recovery rows:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+cd genai_engine
+$PY = "python"
 
 & $PY .\scripts\merge_live_recovery_results.py `
   --recovery-root output\paper120_live_llm_recovery_runs `
@@ -396,8 +396,8 @@ $PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\py
 Standard evaluation without BERTScore:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+cd genai_engine
+$PY = "python"
 $env:PYTHONPATH=(Resolve-Path .\.codex_pydeps).Path
 $env:HF_HOME=(Resolve-Path .\.hf_cache).Path
 $env:TRANSFORMERS_CACHE=(Resolve-Path .\.hf_cache\hub).Path

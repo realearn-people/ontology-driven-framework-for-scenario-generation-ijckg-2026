@@ -140,7 +140,7 @@ The newest run shows strong grounding and ontology scope for ontology-text RAG, 
 The latest completed advisor-aligned run is:
 
 ```text
-D:\PersonaShieldQuest-GenAI-Engine\output\three_layer_eval_3models_120cases_4modes_bertscore_complete\20260710_180002
+genai_engine/output/three_layer_eval_3models_120cases_4modes_bertscore_complete/20260710_180002
 ```
 
 Main files:

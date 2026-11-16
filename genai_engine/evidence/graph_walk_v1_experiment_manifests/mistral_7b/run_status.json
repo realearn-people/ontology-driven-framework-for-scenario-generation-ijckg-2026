@@ -13,7 +13,7 @@
   "attempted_or_recorded_results": 120,
   "total_expected_results": 120,
   "remaining_results": 0,
-  "resume_dir": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\mistral_7b",
+  "resume_dir": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/mistral_7b",
   "require_live_llm": true,
   "n_rag_examples": 1,
   "ontology_text_doc_limit": 5,
@@ -28,7 +28,7 @@
   "latest_validation_passed": false,
   "latest_error": null,
   "output_files": {
-    "scenarios_jsonl": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\mistral_7b\\scenarios.jsonl",
-    "scenarios_ontology_text_rag_jsonl": "D:\\PersonaShieldQuest-GenAI-Engine\\output\\experiments\\paper120_mode4_graph_walk_v1\\20260723_030518\\mistral_7b\\scenarios_ontology_text_rag.jsonl"
+    "scenarios_jsonl": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/mistral_7b/scenarios.jsonl",
+    "scenarios_ontology_text_rag_jsonl": "genai_engine/output/experiments/paper120_mode4_graph_walk_v1/20260723_030518/mistral_7b/scenarios_ontology_text_rag.jsonl"
   }
 }

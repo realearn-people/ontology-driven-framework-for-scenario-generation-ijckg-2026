@@ -4062,7 +4062,7 @@
     {
       "source": "ConsistencyConstraint",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -4110,7 +4110,7 @@
     {
       "source": "ConstraintViolation",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -4158,7 +4158,7 @@
     {
       "source": "ContentQualityKnowledgeEntity",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -4206,7 +4206,7 @@
     {
       "source": "ContentQualityRule",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -4968,7 +4968,7 @@
     {
       "source": "DS_ThaiFraudSMS",
       "predicate": "localDataPath",
-      "target": "data/knowledge_base/raw_data/smsfraud.xlsx",
+      "target": "unbundled-source/smsfraud.xlsx",
       "target_type": "literal"
     },
     {
@@ -5136,7 +5136,7 @@
     {
       "source": "Decision_Accept",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -5232,7 +5232,7 @@
     {
       "source": "Decision_Reject",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -5328,7 +5328,7 @@
     {
       "source": "Decision_Review",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -6132,7 +6132,7 @@
     {
       "source": "ErrorType",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -6180,7 +6180,7 @@
     {
       "source": "Error_ChannelMismatch",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -6228,7 +6228,7 @@
     {
       "source": "EvidenceCoverageConstraint",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -6972,7 +6972,7 @@
     {
       "source": "GeneratedScenario",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -7050,7 +7050,7 @@
     {
       "source": "Generated_SMS_BankLink_Candidate_v9",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -7770,7 +7770,7 @@
     {
       "source": "LegalConsequence",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -7818,7 +7818,7 @@
     {
       "source": "LegalConsequence_ReportToITOrSecurity",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -8460,7 +8460,7 @@
     {
       "source": "MoodContext",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -8508,7 +8508,7 @@
     {
       "source": "Mood_NotModeledNeutral",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -9000,7 +9000,7 @@
     {
       "source": "PerformanceState",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -9048,7 +9048,7 @@
     {
       "source": "Performance_Stable",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -9096,7 +9096,7 @@
     {
       "source": "PersonaFitConstraint",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -9834,7 +9834,7 @@
     {
       "source": "RequiredConceptCoverageRule",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10194,7 +10194,7 @@
     {
       "source": "Rule_ChannelConsistency",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10272,7 +10272,7 @@
     {
       "source": "Rule_EvidenceRequirement",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10350,7 +10350,7 @@
     {
       "source": "Rule_LegitimateScenarioSeparation",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10428,7 +10428,7 @@
     {
       "source": "Rule_PersonaFit",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10506,7 +10506,7 @@
     {
       "source": "Rule_QualityAcceptance",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10584,7 +10584,7 @@
     {
       "source": "Rule_QualityRejection",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10662,7 +10662,7 @@
     {
       "source": "Rule_RequiredAttackStructure",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -10740,7 +10740,7 @@
     {
       "source": "Rule_TemplateEligibility",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -11088,7 +11088,7 @@
     {
       "source": "SafetyConstraint",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -11220,7 +11220,7 @@
     {
       "source": "ScenarioQualityScore",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -11268,7 +11268,7 @@
     {
       "source": "ScenarioStep",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -11442,7 +11442,7 @@
     {
       "source": "Score_SMS_BankLink_Candidate",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -11496,7 +11496,7 @@
     {
       "source": "SemanticPacket",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -11598,7 +11598,7 @@
     {
       "source": "SemanticPacket_SMS_BankLink_v9",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -15444,7 +15444,7 @@
     {
       "source": "ValidationDecision",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -15510,7 +15510,7 @@
     {
       "source": "Violation_ChannelMismatch",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -15840,7 +15840,7 @@
     {
       "source": "acceptanceThreshold",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -15960,7 +15960,7 @@
     {
       "source": "basedOnTemplate",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16092,7 +16092,7 @@
     {
       "source": "competencyQuestionRole",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16146,7 +16146,7 @@
     {
       "source": "confidenceScore",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16200,7 +16200,7 @@
     {
       "source": "containsStep",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16404,7 +16404,7 @@
     {
       "source": "difficultyValue",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16590,7 +16590,7 @@
     {
       "source": "errorType",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16644,7 +16644,7 @@
     {
       "source": "evaluatesRule",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16830,7 +16830,7 @@
     {
       "source": "explanationText",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -16908,7 +16908,7 @@
     {
       "source": "frameworkName",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -17220,7 +17220,7 @@
     {
       "source": "hasErrorType",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -17328,7 +17328,7 @@
     {
       "source": "hasLegalConsequence",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -17490,7 +17490,7 @@
     {
       "source": "hasMoodContext",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -17550,7 +17550,7 @@
     {
       "source": "hasPerformanceState",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -17754,7 +17754,7 @@
     {
       "source": "hasQualityRule",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -18018,7 +18018,7 @@
     {
       "source": "hasScenarioQualityScore",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -18138,7 +18138,7 @@
     {
       "source": "hasValidationDecision",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -18384,7 +18384,7 @@
     {
       "source": "intendedDomain",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -18426,7 +18426,7 @@
     {
       "source": "intendedRange",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19380,7 +19380,7 @@
     {
       "source": "qualityRuleCategory",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19434,7 +19434,7 @@
     {
       "source": "qualityScore",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19686,7 +19686,7 @@
     {
       "source": "requiredForAcceptance",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19740,7 +19740,7 @@
     {
       "source": "requiresChannel",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19872,7 +19872,7 @@
     {
       "source": "ruleLanguage",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19914,7 +19914,7 @@
     {
       "source": "ruleText",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -19968,7 +19968,7 @@
     {
       "source": "scenarioID",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -20172,7 +20172,7 @@
     {
       "source": "scopeBoundary",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -20250,7 +20250,7 @@
     {
       "source": "sourceDocument",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -20418,7 +20418,7 @@
     {
       "source": "sourceURL",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -20892,7 +20892,7 @@
     {
       "source": "supportedByEvidence",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -21000,7 +21000,7 @@
     {
       "source": "targetsLearnerProfile",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -21384,7 +21384,7 @@
     {
       "source": "validationStatus",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -21492,7 +21492,7 @@
     {
       "source": "violatesConstraint",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {
@@ -21546,7 +21546,7 @@
     {
       "source": "violationCode",
       "predicate": "sourceDocument",
-      "target": "C:/Users/user/Downloads/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
+      "target": "external-assets/PSQ_SCO_Reviewer_Aligned_Revision_v9.docx",
       "target_type": "literal"
     },
     {

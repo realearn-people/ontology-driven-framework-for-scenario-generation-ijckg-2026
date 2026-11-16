@@ -7,6 +7,7 @@ This public repository includes the data that can be redistributed safely with t
 - `genai_engine/minimal_kb/` contains one synthetic defensive phishing example created for this project. It exercises the JSONL lexical-RAG path without redistributing third-party text.
 - `genai_engine/output/minimal_four_modes/20260726_235309/` contains the retained four-mode portability smoke output.
 - `genai_engine/output/minimal_four_modes_evaluation/20260727_001450/` contains the matching compact evaluation output.
+- [Paper experiment files](data/paper120_live/) contain the public versions of all 1,440 evaluated live-call records.
 - `genai_engine/evidence/` and `genai_engine/targeted_evaluation_repair/evaluation_rerun/` contain compact manifests, aggregate tables, audit records, and paper-aligned evidence.
 - `genai_engine/example_scenario_pool.json` contains the small example scenario-pool fixture retained for code and format inspection.
 - `ontology/data/`, `ontology/knowledge_graph/`, and `ontology/outputs/` contain the redistributable ontology-side inputs, exports, bindings, and validation evidence retained for PSQ-SCO v9.1.
@@ -60,6 +61,8 @@ Pop-Location
 
 ## Full paper experiment
 
-The compact repository does not contain the frozen 1,440 raw scenario JSONL records or the separate 360-record Graph-Walk v1 ablation. Exact frozen-table reproduction requires restoration of those precise inputs and their manifests. Regenerating 120 matched cases across four modes and three models creates a new replication dataset and must receive a new run identifier.
+The [frozen input specification](genai_engine/configs/psq_sco_paper_120_cases.json) and [12 English JSONL files](data/paper120_live/scenarios/) cover all 120 cases, three models, and four generation modes from archive `20260714_031104`. Each row includes the stored case and model settings, retrieval source identifiers, and the evaluated scenario fields. The public copy omits full message bodies and dialogues, contact details, and third-party retrieval passages.
+
+Use the [replay command](README.md#replay-the-ijckg-2026-paper-evaluation) to check the archived technical scores, F1, and equal-weight OCI. Full text-based scoring requires the original output archive. Fresh generation also requires compatible model weights and an authorized RAG corpus. The separate Graph-Walk v1 ablation has its own experiment manifest.
 
 See `EXCLUSIONS_AND_REBUILD.md` and `HOW_TO_USE_RUN_AND_REPRODUCE_PSQ_SCO.docx` for the complete workflow.

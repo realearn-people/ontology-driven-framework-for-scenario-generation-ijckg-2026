@@ -64,7 +64,7 @@ prompt + RAG + ontology transformed to text
 The new version reads:
 
 ```text
-C:\Users\user\PersonaShieldQuest-Ontology\ontology\personashield-psq-sco-v9.1.owl
+ontology/ontology/personashield-psq-sco-v9.1.owl
 ```
 
 It then transforms ontology records into text documents that can be used by the existing RAG prompt path.
@@ -166,19 +166,19 @@ mistral_7b
 Open Windows PowerShell in:
 
 ```powershell
-cd D:\PersonaShieldQuest-GenAI-Engine
+cd genai_engine
 ```
 
 Use the bundled project Python if normal `python` is unreliable:
 
 ```powershell
-$PY = "C:\Users\user\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\python.exe"
+$PY = "python"
 ```
 
 Point the RAG layer to the project knowledge-base folder:
 
 ```powershell
-$env:PSQ_KB_DIR = "D:\PersonaShieldQuest-GenAI-Engine\knowledge_base"
+$env:PSQ_KB_DIR = "genai_engine/knowledge_base"
 ```
 
 If Chroma is not installed, the engine automatically uses a dependency-free JSONL lexical RAG fallback over this folder. This still gives the LLM old project RAG examples. In `ontology_text_rag`, the prompt context should contain:
